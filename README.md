@@ -1,2 +1,3 @@
 # sweetHud
-Custom tf2 HUD based on several others
+A custom Tf2 HUD based on Eve Hud, Thwartski Hud, and many others
+
