@@ -164,6 +164,7 @@
 		"wide_lodef"	"570"
 		"wide_hidef"	"590"
 		"tall"			"388"
+
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -175,6 +176,7 @@
 		{
 			"ypos"			"0"
 			"tall"			"448"
+
 		}
 	}
 	"MainBG2"
@@ -204,6 +206,9 @@
 		{
 			"ypos"			"0"
 			"tall"			"448"
+			"ypos_minmmode"		"999"
+			"xpos_minmmode"		"999"
+			"tall_minmode"			"0"
 		}
 	}	
 	"MainBG3"
@@ -233,6 +238,9 @@
 		{
 			"ypos"			"0"
 			"tall"			"448"
+			"ypos_minmmode"		"999"
+			"xpos_minmmode"		"999"
+			"tall_minmode"			"0"
 		}
 	}	
 	"MainBG4" //bottom part
@@ -262,6 +270,8 @@
 		{
 			"ypos"			"0"
 			"tall"			"448"
+				"ypos_minmode"			"424"
+			"tall_minmode"			"64"
 		}
 	}							
 	"BlueTeamLabel"
@@ -500,6 +510,7 @@
 		if_mvm
 		{
 			"ypos"			"0"
+			"ypos_minmode"			"55"
 		}
 	}
 	"ServerDropshadow"
@@ -523,7 +534,8 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"ypos"			"0"
+			"ypos_minmode"			"56"
 		}
 	}
 	"ServerTimeLeft"
@@ -535,7 +547,7 @@
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
 		"xpos"			"285"
-		"xpos_minmode"			"c-238"
+		"xpos_minmode"			"c-242"
 		"xpos_hidef"	"31"
 		"ypos"			"60"
 		"ypos_minmode"			"52"
@@ -646,13 +658,14 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"xpos_minmode"			"c-60"
+		"xpos_minmode"			"88"
 		"xpos_hidef"	"135"
 		"ypos"			"357"	[$WIN32]
 		"ypos"			"277"	[$X360]
-		"ypos_minmode"			"389"
+		"ypos_minmode"			"368"
 		"zpos"			"4"
 		"wide"			"424"
+		"wide_minmode"			"474"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -662,6 +675,8 @@
 		if_mvm
 		{
 			"ypos"		"428"
+			"ypos_minmode"			"400"
+			"xpos_minmode"			"110"
 		}
 	}
 		"SpectatorsDropshadow"
@@ -672,10 +687,11 @@
 		"fgcolor"		"Black"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
-		"xpos"			"c-59"
-		"ypos"			"390"
+		"xpos"			"89"
+		"ypos"			"369"
 		"zpos"			"3"
 		"wide"			"424"
+		"wide_minmode"			"474"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -686,6 +702,9 @@
 		if_mvm
 		{
 			"visible"		"0"
+			"visible_minmode"	"1"
+			"ypos_minmode"			"401"
+			"xpos_minmode"			"111"
 		}
 	}
 	"SpectatorsInQueue"
@@ -698,12 +717,13 @@
 		"textAlignment"		"west"
 		"xpos"			"115"
 		"xpos_hidef"	"135"
-		"xpos_minmode"			"c-60"
+		"xpos_minmode"			"88"
 		"ypos"			"348"	[$WIN32]
 		"ypos"			"277"	[$X360]
-		"ypos_minmode"			"374"
+		"ypos_minmode"			"381"
 		"zpos"			"4"
 		"wide"			"424"
+		"wide_minmode"			"474"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -723,10 +743,11 @@
 		"fgcolor"		"Black"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
-		"xpos"			"c-59"
-		"ypos"			"375"
+		"xpos"			"89"
+		"ypos"			"382"
 		"zpos"			"3"
 		"wide"			"424"
+		"wide_minmode"			"474"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -814,7 +835,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible_minmode"		"0"
 		}
 	}		
 	"MapName"
@@ -859,6 +880,7 @@
 		if_mvm
 		{
 			"visible"		"0"
+			"visible_minmode"	"1"
 		}
 	}											
 	"HorizontalLine"
@@ -1626,6 +1648,7 @@
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
+
 
 
 			"autoResize"		"0"

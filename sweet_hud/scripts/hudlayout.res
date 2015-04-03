@@ -894,6 +894,11 @@
 		"tall"					"211"
 		
 		"zpos"			"11"
+
+		"xpos_minmode"					"0"
+		"ypos_minmode"					"0"
+		"wide_minmode"					"f0"
+		"tall_minmode"					"480"
 	}
 	
 	PVEWinPanel
@@ -1419,6 +1424,7 @@
 	HudMiniGame
 	{
 		"fieldName" "HudMiniGame"
+
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"

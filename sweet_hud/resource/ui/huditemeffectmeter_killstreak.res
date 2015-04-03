@@ -5,8 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c266"
-		"ypos"			"r121"
+	//	"xpos"			"c266"
+	//	"ypos"			"r121"
+		"xpos"			"r56"
+		"ypos"			"r88"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -34,9 +36,28 @@
 		"src_corner_width"		"3"
 		
 		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"			
+		"draw_corner_height" 	"0"	
+
+		"visible_minmode"		"0"		
 	}
-	
+
+		"BG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"BG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-3"
+		"wide"					"50"
+		"tall"					"24"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"visible_minmode"		"1"		
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 190"
+		"PaintBackgroundType"	"0"
+	}
 	"Icon"
 	{
 		"ControlName"	"ImagePanel"

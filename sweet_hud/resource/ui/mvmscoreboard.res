@@ -13,6 +13,9 @@
 		"enabled"			"1"
 		
 		"verbose"			"1"
+
+		"xpos_minmode"				"84"
+		"ypos_minmode"				"20"
 	}
 	
 	"PopFileLabel"
@@ -27,6 +30,9 @@
 		"wide"			"290"
 		"tall"			"20"
 		"fgcolor"		"white"
+
+		"xpos_minmode"				"194"
+		"ypos_minmode"				"262"
 	}
 	
 	"DifficultyContainer"
@@ -38,7 +44,10 @@
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
-		
+
+		"xpos_minmode"				"374"
+		"ypos_minmode"				"256"
+
 		"DifficultyLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -81,6 +90,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 210"
+
+		"xpos_minmode"				"113"
+		"ypos_minmode"				"105"
 	}
 	"PlayerListBackground2"
 	{
@@ -95,6 +107,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 150"
+
+		"xpos_minmode"				"116"
+		"ypos_minmode"				"132"
 	}
 	"PlayerListBackground3"
 	{
@@ -109,6 +124,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 150"
+
+		"xpos_minmode"				"116"
+		"ypos_minmode"				"171"
 	}
 	"PlayerListBackground4"
 	{
@@ -123,6 +141,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 150"
+
+		"xpos_minmode"				"116"
+		"ypos_minmode"				"211"
 	}
 	"RedHeaderBG"
 	{
@@ -144,6 +165,9 @@
 		"src_corner_width"			"40"
 		"draw_corner_width"			"0"
 		"draw_corner_height" 			"0"
+
+		"xpos_minmode"				"116"
+		"ypos_minmode"				"108"
 	}
 	"MvMPlayerList"
 	{
@@ -160,6 +184,9 @@
 		"autoresize"		"3"
 		"linespacing"		"20"
 		"textcolor"		"White"
+
+		"xpos_minmode"				"118"
+		"ypos_minmode"				"120"
 	}
 	"PlayerListUnderline"
 	{
@@ -176,6 +203,9 @@
 		"enabled"				"1"
 		"fillcolor"				"white"
 		"PaintBackgroundType"		"0"
+
+		"xpos_minmode"				"190"
+		"ypos_minmode"				"253"
 	}
 	"CreditsListUnderline"
 	{
@@ -192,6 +222,9 @@
 		"enabled"				"1"
 		"fillcolor"				"white"
 		"PaintBackgroundType"		"0"
+
+		"xpos_minmode"				"116"
+		"ypos_minmode"				"393"
 	}
 	
 	"CreditStatsContainer"
@@ -203,6 +236,9 @@
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
+
+		"xpos_minmode"				"184"
+		"ypos_minmode"				"257"
 		
 		"CreditStatsBackground"
 		{

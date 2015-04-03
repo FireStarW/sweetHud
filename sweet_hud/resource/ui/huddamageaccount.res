@@ -81,13 +81,13 @@
 		"enabled"		"1"
 		"visible"		"1"
 
-		"xpos"			"c-27"
-		"ypos"			"c-28"
+		"xpos"			"c-28"
+		"ypos"			"c-27"
 		"wide"			"55"
 		"tall"			"55"
 
-		"font"			"crosshair32"
-		"labelText"		"g"
+		"font"			"crosshair16"
+		"labelText"		"a"
 		"fgcolor"		"255 30 30 220"
 	}
 	

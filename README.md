@@ -58,4 +58,5 @@ V07- (Feb 12 2015) - Now uses ZimHud control Point vmts, made colors in demo/hun
 V08- (Feb 28 2015) - Retired default eve hud demo and medic charge in minmode 0, sweet_hud_minmode_0_center_charge and sweet_hud_minmode_0_toonhud_bars, maintaining options I don't use was getting to be a pain. 
 Made new winpanel and scoreboard (arena winpanel maybe coming soon), adjusted taunt loadout and cosmetic loadout buttons in loadout, moved secondary target id down so it doesn't clip with mangler meter, made the sticky number label consistent between minmode on and off by default 
 V09 (March 1 2015) - Added new Arena Winpanel, centered stats on scoreboard, made line in winpanel bottom team-colored
+V10 - Actual Release Hype!! Now properly supports 16:9 resolutions and 4:3 is being worked on. The loadout preview control text has been cleaned up. Modified spectator label in scoreboard. Fixed Mvm scoreboard. 
 
