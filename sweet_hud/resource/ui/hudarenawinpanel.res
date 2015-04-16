@@ -178,7 +178,7 @@
 			"default_fgcolor"		"white"
 			"fgcolor_override"	"white"
 
-			"font_minmode"			"ScoreboardTeamNameLarge"
+			"font_minmode"			"HudFontMediumBig"
 			"xpos_minmode"		"10"
 			"ypos_minmode"			"23"
 			"wide_minmode"			"140"
@@ -221,7 +221,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"white"
-
+		
+			"font_minmode"			"HudFontBiggerBold"
 			"xpos_minmode"			"234"
 			"ypos_minmode"			"11" 
 		}
@@ -243,6 +244,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
+			"font_minmode"			"HudFontBiggerBold"
 			"xpos_minmode"			"235"
 			"ypos_minmode"			"12" 
 		}							
@@ -266,7 +268,7 @@
 			"default_fgcolor"		"white"
 			"fgcolor_override"	"white"
 
-			"font_minmode"			"ScoreboardTeamNameLarge"
+			"font_minmode"			"HudFontMediumBig"
 			"xpos_minmode"		"c234"
 			"ypos_minmode"			"23"
 			"wide_minmode"			"140"
@@ -310,6 +312,7 @@
 			"enabled"		"1"
 			"fgcolor"		"white"
 
+			"font_minmode"			"HudFontBiggerBold"
 			"xpos_minmode"			"c10"
 			"ypos_minmode"			"11" 
 		}
@@ -331,6 +334,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
+			"font_minmode"			"HudFontBiggerBold"
 			"xpos_minmode"			"c11"
 			"ypos_minmode"			"12" 
 		}		
