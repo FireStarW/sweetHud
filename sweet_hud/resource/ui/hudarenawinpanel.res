@@ -576,6 +576,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
+		"font_minmode"			"HudFontSmall"		
 		"xpos_minmode"			"162"
 		"ypos_minmode"			"80"
 	}
@@ -597,7 +598,8 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-
+		
+		"font_minmode"			"HudFontSmallest"
 		"xpos_minmode"			"170"
 		"ypos_minmode"			"90"
 	}

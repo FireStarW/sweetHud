@@ -1,9 +1,9 @@
 # sweetHud
 Sweet Hud by FireStarW
 A custom Tf2 HUD based on Eve Hud, Thwartski Hud, and many others
-V09_6 (April 15 2015) (Prerelease)
+V09_7 (April 21 2015) (Prerelease)
 -------------------------
-NOTE: Currently only optimized for a 1680x1050 (16:10) resolution as I feel this is only finished enough to be a mostly personal hud
+NOTE: Currently only optimized for a 1680x1050 (16:10) resolution 
 
 Drag and Drop into your custom folder and add the line "exec sweethud" to your autoexec.cfg
 
@@ -38,6 +38,9 @@ Medigun meters
 Engy Metal 
 Scoreboard
 winpanel (including arena)
+
+Hidden Functionality:
+In the backpanel ui, the "q" key is a shortcut to the back button and the "e" key is a shortcut to closing
 
 Overrides: copy the stuff inside each override folder to the inside of the "Sweethud" folder
 No health image minmode 1- removes the health icon next to health when minmode is on
@@ -96,4 +99,6 @@ V09 (March 1 2015) - Added new Arena Winpanel, centered stats on scoreboard, mad
 V09_5 (April 3 2015) - Actual Release Coming!!  The loadout preview control text has been cleaned up. Modified spectator label in scoreboard. Fixed Mvm scoreboard. 
 
 V09_6 (April 15 2015) - Modified Killstreak counter, Tweaked fonts in scoreboard and winpanels
+
+V09_7 (April 21 2015) - Modified chat position, modified server intro stuff to include "click anywhere to continue" 
 

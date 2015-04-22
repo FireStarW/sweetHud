@@ -546,6 +546,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
+		"font_minmode"			"HudFontSmall"
 		"xpos_minmode"			"246"
 		"ypos_minmode"			"80"
 	}
@@ -568,6 +569,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
+		"font_minmode"			"HudFontSmallest"
 		"xpos_minmode"			"246"
 		"ypos_minmode"			"90"
 	}
