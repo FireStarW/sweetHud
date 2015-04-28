@@ -113,12 +113,12 @@
 		"depressedBgColor_override" 	"0 0 0 0"
 		"selectedBgColor_override" 	"0 0 0 0"
 	}
-			"continuelabel" 
+		"continuelabel" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"	"continuelabel"
 		"xpos"			"c-120"
-		"ypos"			"40"
+		"ypos"			"44"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"30"
@@ -130,7 +130,7 @@
 		"labelText"	"Click anywhere to continue"
 		"textAlignment"	"Center"
 		"textinsetx"	"10"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFontSmallestBold"
 		"fgcolor"	"255 255 255 105"
 	}
 	

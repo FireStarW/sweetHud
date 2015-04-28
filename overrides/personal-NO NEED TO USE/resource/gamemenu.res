@@ -108,7 +108,7 @@
     {
         "label" "Normal View"
 		
-        "command"   "engine cl_first_person_uses_world_model 0"
+        "command"   "engine viewstate1"
 		//only shown ingame so it can be replaced by recordings on the main menu
 		"OnlyInGame"    "1"
     }
@@ -116,7 +116,7 @@
     {
         "label" "Occulus View"
 		
-        "command"   "engine cl_first_person_uses_world_model 1"
+        "command"   "engine viewstate2"
 		//only shown ingame so it can be replaced by recordings on the main menu
 		"OnlyInGame"    "1"
     }

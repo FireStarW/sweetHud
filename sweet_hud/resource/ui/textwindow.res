@@ -124,7 +124,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"	"continuelabel"
 		"xpos"			"c-120"
-		"ypos"			"40"
+		"ypos"			"44"
 		"zpos"			"0"
 		"wide"			"250"
 		"tall"			"30"
@@ -136,7 +136,7 @@
 		"labelText"	"Click anywhere to continue"
 		"textAlignment"	"Center"
 		"textinsetx"	"10"
-		"font"		"HudFontSmallBold"
+		"font"		"HudFontSmallestBold"
 		"fgcolor"	"255 255 255 105"
 	}
 	"MenuBG"

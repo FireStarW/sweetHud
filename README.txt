@@ -1,7 +1,7 @@
 # sweetHud
 Sweet Hud by FireStarW
 A custom Tf2 HUD based on Eve Hud, Thwartski Hud, and many others
-V09_7 (April 21 2015) (Prerelease)
+V09_75 (April 27 2015) (Prerelease)
 -------------------------
 NOTE: Currently only optimized for a 1680x1050 (16:10) resolution 
 
@@ -17,6 +17,7 @@ KBN HUD
 Old versions of yahud
 IV HUD
 ZimHud
+CBHUD - bowswer5 edit
 
 these cvars need to be set as follows for the hud to work properly or else you will experience clipping as medic:
 tf_hud_target_id_offset -35 
@@ -47,6 +48,9 @@ No health image minmode 1- removes the health icon next to health when minmode i
 Two sticky number styles available:
 	>sticky number only: places number of stickies under charge bar
 	>sticky_default_position: places sticky icon and count by the ammo like in default Eve hud
+Control Point Progress - two options:
+	Under Crosshair (Default) : places a small cp progressbar above health and ammo
+	Right of Crosshair : places a larger cp progressbar to the right of your crosshair
 	
 Crosshairs (created by Broesel) / Aiming Guide
 --------------------------------
@@ -98,7 +102,8 @@ V09 (March 1 2015) - Added new Arena Winpanel, centered stats on scoreboard, mad
 
 V09_5 (April 3 2015) - Actual Release Coming!!  The loadout preview control text has been cleaned up. Modified spectator label in scoreboard. Fixed Mvm scoreboard. 
 
-V09_6 (April 15 2015) - Modified Killstreak counter, Tweaked fonts in scoreboard and winpanels
+V09_6 (April 15 2015) - Modified Killstreak counter, Tweaked fonts in scoreboard 
 
-V09_7 (April 21 2015) - Modified chat position, modified server intro stuff to include "click anywhere to continue" 
+V09_7 (April 21 2015) - Modified chat position, modified server intro stuff to include "click anywhere to continue", Tweaked fonts in winpanels
 
+V09_75 () - more modifications to server intro stuff, optimized menu buttons, changed the control point progress meter and added a new override for it

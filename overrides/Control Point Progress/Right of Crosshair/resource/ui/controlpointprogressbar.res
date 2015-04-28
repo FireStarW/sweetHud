@@ -17,11 +17,11 @@
 	{
 		"ControlName"	"CircularProgressBar"
 		"fieldName"	"ProgressBar"
-		"xpos"		"c-11"  //c-26 for centered on crosshair c100 upper right
-		"ypos"		"c64" //c-60 for crosshair centered c-30 for upper right
+		"xpos"		"c110"  //c-26 for centered on crosshair c100 upper right
+		"ypos"		"c12" //c-60 for crosshair centered c-30 for upper right
 		"zpos"		"0"
-		"wide"		"22"
-		"tall"		"22"
+		"wide"		"52"
+		"tall"		"52"
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
