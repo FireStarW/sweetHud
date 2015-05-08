@@ -558,7 +558,7 @@
 		"xpos_minmode"			"c-242"
 		"xpos_hidef"	"31"
 		"ypos"			"60"
-		"ypos_minmode"			"52"
+		"ypos_minmode"			"47"
 		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
