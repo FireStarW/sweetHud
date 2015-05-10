@@ -14,7 +14,7 @@
 		
 		"verbose"			"1"
 
-		"xpos_minmode"				"84"
+		"xpos_minmode"				"128"
 		"ypos_minmode"				"44"
 	}
 	
@@ -31,7 +31,7 @@
 		"tall"			"20"
 		"fgcolor"		"white"
 
-		"xpos_minmode"				"194"
+		"xpos_minmode"				"238"
 		"ypos_minmode"				"262"
 	}
 	
@@ -45,7 +45,7 @@
 		"tall"			"100"
 		"visible"		"1"
 
-		"xpos_minmode"				"374"
+		"xpos_minmode"				"418"
 		"ypos_minmode"				"256"
 
 		"DifficultyLabel"
@@ -91,7 +91,7 @@
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 210"
 
-		"xpos_minmode"				"113"
+		"xpos_minmode"				"157"
 		"ypos_minmode"				"105"
 	}
 	"PlayerListBackground2"
@@ -108,7 +108,7 @@
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 150"
 
-		"xpos_minmode"				"116"
+		"xpos_minmode"				"160"
 		"ypos_minmode"				"132"
 	}
 	"PlayerListBackground3"
@@ -125,7 +125,7 @@
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 150"
 
-		"xpos_minmode"				"116"
+		"xpos_minmode"				"160"
 		"ypos_minmode"				"171"
 	}
 	"PlayerListBackground4"
@@ -142,7 +142,7 @@
 		"enabled"		"1"
 		"fillcolor"		"40 40 40 150"
 
-		"xpos_minmode"				"116"
+		"xpos_minmode"				"160"
 		"ypos_minmode"				"211"
 	}
 	"RedHeaderBG"
@@ -166,7 +166,7 @@
 		"draw_corner_width"			"0"
 		"draw_corner_height" 			"0"
 
-		"xpos_minmode"				"116"
+		"xpos_minmode"				"160"
 		"ypos_minmode"				"108"
 	}
 	"MvMPlayerList"
@@ -185,7 +185,7 @@
 		"linespacing"		"20"
 		"textcolor"		"White"
 
-		"xpos_minmode"				"118"
+		"xpos_minmode"				"162"
 		"ypos_minmode"				"120"
 	}
 	"PlayerListUnderline"
@@ -204,7 +204,7 @@
 		"fillcolor"				"white"
 		"PaintBackgroundType"		"0"
 
-		"xpos_minmode"				"190"
+		"xpos_minmode"				"234"
 		"ypos_minmode"				"253"
 	}
 	"CreditsListUnderline"
@@ -223,7 +223,7 @@
 		"fillcolor"				"white"
 		"PaintBackgroundType"		"0"
 
-		"xpos_minmode"				"116"
+		"xpos_minmode"				"160"
 		"ypos_minmode"				"393"
 	}
 	
@@ -237,7 +237,7 @@
 		"tall"			"205"
 		"visible"		"1"
 
-		"xpos_minmode"				"184"
+		"xpos_minmode"				"228"
 		"ypos_minmode"				"257"
 		
 		"CreditStatsBackground"

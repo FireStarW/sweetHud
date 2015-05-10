@@ -214,7 +214,7 @@
 			"fgcolor"		"white"
 			
 			"font_minmode"			"HudFontBiggerBold"
-			"xpos_minmode"			"234"
+			"xpos_minmode"			"c-150"
 			"ypos_minmode"			"11" 
 		}
 		
@@ -237,7 +237,7 @@
 			"enabled"		"1"
 			
 			"font_minmode"			"HudFontBiggerBold"			
-			"xpos_minmode"			"235"
+			"xpos_minmode"			"c-149"
 			"ypos_minmode"			"12" 
 		}
 		
@@ -455,7 +455,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"white"
 		
-		"xpos_minmode"			"244"
+		"xpos_minmode"			"288"
 		"ypos_minmode"			"60"
 	}
 	"WinningTeamLabelDropshadow"
@@ -478,7 +478,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"246"
+		"xpos_minmode"			"290"
 		"ypos_minmode"			"62"
 	}
 	"AdvancingTeamLabel"
@@ -501,7 +501,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"white"
 		
-		"xpos_minmode"			"246"
+		"xpos_minmode"			"288"
 		"ypos_minmode"			"60"
 	}
 	"AdvancingTeamLabelDropshadow"
@@ -524,7 +524,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"246"
+		"xpos_minmode"			"290"
 		"ypos_minmode"			"62"
 	}
 	"WinReasonLabel"
@@ -547,7 +547,7 @@
 		"brighttext"	"0"
 		
 		"font_minmode"			"HudFontSmall"
-		"xpos_minmode"			"246"
+		"xpos_minmode"			"290"
 		"ypos_minmode"			"80"
 	}
 	"DetailsLabel"
@@ -570,7 +570,7 @@
 		"brighttext"	"0"
 		
 		"font_minmode"			"HudFontSmallest"
-		"xpos_minmode"			"246"
+		"xpos_minmode"			"290"
 		"ypos_minmode"			"90"
 	}
 
@@ -594,7 +594,7 @@
 		"brighttext"	"0"
 		
 		"font_minmode"			"ScoreboardSmall"
-		"xpos_minmode"			"52"
+		"xpos_minmode"			"96"
 		"ypos_minmode"			"420"
 	}
 	"PointsThisRoundLabel"
@@ -617,7 +617,7 @@
 		"brighttext"	"0"
 		
 		"visible_minmode"		"0"
-		"xpos_minmode"			"20"
+		"xpos_minmode"			"64"
 		"ypos_minmode"			"400"
 	}
 	"HorizontalLine"
@@ -674,7 +674,7 @@
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"
 		
-		"xpos_minmode"			"94"
+		"xpos_minmode"			"138"
 		"ypos_minmode"			"440"
 		"wide_minmode"			"22"
 		"tall_minmode"			"22"
@@ -697,7 +697,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"120"
+		"xpos_minmode"			"164"
 		"ypos_minmode"			"428"
 	}
 	"Player1Class"
@@ -718,7 +718,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"120"
+		"xpos_minmode"			"164"
 		"ypos_minmode"			"456"
 	}
 	"Player1Score"
@@ -739,7 +739,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"102"
+		"xpos_minmode"			"146"
 		"ypos_minmode"			"442"
 	}
 	"Player2Avatar"
@@ -757,7 +757,7 @@
 		"scaleImage"		"1"	
 		"color_outline"		"52 48 45 255"
 		
-		"xpos_minmode"			"268"
+		"xpos_minmode"			"312"
 		"ypos_minmode"			"440"
 		"wide_minmode"			"22"
 		"tall_minmode"			"22"
@@ -780,7 +780,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"294"
+		"xpos_minmode"			"338"
 		"ypos_minmode"			"428"
 	}
 	"Player2Class"
@@ -801,7 +801,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"294"
+		"xpos_minmode"			"338"
 		"ypos_minmode"			"456"
 	}
 	"Player2Score"
@@ -822,7 +822,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"276"
+		"xpos_minmode"			"320"
 		"ypos_minmode"			"442"
 	}
 	"Player3Avatar"
@@ -840,7 +840,7 @@
 		"scaleImage"		"1"	
 		"color_outline"		"52 48 45 255"
 		
-		"xpos_minmode"			"442"
+		"xpos_minmode"			"486"
 		"ypos_minmode"			"440"
 		"wide_minmode"			"22"
 		"tall_minmode"			"22"
@@ -863,7 +863,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"468"
+		"xpos_minmode"			"512"
 		"ypos_minmode"			"428"
 	}
 	"Player3Class"
@@ -884,7 +884,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"468"
+		"xpos_minmode"			"512"
 		"ypos_minmode"			"456"
 	}
 	"Player3Score"
@@ -905,7 +905,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"450"
+		"xpos_minmode"			"494"
 		"ypos_minmode"			"442"
 	}
 
@@ -930,7 +930,7 @@
 		"brighttext"	"0"
 		
 		"font_minmode"			"ScoreboardSmall"
-		"xpos_minmode"			"574"
+		"xpos_minmode"			"618"
 		"ypos_minmode"			"420"
 	}
 	"KillStreakMaxCountLabel"
@@ -989,7 +989,7 @@
 		"scaleImage"		"1"	
 		"color_outline"		"52 48 45 255"
 		
-		"xpos_minmode"			"616"
+		"xpos_minmode"			"660"
 		"ypos_minmode"			"440"
 		"wide_minmode"			"22"
 		"tall_minmode"			"22"
@@ -1012,7 +1012,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"642"
+		"xpos_minmode"			"686"
 		"ypos_minmode"			"428"
 	}
 	"KillStreakPlayer1Class"
@@ -1033,7 +1033,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"642"
+		"xpos_minmode"			"686"
 		"ypos_minmode"			"456"
 	}
 	"KillStreakPlayer1Score"
@@ -1054,7 +1054,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"624"
+		"xpos_minmode"			"668"
 		"ypos_minmode"			"442"
 	}
 }

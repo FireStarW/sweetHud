@@ -1,7 +1,7 @@
 # sweetHud
 Sweet Hud by FireStarW
 A custom Tf2 HUD based on Eve Hud, Thwartski Hud, and many others
-V09_76 (May 8 2015) (Prerelease)
+V09_77 (May 10 2015) (Prerelease)
 -------------------------
 NOTE: Currently only optimized for a 1680x1050 (16:10) resolution 
 
@@ -109,3 +109,5 @@ V09_7 (April 21 2015) - Modified chat position, modified server intro stuff to i
 V09_75 (April 27 2015) - more modifications to server intro stuff, optimized menu buttons, changed the control point progress meter and added a new override for it
 
 V09_76 (May 8 2015) -server intro zpos fixes, scoreboard fix
+
+V09_77 (May 10 2015) -16:9 res fixes! (finally), removed alt server time left bg override (it was broken), fixed no health image override, scoreboard/winpanel adjustment, 16:10 teammenu adjustment

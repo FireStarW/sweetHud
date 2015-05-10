@@ -47,7 +47,8 @@
 		"wide"			"50"
 		"tall"			"50"
 		
-		"xpos_minmode"			"998"
+		"visible_minmode"		"0"
+		"xpos_minmode"			"98"
 		"ypos_minmode"			"61"
 		"wide_minmode"			"20"
 		"tall_minmode"			"20"
@@ -68,9 +69,9 @@
 		"wide"			"56"
 		"tall"			"56"	
 		
-		"xpos_minmode"			"999"
+		"xpos_minmode"			"97"
 		"ypos_minmode"			"60"
-		"wide_minmode"			"22"
+		"wide_minmode"			"0"
 		"tall_minmode"			"22"
 	}
 	
@@ -234,6 +235,26 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 		
+		"xpos_minmode"	"44"		
+		"ypos_minmode"	"40"
+		"wide_minmode"	"20"
+		"tall_minmode"	"20"
+	}
+	"PlayerStatusHookBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHookBleedImage"
+		"xpos"			"38"
+		"ypos"			"30"
+		"zpos"			"8"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/bleed_drop_grapple"
+		"fgcolor"		"TanDark"
+
 		"xpos_minmode"	"44"		
 		"ypos_minmode"	"40"
 		"wide_minmode"	"20"
@@ -655,6 +676,23 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneKnockout"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKnockout"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"ypos_minmode"	"26"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"		"TanDark"
 	}
 }

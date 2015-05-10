@@ -223,7 +223,7 @@
 			"fgcolor"		"white"
 		
 			"font_minmode"			"HudFontBiggerBold"
-			"xpos_minmode"			"234"
+			"xpos_minmode"			"c-150"
 			"ypos_minmode"			"11" 
 		}
 		"BlueTeamScoreDropshadow"
@@ -245,7 +245,7 @@
 			"enabled"		"1"
 
 			"font_minmode"			"HudFontBiggerBold"
-			"xpos_minmode"			"235"
+			"xpos_minmode"			"c-149"
 			"ypos_minmode"			"12" 
 		}							
 		"RedTeamLabel"
@@ -362,7 +362,7 @@
 			"draw_corner_height" 	"0"
 
 
-			"xpos_minmode"			"290"
+			"xpos_minmode"			"334"
 			//"ypos_minmode"			"50"
 			//"tall_minmode"			"28"
 		}	
@@ -388,7 +388,7 @@
 			"brighttext"	"0"
 			
 
-			"xpos_minmode"			"293"
+			"xpos_minmode"			"337"
 			"ypos_minmode"			"46"
 			//"tall_minmode"			"0"
 		}
@@ -483,7 +483,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"white"
 
-		"xpos_minmode"			"182"
+		"xpos_minmode"			"226"
 		"ypos_minmode"			"60"
 	}
 	"WinningTeamLabelDropshadow"
@@ -506,7 +506,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"			"184"
+		"xpos_minmode"			"228"
 		"ypos_minmode"			"62"
 	}
 
@@ -531,7 +531,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"white"
 
-		"xpos_minmode"			"182"
+		"xpos_minmode"			"226"
 		"ypos_minmode"			"60"
 	}
 	"LosingTeamLabelDropshadow"
@@ -554,7 +554,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"			"184"
+		"xpos_minmode"			"228"
 		"ypos_minmode"			"62"
 	}
 	"WinReasonLabel"
@@ -577,7 +577,7 @@
 		"brighttext"	"0"
 
 		"font_minmode"			"HudFontSmall"		
-		"xpos_minmode"			"162"
+		"xpos_minmode"			"206"
 		"ypos_minmode"			"80"
 	}
 	"DetailsLabel"
@@ -600,7 +600,7 @@
 		"brighttext"	"0"
 		
 		"font_minmode"			"HudFontSmallest"
-		"xpos_minmode"			"170"
+		"xpos_minmode"			"214"
 		"ypos_minmode"			"90"
 	}
 
@@ -623,7 +623,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"			"214"
+		"xpos_minmode"			"258"
 		"ypos_minmode"			"402"	
 	}
 
@@ -634,7 +634,7 @@
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"Class:"
 		"textAlignment"	"west"
-		"xpos"			"349"
+		"xpos"			"393"
 		"ypos"			"c167" 
 		"zpos"			"1"
 		"wide"			"73"
@@ -668,7 +668,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"			"419"
+		"xpos_minmode"			"463"
 		"ypos_minmode"			"402"
 	}
 	"HealingThisRoundLabel"
@@ -690,7 +690,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"			"469"
+		"xpos_minmode"			"513"
 		"ypos_minmode"			"402"
 	}
 	"LifetimeThisRoundLabel"
@@ -712,7 +712,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"			"514"
+		"xpos_minmode"			"558"
 		"ypos_minmode"			"402"
 	}
 	"KillingBlowsThisRoundLabel"
@@ -734,7 +734,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 
-		"xpos_minmode"			"554"
+		"xpos_minmode"			"598"
 		"ypos_minmode"			"402"
 	}
 	"HorizontalLine"
@@ -770,7 +770,7 @@
 		"visible"		"1"
 		"zpos"			"3"
 
-		"xpos_minmode"			"174"
+		"xpos_minmode"			"218"
 		"ypos_minmode"			"276"				
 
 		"Player1Avatar"
@@ -1134,7 +1134,7 @@
 		"enabled"		"1"
 		"zpos"			"3"
 
-		"xpos_minmode"			"174"
+		"xpos_minmode"			"218"
 		"ypos_minmode"			"276"
 	
 		"Player1Avatar"

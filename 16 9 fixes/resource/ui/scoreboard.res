@@ -185,7 +185,7 @@
 		"fieldName"		"MainBG2"
 		"xpos"			"2"
 		"ypos"			"62"
-		"xpos_minmode"			"86"
+		"xpos_minmode"			"130"
 		"ypos_minmode"			"92"
 		"zpos"			"0"
 		"wide"			"298"
@@ -194,7 +194,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmmode"		"0"
+		"visible_minmmode"		"1	"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 195"
@@ -217,7 +217,7 @@
 		"fieldName"		"MainBG3"
 		"xpos"			"300"
 		"ypos"			"62"
-		"xpos_minmode"			"384"
+		"xpos_minmode"			"428"
 		"ypos_minmode"			"92"
 		"zpos"			"0"
 		"wide"			"298"
@@ -226,7 +226,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmmode"		"0"
+		"visible_minmmode"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 195"
@@ -367,6 +367,7 @@
 		"textAlignment"		"west"
 		"xpos"			"150"
 		"xpos_hidef"		"100"
+		"xpos_minmode"			"200"
 		"ypos"			"33"
 		"ypos_minmode"			"28"
 		"wide"			"100"
@@ -571,6 +572,7 @@
 		if_mvm
 		{
 			"ypos"			"0"
+
 		}
 	}							
 	"BluePlayerList"
@@ -580,7 +582,7 @@
 		"xpos"			"5"
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
-		"xpos_minmode"			"89"
+		"xpos_minmode"			"133"
 		"ypos"			"72"
 		"ypos_minmode"			"90"
 		"zpos"			"20"
@@ -609,7 +611,7 @@
 		"xpos"			"305"
 		"xpos_lodef"	"284"
 		"xpos_hidef"	"314"
-		"xpos_minmode"			"389"
+		"xpos_minmode"			"433"
 		"ypos"			"72"
 		"ypos_minmode"			"90"
 		"zpos"			"20"
@@ -666,7 +668,7 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"xpos_minmode"			"88"
+		"xpos_minmode"			"132"
 		"xpos_hidef"	"135"
 		"ypos"			"357"	[$WIN32]
 		"ypos"			"277"	[$X360]
@@ -684,7 +686,7 @@
 		{
 			"ypos"		"428"
 			"ypos_minmode"			"400"
-			"xpos_minmode"			"110"
+			"xpos_minmode"			"154"
 		}
 	}
 		"SpectatorsDropshadow"
@@ -695,7 +697,7 @@
 		"fgcolor"		"Black"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
-		"xpos"			"89"
+		"xpos"			"133"
 		"ypos"			"369"
 		"zpos"			"3"
 		"wide"			"424"
@@ -712,7 +714,7 @@
 			"visible"		"0"
 			"visible_minmode"	"1"
 			"ypos_minmode"			"401"
-			"xpos_minmode"			"111"
+			"xpos_minmode"			"155"
 		}
 	}
 	"SpectatorsInQueue"
@@ -725,7 +727,7 @@
 		"textAlignment"		"west"
 		"xpos"			"115"
 		"xpos_hidef"	"135"
-		"xpos_minmode"			"88"
+		"xpos_minmode"			"132"
 		"ypos"			"348"	[$WIN32]
 		"ypos"			"277"	[$X360]
 		"ypos_minmode"			"381"
@@ -751,7 +753,7 @@
 		"fgcolor"		"Black"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
-		"xpos"			"89"
+		"xpos"			"133"
 		"ypos"			"382"
 		"zpos"			"3"
 		"wide"			"424"
@@ -803,7 +805,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
-		"xpos_minmode"			"38"
+		"xpos_minmode"			"98"
 		"xpos_lodef"	"12"
 		"ypos"			"360"	[$WIN32]
 		"ypos"			"275"	[$X360]
@@ -1165,7 +1167,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"xpos_minmode"			"36"
+		"xpos_minmode"			"92"
 		"ypos"			"395"
 		"ypos_minmode"			"428"
 		"zpos"			"3"

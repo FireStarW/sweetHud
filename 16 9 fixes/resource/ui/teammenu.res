@@ -173,15 +173,14 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	"CancelButton" [$WIN32] 
+	"CancelButton" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"238"
-		"xpos_hidef"			"r200"
+		"xpos"			"280"
+		
 		"ypos"			"289"
-		"ypos_lodef"			"r64"
-		"ypos_hidef"			"r54"
+	
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"20"
@@ -210,11 +209,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
 		"xpos"			"c-70"
-		"xpos_lodef"			"52"
-		"xpos_hidef"			"72"
 		"ypos"			"34"
-		"ypos_lodef"			"r60"
-		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"450"
 		"tall"			"30"
@@ -360,11 +355,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"370"
-		"xpos_lodef"			"c8"
+		"xpos"			"410"
 		"ypos"			"63"
-		"ypos_lodef"			"72"
-		"ypos_hidef"	"63"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
@@ -384,11 +376,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"560"
-		"xpos_lodef"			"c176"
+		"xpos"			"598"	
 		"ypos"			"63"
-		"ypos_lodef"			"72"
-		"ypos_hidef"	"63"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
