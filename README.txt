@@ -1,14 +1,12 @@
 # sweetHud
 Sweet Hud by FireStarW
 A custom Tf2 HUD based on Eve Hud, Thwartski Hud, and many others
-V09_78 (May 11 2015) (Prerelease)
+V09_8 (May 12 2015) (Prerelease)
 -------------------------
-NOTE: Currently only optimized for a 1680x1050 (16:10) resolution 
-
-Drag and Drop into your custom folder and add the line "exec sweethud" to your autoexec.cfg
+Drag and Drop the "sweet_hud folder" into your custom folder
 
 Based off of Eve hud by sinders
-Incorporates parts of:
+Incorporates parts of or inspired by:
 ToonHud
 Thwartski HUD
 Community HUD
@@ -18,27 +16,11 @@ Old versions of yahud
 IV HUD
 ZimHud
 CBHUD - bowswer5 edit
+Punchy's Loadout Background Mod
+As well as my own things
 
-these cvars need to be set as follows for the hud to work properly or else you will experience clipping as medic:
+this cvar needs to be set as follows or else you will experience clipping as medic:
 tf_hud_target_id_offset -35 
-
-
-Parts changed compared to vanilla EVE hud:
-Main Menu
-Loading Screen
-Scoreboard
-Backpack UI (Q and E are shortcut keys)
-Loadout
-team select
-class select
-
-When cl_hud_minmode is set to 1 (keep in mind I did this kinda lazily so item charge meters aren't repositioned)
-Health and Ammo (including Bison,Cow Mangler, and Pomson) 
-stickybomb/loose cannon/huntsman meters
-Medigun meters
-Engy Metal 
-Scoreboard
-winpanel (including arena)
 
 Hidden Functionality:
 In the backpanel ui, the "q" key is a shortcut to the back button and the "e" key is a shortcut to closing
@@ -113,3 +95,5 @@ V09_76 (May 8 2015) -server intro zpos fixes, scoreboard fix
 V09_77 (May 10 2015) -16:9 res fixes! (finally), removed alt server time left bg override (it was broken), fixed no health image override, scoreboard/winpanel adjustment, 16:10 teammenu adjustment
 
 V09_78 (May 11 2015) -4:3 fixes started on, revamped spell display in minmode, revamped team select,
+
+V09_8 (May 12 2015) -4:3 fixes finished, just some final tlc left before release
