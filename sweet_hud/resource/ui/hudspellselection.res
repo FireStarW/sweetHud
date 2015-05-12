@@ -41,6 +41,8 @@
 		"enabled"		"1"
 		"image"			"spellbook_book"
 		"scaleImage"	"1"		
+		
+		"visible_minmode"		"0"
 	}
 	
 	"SpellIcon"

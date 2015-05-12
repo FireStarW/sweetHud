@@ -360,7 +360,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"362"
+		"xpos"			"296"
 		"xpos_lodef"			"c8"
 		"ypos"			"108"
 		"ypos_lodef"			"72"
@@ -384,7 +384,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"498"
+		"xpos"			"434"
 		"xpos_lodef"			"c176"
 		"ypos"			"108"
 		"ypos_lodef"			"72"

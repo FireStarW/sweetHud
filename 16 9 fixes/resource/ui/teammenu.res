@@ -68,11 +68,11 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"c-29"
-		"ypos"			"101"
+		"xpos"			"c-20"
+		"ypos"			"114"
 		"zpos"			"3"
-		"wide"			"124"
-		"tall"			"310"
+		"wide"			"106"
+		"tall"			"250"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -96,11 +96,11 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
-		"xpos"			"c159"
-		"ypos"			"101"
+		"xpos"			"c117"
+		"ypos"			"114"
 		"zpos"			"3"
-		"wide"			"124"
-		"tall"			"310"
+		"wide"			"106"
+		"tall"			"250"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -124,11 +124,11 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"c-290"
-		"ypos"			"101"
+		"xpos"			"c-209"
+		"ypos"			"114"
 		"zpos"			"3"
-		"wide"			"124"
-		"tall"			"310"
+		"wide"			"106"
+		"tall"			"250"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -151,11 +151,11 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"c-140"
-		"ypos"			"232"
+		"xpos"			"c-100"
+		"ypos"			"164"
 		"zpos"			"3"
-		"wide"			"82"
-		"tall"			"57"
+		"wide"			"60"
+		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -177,13 +177,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"280"
-		
-		"ypos"			"289"
-	
+		"xpos"			"c-92"
+		"xpos_hidef"			"r200"
+		"ypos"			"r80"
+		"ypos_lodef"			"r64"
+		"ypos_hidef"			"r54"
 		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"20"
+		"wide"			"200"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -209,7 +210,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
 		"xpos"			"c-70"
+		"xpos_lodef"			"52"
+		"xpos_hidef"			"72"
 		"ypos"			"34"
+		"ypos_lodef"			"r60"
+		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"450"
 		"tall"			"30"
@@ -247,11 +252,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"c-280" [$WIN32] 
+		"xpos"			"c-216" [$WIN32] 
 		"xpos"			"c-276" [$X360]
 		"xpos_lodef"			"c-255"
 		"xpos_hidef"			"c-260"
-		"ypos"			"70f"
+		"ypos"			"112"
 		"ypos_lodef"			"72"
 		"ypos_hidef"			"65"
 		"zpos"			"1"
@@ -275,10 +280,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
-		"xpos"			"c-112"
+		"xpos"			"c-88"
 		"xpos_lodef"			"c-125"
 		"xpos_hidef"			"c-109"
-		"ypos"			"255"
+		"ypos"			"253"
 		"ypos_lodef"	"292"
 		"zpos"			"1"
 		"wide"			"44"
@@ -320,7 +325,7 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "290"
+			"origin_x" "500"
 			"origin_x_hidef" "305"
 			"origin_x_lodef" "320"
 			"origin_y" "0"
@@ -355,8 +360,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"410"
-		"ypos"			"63"
+		"xpos"			"402"
+		"xpos_lodef"			"c8"
+		"ypos"			"108"
+		"ypos_lodef"			"72"
+		"ypos_hidef"	"63"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
@@ -376,8 +384,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"598"	
-		"ypos"			"63"
+		"xpos"			"540"
+		"xpos_lodef"			"c176"
+		"ypos"			"108"
+		"ypos_lodef"			"72"
+		"ypos_hidef"	"63"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"30"
@@ -416,7 +427,7 @@
 
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "290"
+			"origin_x" "400" //door size
 			"origin_x_lodef" "320"
 			"origin_x_hidef" "305"
 			"origin_y" "0"
@@ -489,7 +500,7 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "290"
+			"origin_x" "400"
 			"origin_x_lodef" "320"
 			"origin_x_hidef" "305"
 			"origin_y" "0"
@@ -562,7 +573,7 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "290"
+			"origin_x" "400"
 			"origin_x_lodef" "320"
 			"origin_x_hidef" "305"
 			"origin_y" "0"
@@ -611,7 +622,7 @@
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
-			"origin_x" "290"
+			"origin_x" "400"
 			"origin_x_lodef" "320"
 			"origin_x_hidef" "305"
 			"origin_y" "0"
@@ -682,7 +693,7 @@
 		}
 	}	
 	
-	"HighlanderLabel" [$WIN32] 
+	"HighlanderLabel" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
@@ -704,7 +715,7 @@
 		"centerwrap"	"1"
 	}
 	
-	"HighlanderLabelShadow" [$WIN32] 
+	"HighlanderLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
@@ -726,7 +737,7 @@
 		"centerwrap"	"1"
 	}
 	
-	"TeamsFullLabel" [$WIN32] 
+	"TeamsFullLabel" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabel"
@@ -748,7 +759,7 @@
 		"centerwrap"	"1"
 	}
 	
-	"TeamsFullLabelShadow" [$WIN32] 
+	"TeamsFullLabelShadow" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
@@ -770,7 +781,7 @@
 		"centerwrap"	"1"
 	}
 
-	"TeamsFullArrow" [$WIN32]
+	"TeamsFullArrow" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamsFullArrow"
