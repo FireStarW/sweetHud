@@ -228,7 +228,7 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		
-		"xpos_minmode"			"8"
+		"xpos_minmode"			"134"
 		"ypos_minmode"			"r200"
 		"wide_minmode"			"230"
 		"tall_minmode"  		"180"
@@ -284,7 +284,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-126"
-		"ypos"					"280"
+		"ypos"					"300"
 		"wide"					"252"
 		"tall"					"30"
 		"priority"				"40"
@@ -300,7 +300,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-126"
-		"ypos"					"280"
+		"ypos"					"360"
 		"wide"					"252"
 		"tall"					"30"
 		"priority"				"35"
@@ -333,7 +333,7 @@
 		"fieldName"				"BuildingStatus_Engineer"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"-16"
+		"xpos"					"-18"
 		"zpos"					"10"
 		"ypos"					"-35"		// spec fix
 		"wide"					"640"
@@ -593,7 +593,7 @@
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
 		"ItemFontPulsing"		"Default"
-				
+		
 		"xpos_minmode"			"c62"
 		"ypos_minmode"			"c66"
 	}
@@ -603,7 +603,7 @@
 		"fieldName"				"HudCloseCaption"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c125"
+		"xpos"					"c145"
 
 		"ypos"					"200"
 
@@ -1179,7 +1179,7 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-152"
+		"xpos"					"c-155"
 		"ypos"					"-3"
 		"wide"					"125"
 		"tall"					"55"

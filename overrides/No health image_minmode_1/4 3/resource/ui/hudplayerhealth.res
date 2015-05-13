@@ -47,6 +47,7 @@
 		"wide"			"50"
 		"tall"			"50"
 		
+		"visible_minmode"		"0"
 		"xpos_minmode"			"98"
 		"ypos_minmode"			"61"
 		"wide_minmode"			"20"
@@ -70,7 +71,7 @@
 		
 		"xpos_minmode"			"97"
 		"ypos_minmode"			"60"
-		"wide_minmode"			"22"
+		"wide_minmode"			"0"
 		"tall_minmode"			"22"
 	}
 	
@@ -218,61 +219,7 @@
 		"wide_minmode"			"100"
 		"tall_minmode"			"50"	
 	}
-	"BleedIconAnchor"
-	{
-		"ControlName" "EditablePanel"
-		"fieldName" "BleedIconAnchor"
-		"xpos" "-28" //-14 first over +
-		"ypos" "38"
-		"wide" "20"
-		"tall" "20"
-		"visible" "1"
-		"enabled" "1"
-	}
-	"VaccinatorIconAnchor"
-	{
-		"ControlName" "EditablePanel"
-		"fieldName" "VaccinatorIconAnchor"
-		"xpos" "-10" 
-		"ypos" "26"
-		"wide" "20"
-		"tall" "20"
-		"visible" "1"
-		"enabled" "1"
-	}
-	"BannerIconAnchor"
-	{
-		"ControlName" "EditablePanel"
-		"fieldName" "BannerIconAnchor"
-		"xpos" "-28" 
-		"ypos" "26"
-		"wide" "20"
-		"tall" "20"
-		"visible" "1"
-		"enabled" "1"
-	}
-	"ParachuteIconAnchor"
-	{
-		"ControlName" "EditablePanel"
-		"fieldName" "ParachuteIconAnchor"
-		"xpos" "-30" 
-		"ypos" "24"
-		"wide" "20"
-		"tall" "20"
-		"visible" "1"
-		"enabled" "1"
-	}	
-	"MannIconAnchor"
-	{
-		"ControlName" "EditablePanel"
-		"fieldName" "MannIconAnchor"
-		"xpos" "-8" 
-		"ypos" "24"
-		"wide" "20"
-		"tall" "20"
-		"visible" "1"
-		"enabled" "1"
-	}	
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -288,14 +235,10 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "BleedIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"15"
-		"tall_minmode"	"15"
-
+		"xpos_minmode"	"44"		
+		"ypos_minmode"	"40"
+		"wide_minmode"	"20"
+		"tall_minmode"	"20"
 	}
 	"PlayerStatusHookBleedImage"
 	{
@@ -312,13 +255,10 @@
 		"image"			"../vgui/bleed_drop_grapple"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling_minmode" "BleedIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"15"
-		"tall_minmode"	"15"
+		"xpos_minmode"	"44"		
+		"ypos_minmode"	"40"
+		"wide_minmode"	"20"
+		"tall_minmode"	"20"
 	}	
 	"PlayerStatusMilkImage"
 	{
@@ -336,13 +276,10 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "BleedIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
-		"wide_minmode"	"15"
-		"tall_minmode"	"15"
+		"xpos_minmode"	"44"
+		"ypos_minmode"	"40"
+		"wide_minmode"	"20"
+		"tall_minmode"	"20"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -359,13 +296,10 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "BleedIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
-		"wide_minmode"	"15"
-		"tall_minmode"	"15"
+		"xpos_minmode"	"40"
+		"ypos_minmode"	"36"
+		"wide_minmode"	"22"
+		"tall_minmode"	"22"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -382,13 +316,10 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "BleedIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
-		"wide_minmode"	"15"
-		"tall_minmode"	"15"
+		"xpos_minmode"	"40"
+		"ypos_minmode"	"36"
+		"wide_minmode"	"22"
+		"tall_minmode"	"22"
 	}
 	"PlayerStatus_WheelOfDoom"
 	{
@@ -407,8 +338,8 @@
 		
 		"xpos_minmode"	"60"
 		"ypos_minmode"	"30"
-		"wide_minmode"	"20"
-		"tall_minmode"	"20"
+		"wide_minmode"	"32"
+		"tall_minmode"	"32"
 	}
 	
 	"PlayerStatus_MedicUberBulletResistImage"
@@ -426,13 +357,10 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "VaccinatorIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
+		"xpos_minmode"	"85"
 		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"wide_minmode"	"31"
+		"tall_minmode"	"31"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -449,13 +377,10 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "VaccinatorIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
+		"xpos_minmode"	"85"
 		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"wide_minmode"	"31"
+		"tall_minmode"	"31"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
@@ -472,13 +397,10 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "VaccinatorIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
+		"xpos_minmode"	"85"
 		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"wide_minmode"	"31"
+		"tall_minmode"	"31"
 	}
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
@@ -495,13 +417,10 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "VaccinatorIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
+		"xpos_minmode"	"85"
 		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"wide_minmode"	"31"
+		"tall_minmode"	"31"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -518,13 +437,10 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "VaccinatorIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
+		"xpos_minmode"	"85"
 		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"wide_minmode"	"31"
+		"tall_minmode"	"31"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
@@ -541,13 +457,10 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "VaccinatorIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
+		"xpos_minmode"	"85"
 		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"wide_minmode"	"31"
+		"tall_minmode"	"31"
 	}
 
 	"PlayerStatus_SoldierOffenseBuff"
@@ -565,13 +478,10 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "BannerIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"xpos_minmode"			"85"
+		"ypos_minmode"			"28"
+		"wide_minmode"			"28"
+		"tall_minmode"			"28"
 	}
 	"PlayerStatus_SoldierDefenseBuff"
 	{
@@ -588,13 +498,10 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "BannerIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"xpos_minmode"			"85"
+		"ypos_minmode"			"28"
+		"wide_minmode"			"28"
+		"tall_minmode"			"28"
 	}
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
@@ -611,13 +518,10 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "BannerIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"xpos_minmode"			"5"
+		"ypos_minmode"			"28"
+		"wide_minmode"			"28"
+		"tall_minmode"			"28"
 	}
 	"PlayerStatus_Parachute"
 	{
@@ -634,13 +538,10 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 		
-		"pin_to_sibling_minmode" "ParachuteIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"24"
-		"tall_minmode"	"24"
+		"xpos_minmode"			"0"
+		"ypos_minmode"			"30"
+		"wide_minmode"			"26"
+		"tall_minmode"			"26"
 	}
 	// beta mannpower stuffs
 	"PlayerStatus_RuneStrength"
@@ -648,7 +549,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneStrength"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
+		"ypos_minmode"	"26"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -657,21 +560,15 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_strength_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 	"PlayerStatus_RuneHaste"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneHaste"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
+		"ypos_minmode"	"26"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -680,21 +577,15 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_haste_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 	"PlayerStatus_RuneRegen"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneRegen"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
+		"ypos_minmode"	"26"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -703,20 +594,13 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_regen_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 	"PlayerStatus_RuneResist"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneResist"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -726,21 +610,15 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_resist_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 	"PlayerStatus_RuneVampire"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneVampire"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
+		"ypos_minmode"	"26"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -749,20 +627,13 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 	"PlayerStatus_RuneWarlock"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneWarlock"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -772,21 +643,15 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_warlock_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 	"PlayerStatus_RunePrecision"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePrecision"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
+		"ypos_minmode"	"26"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -795,21 +660,15 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_precision_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 	"PlayerStatus_RuneAgility"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneAgility"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
+		"ypos_minmode"	"26"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -818,21 +677,15 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKnockout"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
+		"ypos_minmode"	"26"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -841,13 +694,5 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"		"TanDark"
-		
-		"pin_to_sibling_minmode" "MannIconAnchor"
-		"pin_corner_to_sibling_minmode" "1"
-		"pin_to_sibling_corner_minmode" "1"
-		"xpos_minmode"	"0"		
-		"ypos_minmode"	"0"
-		"wide_minmode"	"28"
-		"tall_minmode"	"28"
 	}
 }

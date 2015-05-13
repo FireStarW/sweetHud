@@ -455,7 +455,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"white"
 		
-		"xpos_minmode"			"182"
+		"xpos_minmode"			"160"
 		"ypos_minmode"			"60"
 	}
 	"WinningTeamLabelDropshadow"
@@ -478,7 +478,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"184"
+		"xpos_minmode"			"162"
 		"ypos_minmode"			"62"
 	}
 	"AdvancingTeamLabel"
@@ -501,7 +501,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"white"
 		
-		"xpos_minmode"			"182"
+		"xpos_minmode"			"160"
 		"ypos_minmode"			"60"
 	}
 	"AdvancingTeamLabelDropshadow"
@@ -524,7 +524,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		
-		"xpos_minmode"			"184"
+		"xpos_minmode"			"162"
 		"ypos_minmode"			"62"
 	}
 	"WinReasonLabel"
@@ -547,7 +547,7 @@
 		"brighttext"	"0"
 		
 		"font_minmode"			"HudFontSmall"
-		"xpos_minmode"			"184"
+		"xpos_minmode"			"162"
 		"ypos_minmode"			"80"
 	}
 	"DetailsLabel"
@@ -570,7 +570,7 @@
 		"brighttext"	"0"
 		
 		"font_minmode"			"HudFontSmallest"
-		"xpos_minmode"			"184"
+		"xpos_minmode"			"162"
 		"ypos_minmode"			"90"
 	}
 

@@ -1,12 +1,10 @@
 # sweetHud
-Sweet Hud by FireStarW
-A custom Tf2 HUD based on Eve Hud, Thwartski Hud, and many others
-V09_8 (May 12 2015) (Prerelease)
--------------------------
-Drag and Drop the "sweet_hud folder" into your custom folder
+Sweet Hud + Enhanced e.v.e Hud by FireStarW
+V1.0 (May 12 2015)
 
-Based off of Eve hud by sinders
-Incorporates parts of or inspired by:
+-------------Credits------------
+Incorporates parts of, or inspired by:
+e.v.e Hud
 ToonHud
 Thwartski HUD
 Community HUD
@@ -17,25 +15,33 @@ IV HUD
 ZimHud
 CBHUD - bowswer5 edit
 Punchy's Loadout Background Mod
-As well as my own things
 
-this cvar needs to be set as follows or else you will experience clipping as medic:
+Additional credit to Sinders for parts of the readme, Doodles for Doodles Hud editing guide, as well as anyone on teamfortress.tv that answered any of my HUD editing questions
+
+-------------Installation------------
+To install, drag and drop the "sweet_hud" folder into your custom folder located at ... / Steam / steamapps / common / team fortress 2 / tf / custom /
+
+Set the following cvar as follows for optimal medic experience (copy and paste the line below into the console)
 tf_hud_target_id_offset -35 
 
-Hidden Functionality:
-In the backpanel ui, the "q" key is a shortcut to the back button and the "e" key is a shortcut to closing
+To use sweetHud, turn on the minimal hud (cl_hud_minmode 1), to use enhanced e.v.e Hud, turn off the minimal hud (cl_hud_minmode 0)
+
+Note that the default aspect ratio is 16:10 !!
+If you are using a different aspect ratio, open the relevant apsect ratio fix folder and copy and paste the insides of it inside the "sweet_hud" folder you are using.
 
 Overrides: copy the stuff inside each override folder to the inside of the "Sweethud" folder
 No health image minmode 1- removes the health icon next to health when minmode is on
 Two sticky number styles available:
-	>sticky number only: places number of stickies under charge bar
-	>sticky_default_position: places sticky icon and count by the ammo like in default Eve hud
+	>sticky number only: places number of stickies under charge bar with hud minmode on and off
+	>sticky_default_position: leaves the sticky number in the default e.v.e hud position with hud minmode off
 Control Point Progress - two options:
 	Under Crosshair (Default) : places a small cp progressbar above health and ammo
 	Right of Crosshair : places a larger cp progressbar to the right of your crosshair
-	
-Crosshairs (created by Broesel) / Aiming Guide
---------------------------------
+
+-------------Shortcut Keys------------
+In the backpanel ui, as well as some additional panels, the "q" key is a shortcut to the back button and the "e" key is a shortcut to the close button
+
+-------------Crosshairs (created by Broesel) / Aiming Guide------------
 Crosshairs can be enabled by editing the "HudPlayerClass.res" file in "eve hud\resource\ui".
 Change the "visible" property to "1" under the one (or multiple) you want to use.
 
@@ -48,19 +54,16 @@ If a crosshair is not centered, you can fix it by editing "xpos", "ypos", "wide"
 
 Aiming guide can be enabled by setting the "//AimingGuide visibility" property to "1".
 
---------------------------------
-Hit marker
---------------------------------
+
+-------------Hit marker------------
 Hit marker in an additional visual indication around your crosshair that appear when you hit an enemy.
-It can be enabled by editing the "HudDamageAccount.res" file in "eve hud\resource\ui".
-Change the "visible" property to "1".
-
+It is enabled by default
+To disable it or change its appearance, edit the "HudDamageAccount.res" file in "eve hud\resource\ui".
+Change the "visible" property to "0" if you wish to remove it.
 Color can be changed by editing the "fgcolor" property (RGBA).
-
 If the hit marker is not centered, you can fix it by editing "xpos", "ypos", "wide" and "tall" properties.
 
-Changelog
-
+-------------Changlelog------------
 V0 (Nov 25 2014)- initial release
 
 V01 (Nov 25 2014)- added readme and scripts
@@ -97,3 +100,6 @@ V09_77 (May 10 2015) -16:9 res fixes! (finally), removed alt server time left bg
 V09_78 (May 11 2015) -4:3 fixes started on, revamped spell display in minmode, revamped team select,
 
 V09_8 (May 12 2015) -4:3 fixes finished, just some final tlc left before release
+
+V1.0 (May 12 2015) -Now ready for public consumption. The previous 4:3 fixes were actually 5:4 fixes, so fixed the few files that needed specific 4:3 fixes. Also revamped bleed icons/etc, revamped no health cross override
+
