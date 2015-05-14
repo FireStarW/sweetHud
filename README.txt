@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.02 (May 14 2015)
+V1.03 (May 14 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -105,4 +105,6 @@ V1.0 (May 12 2015) -Now ready for public consumption. The previous 4:3 fixes wer
 
 V1.01 (May 13 2015) -Added 6v6 scoreboard (16 10/9 only for now), fixed no health cross override for other resolutions
 
-V1.04 (May 14 2015) -6v6 fixed scoreboard for all resolutions (reinstall the HUD to see fix in 16:10 / 16:9)
+V1.02 (May 14 2015) -6v6 fixed scoreboard for all resolutions (reinstall the HUD to see fix in 16:10 / 16:9)
+
+V1.03 (May 14 2015) -Scoreboard tweak

@@ -87,7 +87,7 @@
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
-
+		"border_minmode"	"BlueTeamBorder"
                 
 		if_mvm
 		{
@@ -144,6 +144,7 @@
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
+		"border_minmode"	"RedTeamBorder"
 
                 
 		if_mvm
