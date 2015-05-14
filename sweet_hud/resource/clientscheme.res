@@ -3167,6 +3167,86 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+	//Custom borders
+		RedTeamBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "HUDRedTeam"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "HUDRedTeam"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "HUDRedTeam"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "HUDRedTeam"
+					"offset" "0 0"
+				}
+			}
+		}		
+		BlueTeamBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "HUDBlueTeam"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "HUDBlueTeam"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "HUDBlueTeam"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "HUDBlueTeam"
+					"offset" "0 0"
+				}
+			}
+		}
+		//end custom
 		NoBorder
 		{
 			"inset" "0 0 0 0"
