@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.04 (May 17 2015)
+V1.05 (May 23 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -110,3 +110,5 @@ V1.02 (May 14 2015) -6v6 fixed scoreboard for all resolutions (reinstall the HUD
 V1.03 (May 14 2015) -Scoreboard tweak
 
 V1.04 (May 17 2015) -new Smaller Chat Box override
+
+V1.05 (May 23 2015) -Using new high quality item images property (discovered by Wiethoofd on teamfortress.tv)
