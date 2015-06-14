@@ -161,7 +161,7 @@
 	}
 	"SoundToggleButton"
 	{
-		"command"		"engine incrementvar snd_mute_losefocus 0 1 1"
+		"command"		"engine toggle snd_mute_losefocus"
 		"OnlyInGame"	"1"
 		"subimage" "replay/replay_default"
 		"tooltip" 	"BACKGROUND SOUND TOGGLE"
