@@ -863,6 +863,25 @@
 		"enabled"		"1"
 		"fgcolor_override" "255 255 255 100"
 	}
+
+	"TeamButtonInfoLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamButtonInfoLabel"
+		"font"			"ItemFontNameSmallest"
+		"labelText"		"Team buttons work with cheats on only"
+		"textAlignment"	"center"
+		"xpos"			"c-100"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"10"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "255 255 255 100"
+	}
 }
 
 

@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.07 (Jun 14 2015)
+V1.08 (Jun 15 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -116,3 +116,5 @@ V1.05 (May 23 2015) -Using new high quality item images property (discovered by 
 V1.06 (May 25 2015) -New standing and swimming loadout class model overrides
 
 V1.07 (Jun 14 2015) -Minor Menu optimization
+
+V1.08 (Jun 15 2015) -Made it obvious the change team buttons in loadout only work with cheats on (sv_cheats 1)
