@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.08 (Jun 15 2015)
+V1.09 (July 6 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -21,13 +21,16 @@ Additional credit to Sinders for parts of the readme, Doodles for Doodles Hud ed
 -------------Installation------------
 To install, drag and drop the "sweet_hud" folder into your custom folder located at ... / Steam / steamapps / common / team fortress 2 / tf / custom /
 
+Aspect Ratio:
+	The default aspect ratio of this HUD is 16:10 !!
+	If you are using a different aspect ratio, open the relevant apsect ratio fix folder and copy and paste the insides of it inside the "sweet_hud" folder you are using.
+	If you do not know your aspect ratio, launch tf2, got to settings -> video and look in the aspect ratio box for your ratio (16:9, 16:10 or 4:3) 
+	Note that the 1280x1024 resolution is actually 5:4 although the game says it is 4:3
+
 Set the following cvar as follows for optimal medic experience (copy and paste the line below into the console)
 tf_hud_target_id_offset -35 
 
 To use sweetHud, turn on the minimal hud (cl_hud_minmode 1), to use enhanced e.v.e Hud, turn off the minimal hud (cl_hud_minmode 0)
-
-Note that the default aspect ratio is 16:10 !!
-If you are using a different aspect ratio, open the relevant apsect ratio fix folder and copy and paste the insides of it inside the "sweet_hud" folder you are using.
 
 Overrides: copy the stuff inside each override folder to the inside of the "Sweethud" folder
 No health image minmode 1- removes the health icon next to health when minmode is on
@@ -118,3 +121,5 @@ V1.06 (May 25 2015) -New standing and swimming loadout class model overrides
 V1.07 (Jun 14 2015) -Minor Menu optimization
 
 V1.08 (Jun 15 2015) -Made it obvious the change team buttons in loadout only work with cheats on (sv_cheats 1)
+
+V1.09 (July 6 2015) -Updated for gun mettle, if you want to see avatars in the target id all the time set this cvar: tf_hud_target_id_show_avatars 

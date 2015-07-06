@@ -20,6 +20,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"12"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width_minmode"		"53"	
 		"name_width"		"114"	[$WIN32]
@@ -34,6 +35,8 @@
 		"score_width_minmode"	"22"
 		"ping_width"		"23"	[$WIN32]
 		"ping_width_minmode"		"21"	
+		"stats_width"		"30"
+		"killstreak_width"	"20"
 	}
 		"BlueScoreBG2"
 	{
@@ -825,6 +828,7 @@
 		{
 			"visible"		"1"
 		}
+
 	}
 	"ClassImage"
 	{

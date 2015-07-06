@@ -18,8 +18,8 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"-310"
-		"item_xpos_offcenter_b"	"170"
+		"item_xpos_offcenter_a"	"-290"
+		"item_xpos_offcenter_b"	"150"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
@@ -98,7 +98,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
+		"xpos"			"c-290"
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"20"
@@ -212,53 +212,53 @@
 			"animation"
 			{
 				"name"		"PRIMARY"
-				"activity"	"ACT_MP_RUN_PRIMARY"
+				"activity"	"ACT_MP_STAND_PRIMARY"
 				"default"	"1"
 			}
 			"animation"
 			{
 				"name"		"SECONDARY"
-				"activity"	"ACT_MP_RUN_SECONDARY"
+				"activity"	"ACT_MP_STAND_SECONDARY"
 			}
 			"animation"
 			{
 				"name"		"MELEE"
-				"activity"	"ACT_MP_RUN_MELEE"
+				"activity"	"ACT_MP_STAND_MELEE"
 			}
 			"animation"
 			{
 				"name"		"BUILDING"
-				"activity"	"ACT_MP_RUN_BUILDING"
+				"activity"	"ACT_MP_STAND_BUILDING"
 			}
 			"animation"
 			{
 				"name"		"PDA"
-				"activity"	"ACT_MP_RUN_PDA"
+				"activity"	"ACT_MP_STAND_PDA"
 			}
 			"animation"
 			{
 				"name"		"ITEM1"
-				"activity"	"ACT_MP_RUN_ITEM1"
+				"activity"	"ACT_MP_STAND_ITEM1"
 			}						
 			"animation"
 			{
 				"name"		"ITEM2"
-				"activity"	"ACT_MP_RUN_ITEM2"
+				"activity"	"ACT_MP_STAND_ITEM2"
 			}									
 			"animation"
 			{
 				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_RUN_MELEE_ALLCLASS"
+				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
 			}
 			"animation"
 			{
 				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_RUN_PRIMARY"
+				"activity"	"ACT_MP_STAND_PRIMARY"
 			}
 			"animation"
 			{
 				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_RUN_SECONDARY2"
+				"activity"	"ACT_MP_STAND_SECONDARY2"
 			}
 		}
 	}
@@ -785,6 +785,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"close_button"
+
+
 				"scaleImage"	"1"
 			}				
 		}		

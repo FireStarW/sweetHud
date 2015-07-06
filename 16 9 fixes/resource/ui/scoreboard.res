@@ -20,6 +20,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"6"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
 		"name_width"		"114"	[$WIN32]
@@ -35,6 +36,8 @@
 		"score_width_hidef"	"50"
 		"ping_width"		"23"	[$WIN32]
 		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
+		"stats_width"		"30"
+		"killstreak_width"	"20"
 	}
 		"BlueScoreBG2"
 	{

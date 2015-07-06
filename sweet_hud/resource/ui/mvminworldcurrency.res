@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"221 182 72 250"
-		"alpha"	"230"	
+		//"alpha"	"230"	
 	}
 	
 	"MoneyImagePanel"
@@ -51,7 +51,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"54 110 9 255"
+		"fgcolor"		"CreditsGreen"
+		//"fgcolor"		"54 110 9 255"
 		"xpos"			"1"
 		"ypos"			"1"
 		"zpos"			"4"

@@ -395,4 +395,20 @@
 			"PaintBackgroundType"	"0"
 		}
 	}	
+		"AvatarImage"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"AvatarImage"
+		"xpos"			"56"
+		"xpos_minmode"	"6"
+		"ypos"			"10"
+		"zpos"			"99"
+		"wide"			"31"	//11
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
 }

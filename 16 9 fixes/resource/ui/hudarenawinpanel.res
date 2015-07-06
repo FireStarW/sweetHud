@@ -772,7 +772,23 @@
 
 		"xpos_minmode"			"218"
 		"ypos_minmode"			"276"				
+		
+		"Player1Medal"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Player1Medal"
+			"xpos"			"18"
+			"ypos"			"142"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
 
+		"xpos_minmode"			"6"
+		"ypos_minmode"			"142"
+		}
 		"Player1Avatar"
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -889,6 +905,22 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
+		"Player2Medal"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Player2Medal"
+			"xpos"			"18"
+			"ypos"			"164"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+		"xpos_minmode"			"6"
+		"ypos_minmode"			"165"
+
+		}
 		"Player2Avatar"	
 		{
 			"ControlName"	"CAvatarImagePanel"
@@ -1004,6 +1036,23 @@
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
+		}
+		"Player3Medal"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Player3Medal"
+			"xpos"			"18"
+			"ypos"			"186"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"
+
+		"xpos_minmode"			"6"
+		"ypos_minmode"			"187"
+	
 		}
 		"Player3Avatar"
 		{
@@ -1136,7 +1185,22 @@
 
 		"xpos_minmode"			"218"
 		"ypos_minmode"			"276"
-	
+
+		"Player1Medal"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Player1Medal"
+			"xpos"			"18"
+			"ypos"			"142"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+			"xpos_minmode"			"6"
+			"ypos_minmode"			"142"
+		}
 		"Player1Avatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -1253,6 +1317,22 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
+		"Player2Medal"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Player2Medal"
+			"xpos"			"18"
+			"ypos"			"164"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+			
+			"xpos_minmode"			"6"
+			"ypos_minmode"			"165"
+		}
 		"Player2Avatar"	
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -1368,6 +1448,22 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
+		}
+		"Player3Medal"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Player3Medal"
+			"xpos"			"18"
+			"ypos"			"186"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"		"1"	
+
+			"xpos_minmode"			"6"
+			"ypos_minmode"			"187"
 		}
 		"Player3Avatar"
 		{

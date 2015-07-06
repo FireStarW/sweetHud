@@ -20,21 +20,22 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"12"
+		"medal_width"		"5"
 		"avatar_width"		"57"	[$WIN32]
-		"avatar_width_minmode"		"55"	
+		"avatar_width"		"0"		[$X360]
 		"name_width"		"114"	[$WIN32]
-		"name_width_minmode"		"100"	
+		"name_width"		"150"	[$X360]
 		"status_width"		"15"	[$WIN32]
-		"status_width_minmode"		"14"	
+		"status_width"		"12"	[$X360]
 		"nemesis_width"		"15"	[$WIN32]
-		"nemesis_width_minmode"		"14"	
+		"nemesis_width"		"20"	[$X360]
 		"class_width"		"15"	[$WIN32]
-		"class_width_minmode"		"14"	
+		"class_width"		"20"	[$X360]
 		"score_width"		"25"
-		"score_width_minmode"	"22"
+		"score_width_lodef"	"35"
+		"score_width_hidef"	"50"
 		"ping_width"		"23"	[$WIN32]
-		"ping_width_minmode"		"23"	
+		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
 		"stats_width"		"30"
 		"killstreak_width"	"20"
 	}
@@ -71,11 +72,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"BlueScoreBGMin"
-		"xpos"			"0"
-		"ypos"			"151"
-		"zpos"			"1"
-		"wide"			"58"
-		"tall"			"113"
+		"xpos"			"c-1001"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"1000"
+		"tall"			"52"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -89,7 +90,7 @@
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
-		"border_minmode"		"ReplayDefaultBorder"
+		"border_minmode"	"BlueTeamBorder"
                 
 		if_mvm
 		{
@@ -129,11 +130,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"RedBGMin"
-		"xpos"			"r58"
-		"ypos"			"151"
-		"zpos"			"1"
-		"wide"			"58"
-		"tall"			"113"
+		"xpos"			"c0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"1000"
+		"tall"			"52"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -146,14 +147,14 @@
 		
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
-		"border_minmode"		"ReplayDefaultBorder"
-
+		"border_minmode"	"RedTeamBorder"
                 
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}		
+	}	
+	
 	"MainBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -187,13 +188,12 @@
 		"fieldName"		"MainBG2"
 		"xpos"			"2"
 		"ypos"			"62"
-		"xpos_minmode"			"0"
-		"ypos_minmode"			"150"
+		"xpos_minmode"			"2"
+		"ypos_minmode"			"92"
 		"zpos"			"0"
 		"wide"			"298"
-		"wide_minmode"			"314"
 		"tall"			"310"
-		"tall_minmode"			"115"
+		"tall_minmode"			"280"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -201,9 +201,9 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 195"
-		//"fillcolor_minmode"		"0 0 0 200"
+		"fillcolor_minmode"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
-		"border_minmode"	"BlueTeamBorder"
+
                 
 		if_mvm
 		{
@@ -220,13 +220,12 @@
 		"fieldName"		"MainBG3"
 		"xpos"			"300"
 		"ypos"			"62"
-		"xpos_minmode"			"c5"
-		"ypos_minmode"			"150"
+		"xpos_minmode"			"300"
+		"ypos_minmode"			"92"
 		"zpos"			"0"
 		"wide"			"298"
-		"wide_minmode"			"400"
 		"tall"			"310"
-		"tall_minmode"			"115"
+		"tall_minmode"			"280"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -234,9 +233,9 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 195"
-		//"fillcolor_minmode"		"0 0 0 200"
+		"fillcolor_minmode"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
-		"border_minmode"	"RedTeamBorder"
+
                 
 		if_mvm
 		{
@@ -257,7 +256,7 @@
 		"ypos_minmode"			"424" //418
 		"zpos"			"0"
 		"wide"			"596"
-		"wide_minmode"			"0"
+		"wide_minmode"			"1000"
 		"tall"			"74"
 		"tall_minmode"			"64"
 		"autoResize"	"0"
@@ -283,7 +282,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
 		"font"			"ScoreboardTeamNameLarge"
-		"font_minmode"	"HudFontMediumSmall"
+		"font_minmode"	"HudFontMediumBig"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"10" [!$OSX]
@@ -296,12 +295,8 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
 		"enabled"		"1"
 		
-		"xpos_minmode"		"13"	
-		"ypos_minmode"		"c-90"	
-		"zpos_minmode"		"3"
 		if_mvm
 		{
 			"visible"		"0"
@@ -312,25 +307,22 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
 		"font"			"ScoreboardTeamScore"
-		"font_minmode"			"HudFontGiantBold"
+		"font_minmode"			"HudFontBiggerBold"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"190"
-		"xpos_minmode"			"-38"
+		"xpos_minmode"			"c-110"
 		"xpos_lodef"		"170"
 		"xpos_hidef"		"190"
 		"ypos"			"8" 
-		"ypos_minmode"			"c-60"
 		"zpos"			"4"
 		"wide"			"100"
-		"wide_minmode"			"80"
 		"tall"			"55"
 		"tall_hidef"	"75"
 		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
 		"enabled"		"1"
 		"fgcolor"		"white"
 		
@@ -344,25 +336,23 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
 		"font"			"ScoreboardTeamScore"
-		"font_minmode"			"HudFontGiantBold"
+		"font_minmode"			"HudFontBiggerBold"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"191"
-		"xpos_minmode"			"-37"
+		"xpos_minmode"			"c-109"
 		"xpos_lodef"	"171"
 		"xpos_hidef"	"191"
 		"ypos"			"9" 
-		"ypos_minmode"			"c-59" 
 		"zpos"			"4"
-		"wide"			"80"
+		"wide"			"100"
 		"tall"			"55"
 		"tall_hidef"	"75"
 		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
 		"enabled"		"1"
 		
 		if_mvm
@@ -375,21 +365,18 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
 		"font"			"ScoreboardMedium"
-		"font_minmode"		"HudFontSmall"
+	//	"font"			"HudFontMediumSmallBold"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"150"
-		"xpos_minmode"			"5"
 		"xpos_hidef"		"100"
 		"ypos"			"33"
-		"ypos_minmode"			"c-6"
-		"zpos_minmode"		"3"
+		"ypos_minmode"			"28"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
 		"enabled"		"1"
 		
 		if_mvm
@@ -402,11 +389,12 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
 		"font"			"ScoreboardTeamNameLarge"
-		"font_minmode"	"HudFontMediumSmall"
+		"font_minmode"	"HudFontMediumBig"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"450" [!$OSX]
 		"xpos"			"445" [$OSX]
+		"xpos_minmode"			"r151"
 		"xpos_lodef"	"446"
 		"xpos_hidef"	"488"
 		"ypos"			"23"	[$WIN32]
@@ -416,12 +404,8 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
 		"enabled"		"1"
-
-		"xpos_minmode"		"r150"	
-		"ypos_minmode"		"c-90"	
-		"zpos_minmode"		"3"
+		
 		if_mvm
 		{
 			"visible"		"0"
@@ -432,15 +416,14 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
 		"font"			"ScoreboardTeamScore"
-		"font_minmode"			"HudFontGiantBold"
+		"font_minmode"			"HudFontBiggerBold"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"310"
-		"xpos_minmode"			"r41"
+		"xpos_minmode"			"c10"
 		"xpos_lodef"	"290"
 		"xpos_hidef"	"330"
 		"ypos"			"8" 
-		"ypos_minmode"			"c-60"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -449,7 +432,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
 		"enabled"		"1"
 		"fgcolor"		"white"
 		
@@ -463,16 +445,15 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
 		"font"			"ScoreboardTeamScore"
-		"font_minmode"			"HudFontGiantBold"
+		"font_minmode"			"HudFontBiggerBold"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"311"
-		"xpos_minmode"			"r40"
+		"xpos_minmode"			"c11"
 		"xpos_lodef"	"291"
 		"xpos_hidef"	"331"
 		"ypos"			"9"
-		"ypos_minmode"			"c-59"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -481,7 +462,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
 		"enabled"		"1"
 		
 		if_mvm
@@ -494,22 +474,20 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
 		"font"			"ScoreboardMedium"
-		"font_minmode"			"HudFontSmall"
+	//	"font"			"HudFontMediumSmallBold"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"350"
-		"xpos_minmode"			"r104"
+		"xpos_minmode"			"c50"
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
 		"ypos"			"33"
-		"ypos_minmode"			"c-6"
-		"zpos_minmode"		"3"
+		"ypos_minmode"			"28"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"1"
 		"enabled"		"1"
 		
 		if_mvm
@@ -529,7 +507,7 @@
 		"xpos_minmode"			"14"
 		"xpos_hidef"	"31"
 		"ypos"			"60"
-		"ypos_minmode"			"r20"
+		"ypos_minmode"			"55"
 		"ypos_lodef"	"62"
 		"wide"			"300"
 		"wide_minmode"			"310"
@@ -555,7 +533,7 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"15"
-		"ypos"			"r19"
+		"ypos"			"56"
 		"zpos"			"-1"
 		"wide"			"310"
 		"tall"			"20"
@@ -583,14 +561,13 @@
 		"xpos_minmode"			"c-242"
 		"xpos_hidef"	"31"
 		"ypos"			"60"
-		"ypos_minmode"			"r27"
+		"ypos_minmode"			"47"
 		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		
@@ -606,13 +583,11 @@
 		"xpos"			"5"
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
-		"xpos_minmode"			"56"
+		"xpos_minmode"			"5"
 		"ypos"			"72"
-		"ypos_minmode"			"150" 
+		"ypos_minmode"			"90"
 		"zpos"			"20"
 		"wide"			"290"
-		"wide_minmode"			"260"
-		"tall_minmode"			"114"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"281"	[$WIN32]
@@ -623,7 +598,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"17"
-		"textcolor"		"blue"
+		"fgcolor"		"blue"
 		
 		if_mvm
 		{
@@ -637,17 +612,15 @@
 		"xpos"			"305"
 		"xpos_lodef"	"284"
 		"xpos_hidef"	"314"
-		"xpos_minmode"			"c4"
+		"xpos_minmode"			"305"
 		"ypos"			"72"
-		"ypos_minmode"			"150"
+		"ypos_minmode"			"90"
 		"zpos"			"20"
 		"wide"			"290"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"281"	[$WIN32]
 		"tall"			"255"	[$X360]
-		"wide_minmode"			"260"
-		"tall_minmode"			"114"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -696,11 +669,11 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"xpos_minmode"			"88"
+		"xpos_minmode"			"4"
 		"xpos_hidef"	"135"
 		"ypos"			"357"	[$WIN32]
 		"ypos"			"277"	[$X360]
-		"ypos_minmode"			"c24"
+		"ypos_minmode"			"368"
 		"zpos"			"4"
 		"wide"			"424"
 		"wide_minmode"			"474"
@@ -725,8 +698,8 @@
 		"fgcolor"		"Black"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
-		"xpos"			"89"
-		"ypos"			"c25"
+		"xpos"			"5"
+		"ypos"			"369"
 		"zpos"			"3"
 		"wide"			"424"
 		"wide_minmode"			"474"
@@ -755,10 +728,10 @@
 		"textAlignment"		"west"
 		"xpos"			"115"
 		"xpos_hidef"	"135"
-		"xpos_minmode"			"88"
+		"xpos_minmode"			"4"
 		"ypos"			"348"	[$WIN32]
 		"ypos"			"277"	[$X360]
-		"ypos_minmode"			"c37"
+		"ypos_minmode"			"381"
 		"zpos"			"4"
 		"wide"			"424"
 		"wide_minmode"			"474"
@@ -781,8 +754,8 @@
 		"fgcolor"		"Black"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
-		"xpos"			"89"
-		"ypos"			"c38"
+		"xpos"			"5"
+		"ypos"			"382"
 		"zpos"			"3"
 		"wide"			"424"
 		"wide_minmode"			"474"
@@ -818,7 +791,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
@@ -842,8 +814,8 @@
 		"zpos"			"3"
 		"wide"			"82"
 		"tall"			"82"
-		"wide_minmode"			"0"
-		"tall_minmode"			"0"
+		"wide_minmode"			"56"
+		"tall_minmode"			"56"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -887,7 +859,7 @@
 		"xpos"			"415"
 		"xpos_minmode"			"r188"
 		"ypos"			"375"
-		"ypos_minmode"			"r20"
+		"ypos_minmode"			"55"
 		"zpos"			"3"
 		"wide"			"165"
 		"tall"			"20"
@@ -906,7 +878,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
 		"xpos"			"r187"
-		"ypos"			"r19"
+		"ypos"			"56"
 		"zpos"			"0"
 		"wide"			"165"
 		"tall"			"20"
@@ -942,7 +914,6 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
@@ -1197,17 +1168,15 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"xpos_minmode"			"36"
+		"xpos_minmode"			"-14"
 		"ypos"			"395"
 		"ypos_minmode"			"428"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"448"
-		"tall_minmode"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		
 		if_mvm

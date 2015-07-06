@@ -46,11 +46,13 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_ypos"	"5"
-			"model_tall"	"55"
-			"text_ypos"		"54"
-			"text_center"	"1"
-			"name_only"		"1"
+			"model_center_x"	"1"
+			"model_ypos"		"5"			
+			"model_tall"		"55"
+			"model_wide"		"82"
+			"text_ypos"			"54"
+			"text_center"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{
@@ -268,7 +270,7 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
-		"wide"			"250"
+		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
@@ -783,6 +785,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"close_button"
+
 				"scaleImage"	"1"
 			}				
 		}		
@@ -863,6 +866,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "255 255 255 100"
 	}
+
 	"TeamButtonInfoLabel"
 	{
 		"ControlName"	"CExLabel"

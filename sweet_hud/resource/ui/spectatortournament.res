@@ -11,21 +11,21 @@
 		"enabled"			"1"
 		//"zpos"				"1000"
 		
-		"team1_player_base_offset_x"			"290"		//"-75"
-
+		"team1_player_base_offset_x"			"330"		//"-75"
+	//	"team1_player_base_offset_x_minmode"		"190"
 		"team1_player_base_y"					"110"		//"0"
-
+	//	"team1_player_base_y_minmode"			"110"
 		"team1_player_delta_x"					"0"			//"-50"
 		"team1_player_delta_y"					"22"		//"0"
-
+	//	"team1_player_delta_y_minmode"			"22"
 		
-		"team2_player_base_offset_x"			"-380"		//"75"
-	
+		"team2_player_base_offset_x"			"290"		//"75"
+	//	"team2_player_base_offset_x_minmode"		"290"	
 		"team2_player_base_y"					"110"		//"0"
-
+	//	"team2_player_base_y_minmode"			"110"
 		"team2_player_delta_x"					"0"			//"50"
 		"team2_player_delta_y"					"22"		//"0"
-
+	//	"team2_player_delta_y_minmode"			"22"
 		
 		if_mvm
 		{
@@ -468,29 +468,30 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"			"itempanel"
-		"xpos"				"r250"
-		"ypos"				"r175"
-		"zpos"				"1"
-		"wide"				"245"
-		"tall"				"180"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"190"
+		"tall"			"100"
 		"visible"			"0"
 		"bgcolor_override"	"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"paintborder"			"0"
 		
-		"model_xpos"		"5"
-		"model_center_y"	"1"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
 		"model_wide"		"65"
 		"model_tall"		"40"
 		
-		"text_xpos"		"70"
+		"text_xpos"		"10"
+		"text_ypos"		"10"
 		"text_wide"		"170"
-		"text_center"		"1"
+		"text_center"	"1"
 		
-		"max_text_height"		"90"
-		"padding_height"		"32"
-		"resize_to_text"		"1"
-		"text_forcesize"		"2"
+		"max_text_height"	"100"
+		"padding_height"	"10"
+		"resize_to_text"	"1"
+		"text_forcesize"	"2"
 		
 		"BG"
     	{
@@ -509,7 +510,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"				"itemmodelpanel"
-			"use_item_rendertarget" 	"1"
+			"use_item_rendertarget" 	"0"
 			"useparentbg"				"1"
 		}
 		
@@ -518,8 +519,8 @@
 			"ControlName"		"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"ScoreboardSmall"
-			"xpos"			"0"
-			"ypos"			"2"
+			"xpos"			"-55"
+			"ypos"			"1"
 			"zpos"			"10"
 			"wide"			"240"
 			"tall"			"10"
@@ -533,4 +534,17 @@
 			"brighttext"		"0"
 		}
 	}	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}		
 }

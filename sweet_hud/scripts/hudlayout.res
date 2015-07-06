@@ -228,10 +228,9 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		
-		"xpos_minmode"			"90"
+		"xpos_minmode"			"88"
 		"ypos_minmode"			"r200"
 		"wide_minmode"			"230"
-		"tall_minmode"  		"180"
 		"tall_minmode"  		"180"
 	}
 	
@@ -1299,7 +1298,7 @@
 		"ypos"					"300"
 		"zpos"					"10"
 		"wide"					"270"
-		"tall"					"180"
+		"tall"					"f0"
 	}
 	
 	HudTFCrosshair
@@ -1435,4 +1434,38 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+	"ItemAttributeTracker"
+	{
+		"fieldName" "ItemAttributeTracker"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"wide" "f5"
+		"tall" "f0"
+		"PaintBackgroundType" "0"
+	}
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
 }

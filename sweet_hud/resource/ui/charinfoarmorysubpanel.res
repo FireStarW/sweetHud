@@ -264,14 +264,17 @@
 		"name_only"			"1"
 		
 		"model_ypos"	"40"
-		"model_tall"	"120"
+		"model_xpos"	"50"
+		"model_wide"	"156"
+		"model_tall"	"100"
 		
 		"text_forcesize"	"1"
+		"is_mouseover"		"1"
 		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
-			"inventory_image_type" "1"
+			"inventory_image_type" "1" //this is apperently incompatible with skins?
 			"allow_rot"				"0"
 		}
 		

@@ -22,6 +22,14 @@
 		"OnlyAtMenu" "0"
 		"tooltip" "CO-OP"//"Mann vs Machine"
 	}
+	"PlayCompetitiveButton"
+	{
+		"label" "#MMenu_PlayComp" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
+		"OnlyWhenCompetitiveEnabled" "1"
+	}
 	    "PVHUDButton"
     {
         "command" "engine toggleconsole"

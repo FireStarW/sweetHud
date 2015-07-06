@@ -140,20 +140,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-		"BackButtonShortcut"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButtonShortcut"
-		"xpos"			"r-310"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"&Q"
-		"Command"		"back"
-	}
+
 	"WaitingForLeaderLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -385,6 +372,65 @@
 			"fieldName"		"PlayWithFriendsExplanationLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_MvM_PlayWithFriendsExplanation"
+			"textAlignment"	"north-west"
+			"xpos"			"10"
+			"ypos"			"130"
+			"zpos"			"10"
+			"wide"			"180"
+			"tall"			"150"
+			"wrap"			"1"
+		}
+	}
+
+	"PlayWithFriendsExplanationCompetitive"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayWithFriendsExplanationCompetitive"
+		"xpos"			"c+100"
+		"ypos"			"62"
+		"zpos"			"8"
+		"wide"			"200"
+		"tall"			"285"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"	"0 0 0 200"
+		"border"		"QuickplayBorder"
+
+		"PlayWithFriendsCompetitiveExplanationTitle"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayWithFriendsCompetitiveExplanationTitle"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#TF_Matchmaking_PlayWithFriends"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"10"
+			"wide"			"200"
+			"tall"			"32"
+		}
+
+		"FriendsImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"FriendsImage"
+			"xpos"			"10"
+			"ypos"			"32"
+			"zpos"			"0"
+			"wide"			"180"
+			"tall"			"90"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"pve/mvm_friends_image"
+			"scaleImage"	"0"
+		}
+
+		"PlayWithFriendsCompetitiveExplanationLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayWithFriendsCompetitiveExplanationLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_Matchmaking_CompetitiveExplanation"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
 			"ypos"			"130"
