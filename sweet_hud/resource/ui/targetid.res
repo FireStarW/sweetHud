@@ -399,12 +399,11 @@
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
-		"xpos"			"56"
-		"xpos_minmode"	"6"
-		"ypos"			"10"
+		"xpos"			"7"
+		"ypos"			"6"
 		"zpos"			"99"
-		"wide"			"31"	//11
-		"tall"			"31"
+		"wide"			"11"	//11
+		"tall"			"11"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
