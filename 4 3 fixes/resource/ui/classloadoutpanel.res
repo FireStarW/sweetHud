@@ -275,8 +275,8 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -785,6 +785,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"close_button"
+
 
 				"scaleImage"	"1"
 			}				

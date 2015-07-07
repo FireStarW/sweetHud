@@ -344,8 +344,8 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
 		
 //		"text_ypos"			"20" //gun mettle removed this
 		"text_center"		"1"
@@ -1118,6 +1118,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
+
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"

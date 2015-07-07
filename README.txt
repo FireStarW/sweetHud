@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.09 (July 6 2015)
+V1.10 (July 7 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -19,7 +19,7 @@ Punchy's Loadout Background Mod
 Additional credit to Sinders for parts of the readme, Doodles for Doodles Hud editing guide, as well as anyone on teamfortress.tv that answered any of my HUD editing questions
 
 -------------Installation------------
-To install, drag and drop the "sweet_hud" folder into your custom folder located at ... / Steam / steamapps / common / team fortress 2 / tf / custom /
+To install, drag and drop the "sweet_hud" folder into your custom folder located at "... / Steam / steamapps / common / team fortress 2 / tf / custom /"
 
 Aspect Ratio:
 	The default aspect ratio of this HUD is 16:10 !!
@@ -123,3 +123,5 @@ V1.07 (Jun 14 2015) -Minor Menu optimization
 V1.08 (Jun 15 2015) -Made it obvious the change team buttons in loadout only work with cheats on (sv_cheats 1)
 
 V1.09 (July 6 2015) -Updated for gun mettle, if you want to see avatars in the target id all the time set this cvar: tf_hud_target_id_show_avatars 
+
+V1.10 (July 7 2015) -Fixed skins not having a mouseover background, fixed avatars in target id
