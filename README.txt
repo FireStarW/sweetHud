@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.10 (July 7 2015)
+V1.11 (July 11 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -45,7 +45,7 @@ Control Point Progress - two options:
 In the backpanel ui, as well as some additional panels, the "q" key is a shortcut to the back button and the "e" key is a shortcut to the close button
 
 -------------Crosshairs (created by Broesel) / Aiming Guide------------
-Crosshairs can be enabled by editing the "HudPlayerClass.res" file in "eve hud\resource\ui".
+Crosshairs can be enabled by editing the "HudPlayerClass.res" file in "sweet_hud\resource\ui".
 Change the "visible" property to "1" under the one (or multiple) you want to use.
 
 Size and outline can be changed by editing a "font" property.
@@ -125,3 +125,5 @@ V1.08 (Jun 15 2015) -Made it obvious the change team buttons in loadout only wor
 V1.09 (July 6 2015) -Updated for gun mettle, if you want to see avatars in the target id all the time set this cvar: tf_hud_target_id_show_avatars 
 
 V1.10 (July 7 2015) -Fixed skins not having a mouseover background, fixed avatars in target id
+
+V1.11 (July 11 2015) -Fixed menu kv error, made damage indicators smaller, 5:4 resolution fixes merged with 4:3 fixes (note the 6v6 scoreboard still has a seperate version for 5:4 res however)
