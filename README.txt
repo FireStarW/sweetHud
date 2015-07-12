@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.11 (July 11 2015)
+V1.12 (July 11 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -127,3 +127,5 @@ V1.09 (July 6 2015) -Updated for gun mettle, if you want to see avatars in the t
 V1.10 (July 7 2015) -Fixed skins not having a mouseover background, fixed avatars in target id
 
 V1.11 (July 11 2015) -Fixed menu kv error, made damage indicators smaller, 5:4 resolution fixes merged with 4:3 fixes (note the 6v6 scoreboard still has a seperate version for 5:4 res however)
+
+V1.12 (July 11 2015) -Made the hud 16:9 and 16:10 by default! No more need to apply a resolution fix pack unless you are using 4:3.  Once again the 6v6 scoreboard still has 4 seperate versions

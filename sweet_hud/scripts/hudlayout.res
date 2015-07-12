@@ -228,7 +228,7 @@
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		
-		"xpos_minmode"			"88"
+		"xpos_minmode"			"c-296"
 		"ypos_minmode"			"r200"
 		"wide_minmode"			"230"
 		"tall_minmode"  		"180"
