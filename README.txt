@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.12 (July 11 2015)
+V1.13 (July 12 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -32,8 +32,11 @@ tf_hud_target_id_offset -35
 
 To use sweetHud, turn on the minimal hud (cl_hud_minmode 1), to use enhanced e.v.e Hud, turn off the minimal hud (cl_hud_minmode 0)
 
-Overrides: copy the stuff inside each override folder to the inside of the "Sweethud" folder
-No health image minmode 1- removes the health icon next to health when minmode is on
+Overrides: Various options for the HUD, most are self explanatory
+TO use, copy the stuff inside each override folder to the inside of the ".../custom/sweet_hud" folder
+
+6v6 Scoreboard : a smaller scoreboard that places the team lists on the sides, actually usable outside of 6's with the scrollbar
+
 Two sticky number styles available:
 	>sticky number only: places number of stickies under charge bar with hud minmode on and off
 	>sticky_default_position: leaves the sticky number in the default e.v.e hud position with hud minmode off
@@ -129,3 +132,5 @@ V1.10 (July 7 2015) -Fixed skins not having a mouseover background, fixed avatar
 V1.11 (July 11 2015) -Fixed menu kv error, made damage indicators smaller, 5:4 resolution fixes merged with 4:3 fixes (note the 6v6 scoreboard still has a seperate version for 5:4 res however)
 
 V1.12 (July 11 2015) -Made the hud 16:9 and 16:10 by default! No more need to apply a resolution fix pack unless you are using 4:3.  Once again the 6v6 scoreboard still has 4 seperate versions
+
+V1.13 (July 12 2015) -Put high quality item images in spectator, inspect, and freezecam
