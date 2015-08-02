@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.13 (July 12 2015)
+V1.14 (August 2 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -134,3 +134,5 @@ V1.11 (July 11 2015) -Fixed menu kv error, made damage indicators smaller, 5:4 r
 V1.12 (July 11 2015) -Made the hud 16:9 and 16:10 by default! No more need to apply a resolution fix pack unless you are using 4:3.  Once again the 6v6 scoreboard still has 4 seperate versions
 
 V1.13 (July 12 2015) -Put high quality item images in spectator, inspect, and freezecam
+
+V1.14 (August 2 2015) -Synced with changes from eve hud (fixes for tournament spectator mode)

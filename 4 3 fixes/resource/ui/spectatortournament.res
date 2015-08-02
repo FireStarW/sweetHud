@@ -11,12 +11,12 @@
 		"enabled"			"1"
 		//"zpos"				"1000"
 		
-		"team1_player_base_offset_x"			"330"		//"-75"
+		"team1_player_base_offset_x"			"205"		//"-75"
 		"team1_player_base_y"					"110"		//"0"
 		"team1_player_delta_x"					"0"			//"-50"
 		"team1_player_delta_y"					"22"		//"0"
 		
-		"team2_player_base_offset_x"			"230"		//"75"
+		"team2_player_base_offset_x"			"-295"		//"75"
 		"team2_player_base_y"					"110"		//"0"
 		"team2_player_delta_x"					"0"			//"50"
 		"team2_player_delta_y"					"22"		//"0"
@@ -506,7 +506,6 @@
 			"fieldName"				"itemmodelpanel"
 			"use_item_rendertarget" 	"0"
 			"useparentbg"				"1"
-			"inventory_image_type"  "1"
 		}
 		
 		"ItemLabel"

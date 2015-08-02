@@ -1,0 +1,1 @@
+To use the default chat font instead of the one from the "Bigger chat font" override from eve hud, open up your sweet_hud folder in ".../Steam/SteamApps/common/Team Fortress 2/tf/custom/" open the "resource" folder, and delete "ChatScheme.res"
