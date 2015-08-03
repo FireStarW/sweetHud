@@ -22,10 +22,9 @@ Additional credit to Sinders for parts of the readme, Doodles for Doodles Hud ed
 To install, drag and drop the "sweet_hud" folder into your custom folder located at "... / Steam / steamapps / common / team fortress 2 / tf / custom /"
 
 Aspect Ratio:
-	The default aspect ratio of this HUD is 16:10 !!
-	If you are using a different aspect ratio, open the relevant apsect ratio fix folder and copy and paste the insides of it inside the "sweet_hud" folder you are using.
-	If you do not know your aspect ratio, launch tf2, got to settings -> video and look in the aspect ratio box for your ratio (16:9, 16:10 or 4:3) 
-	Note that the 1280x1024 resolution is actually 5:4 although the game says it is 4:3
+	The default aspect ratio of this HUD is 16:9/16:10 !!
+	If you are using a different aspect ratio, open the relevant apsect ratio fix folder and copy and paste the insides of it inside the "sweet_hud" folder in custom you are using.
+	If you do not know your aspect ratio, launch tf2, go to settings, click on the video tab, and look in the aspect ratio box for your ratio (16:9, 16:10 or 4:3) 
 
 Set the following cvar as follows for optimal medic experience (copy and paste the line below into the console)
 tf_hud_target_id_offset -35 

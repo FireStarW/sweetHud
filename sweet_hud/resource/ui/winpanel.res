@@ -877,7 +877,7 @@
 		"image"			""
 		"scaleImage"		"1"	
 		
-		"xpos_minmode"			"c-48"
+		"xpos_minmode"			"c48"
 		"ypos_minmode"			"444"
 		"wide_minmode"			"15"
 		"tall_minmode"			"15"
