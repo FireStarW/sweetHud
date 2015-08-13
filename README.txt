@@ -135,3 +135,5 @@ V1.12 (July 11 2015) -Made the hud 16:9 and 16:10 by default! No more need to ap
 V1.13 (July 12 2015) -Put high quality item images in spectator, inspect, and freezecam
 
 V1.14 (August 2 2015) -Synced with changes from eve hud (fixes for tournament spectator mode)
+
+V1.15 (August 12 2015) -Bigger ubercharge number
