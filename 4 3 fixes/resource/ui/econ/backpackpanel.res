@@ -338,7 +338,7 @@
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
-		"zpos"			"100"
+		"zpos"			"102"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
@@ -1118,6 +1118,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
+
 
 
 		"PaintBackgroundType"	"2"
