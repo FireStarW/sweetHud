@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.15 (August 12 2015)
+V1.16 (August 28 2015) i55 edition
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -137,3 +137,5 @@ V1.13 (July 12 2015) -Put high quality item images in spectator, inspect, and fr
 V1.14 (August 2 2015) -Synced with changes from eve hud (fixes for tournament spectator mode)
 
 V1.15 (August 12 2015) -Bigger ubercharge number
+
+V1.16 (August 28 2015) -Updated for Trade Ups, also adjusted scout milk/cleaver bar in minmode

@@ -2029,6 +2029,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 
+
 			{
 				"name"		"Courier New"
 				"tall"		"14"
@@ -3152,7 +3153,31 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+				
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+
+			}
+		}
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
