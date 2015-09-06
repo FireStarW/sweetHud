@@ -16,10 +16,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"5"
+		"medal_width"		"13"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
-		"name_width"		"114"	[$WIN32]
+		"name_width"		"108"	[$WIN32]
 		"name_width"		"150"	[$X360]
 		"status_width"		"15"	[$WIN32]
 		"status_width"		"12"	[$X360]

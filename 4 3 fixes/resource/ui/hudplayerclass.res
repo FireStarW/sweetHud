@@ -734,7 +734,7 @@
 		"fieldName"				"CarryingWeapon"
 		"xpos"					"20"
 		"xpos_minmode"			"90"
-		"ypos"					"r27"
+		"ypos"					"r26"
 		"ypos_minmode"			"r36"
 		"zpos"					"100"
 		"wide"					"500"
@@ -766,7 +766,6 @@
 			"teambg_2_lodef"		"../hud/color_panel_red"
 			"teambg_3"				"../hud/color_panel_blu"
 			"teambg_3_lodef"		"../hud/color_panel_blu"
-			"proportionaltoparent"	"1"
 		
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
@@ -779,7 +778,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"ReplayBrowserSmallest"
+			"font"				"TFFontMedium"
 			"font_minmode"		"TFFontMedium"
 			"xpos"				"5"
 			"xpos_minmode"		"5"
@@ -806,10 +805,10 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
-			"font"				"ReplayBrowserSmallest"
+			"font"				"TFFontMedium"
 			"font_minmode"		"TFFontMedium"
 			"xpos"				"p0.011"
-			"xpos_minmode"		"6"
+			"xpos_minmode"		"p0.011"
 			"ypos"				"p0.12"
 			"ypos_minmode"		"3"
 			"zpos"				"0"
@@ -834,7 +833,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
-			"font"				"FontStoreOriginalPrice"
+			"font"				"TFFontSmall"
 			"font_minmode"		"TFFontSmall"
 			"xpos"				"5"
 			"xpos_minmode"		"5"

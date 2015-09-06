@@ -726,11 +726,57 @@
 			}
 		}
 	}
+	"CarryingWeapon"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"CarryingWeapon"
+		"xpos"					"20"
+		"xpos_minmode"			"90"
+		"ypos"					"r26"
+		"ypos_minmode"			"r36"
+		"zpos"					"100"
+		"wide"					"500"
+		"wide_minmode"			"500"
+		"tall"	 				"28"
+		"tall_minmode"	 		"28"
+
+		"CarryingBackground"
+		{
+			"ControlName"			"CTFImagePanel"
+			"fieldName"				"CarryingBackground"
+			"xpos"					"0"
+			"xpos_minmode"			"0"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
+			"zpos"					"0"
+			"wide"					"p1"
+			"wide_minmode"			"f0"
+			"tall"	 				"f0"
+			"tall_minmode"			"f0"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"0"
+			"enabled"				"0"
+			"image"					"../hud/color_panel_brown"
+			"scaleImage"			"1"
+			"teambg_1"				"../hud/color_panel_brown"
+			"teambg_2"				"../hud/color_panel_red"
+			"teambg_2_lodef"		"../hud/color_panel_red"
+			"teambg_3"				"../hud/color_panel_blu"
+			"teambg_3_lodef"		"../hud/color_panel_blu"
+		
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
 		"CarryingLabel"
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"ReplayBrowserSmallest"
+			"font"				"TFFontMedium"
 			"font_minmode"		"TFFontMedium"
 			"xpos"				"5"
 			"xpos_minmode"		"5"
@@ -757,10 +803,10 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
-			"font"				"ReplayBrowserSmallest"
+			"font"				"TFFontMedium"
 			"font_minmode"		"TFFontMedium"
 			"xpos"				"p0.011"
-			"xpos_minmode"		"6"
+			"xpos_minmode"		"p0.011"
 			"ypos"				"p0.12"
 			"ypos_minmode"		"3"
 			"zpos"				"0"
@@ -785,7 +831,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
-			"font"				"FontStoreOriginalPrice"
+			"font"				"TFFontSmall"
 			"font_minmode"		"TFFontSmall"
 			"xpos"				"5"
 			"xpos_minmode"		"5"
