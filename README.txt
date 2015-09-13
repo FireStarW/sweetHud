@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.17 (September 5 2015)
+V1.18 (September 13 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -142,3 +142,5 @@ V1.16 (August 28 2015) -Updated for Trade Ups, also adjusted scout milk/cleaver 
 B update - updated fully from trade-ups update, will swap things when sinders releases eve hud versions of new elements
 
 V1.17 (September 5 2015) -Made medals in scoreboard normal, Touched up new item owner panel 
+
+V1.18 (September 13 2015) -Fixed sapper meter in mvm in minmode

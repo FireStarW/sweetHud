@@ -11,6 +11,8 @@
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+
+		"ypos_minmode"			"r60"
 	}
 	
 	"ItemEffectMeterBG"
@@ -90,6 +92,11 @@
 		// "drawcolor"			"200 200 0"
 		"image"				"../hud/ico_demolish"
 		"scaleImage"		"1"
+
+		"wide_minmode"				"46"
+		"tall_minmode"				"46"
+		"xpos_minmode"				"128"
+		"ypos_minmode"				"3"
 
 	}
 
