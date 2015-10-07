@@ -661,30 +661,6 @@
 //		"sound_released"	"UI/buttonclickrelease.wav"
 //	}
 
-	"DetailsButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"DetailsButton"
-		"xpos"			"c70"
-		"ypos"			"330"
-		"zpos"			"20"
-		"wide"			"100"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#BackpackShowDetails"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"showdetails"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
 
 	"ShowExplanationsButton"
 	{
@@ -1118,6 +1094,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
+
 
 
 

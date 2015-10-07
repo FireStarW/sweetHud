@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.18 (September 13 2015)
+V1.19 (October 7 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -144,3 +144,5 @@ B update - updated fully from trade-ups update, will swap things when sinders re
 V1.17 (September 5 2015) -Made medals in scoreboard normal, Touched up new item owner panel 
 
 V1.18 (September 13 2015) -Fixed sapper meter in mvm in minmode
+
+V1.19 (October 7 2015) - updated main menu for invasion, removed details button in backpack as valve made it stop working
