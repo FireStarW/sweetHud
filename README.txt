@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.19 (October 7 2015)
+V1.20 (October 10 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -146,3 +146,5 @@ V1.17 (September 5 2015) -Made medals in scoreboard normal, Touched up new item 
 V1.18 (September 13 2015) -Fixed sapper meter in mvm in minmode
 
 V1.19 (October 7 2015) - updated main menu for invasion, removed details button in backpack as valve made it stop working
+
+V1.20 (October 10 2015) - Redid "autobalancing the teams" text at round end, it no longer clips with the winpanel

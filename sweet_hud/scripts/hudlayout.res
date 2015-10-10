@@ -1405,6 +1405,8 @@
 		"ypos"					"50"		//50
 		"wide"					"320"
 		"tall"					"150"
+
+		"ypos_minmode"					"80"	
 	}
 	
 	"CTFStreakNotice"
