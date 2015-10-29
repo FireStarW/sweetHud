@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.21 (October 28 2015)
+V1.22 (October 28 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -150,3 +150,4 @@ V1.19 (October 7 2015) - updated main menu for invasion, removed details button 
 V1.20 (October 10 2015) - Redid "autobalancing the teams" text at round end, it no longer clips with the winpanel
 
 V1.21 (October 28 2015) - HALLOWEEN!
+V1.22 - Fixed contracts not showing
