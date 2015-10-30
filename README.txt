@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.23 (October 29 2015)
+V1.24 (October 30 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -153,3 +153,5 @@ V1.21 (October 28 2015) - HALLOWEEN!
 V1.22 - Fixed contracts not showing
 
 V1.23 (October 29 2015) - Main menu fix from todays update
+
+V1.24 (October 30 2015) - Sync'd with latest changes from e.v.e HUD (includes Player destruction HUD, moved item label text in spectate/killcam)

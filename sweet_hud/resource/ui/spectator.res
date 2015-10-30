@@ -347,22 +347,22 @@
 		
 		"ItemLabel"
 		{	
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"ScoreboardSmall"
-			"xpos"			"-55"
-			"ypos"			"1"
+			"xpos"			"5"
+			"ypos"			"2"
 			"zpos"			"10"
 			"wide"			"240"
 			"tall"			"10"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"east"
+			"textAlignment"	"west"
 			"dulltext"		"0"
-			"brighttext"		"0"
+			"brighttext"	"0"
 		}
 	}	
 	"spectator_extras"
