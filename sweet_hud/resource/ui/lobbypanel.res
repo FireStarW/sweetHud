@@ -1749,6 +1749,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
+			"image"			"main_menu/meta_cityonfire512"
 			"scaleImage"	"1"
 		}
 
@@ -1780,7 +1781,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"image"			"main_menu/meta_cityonfire512"
 			"scaleImage"	"1"
 			"entry_step"	"25"
 		}
