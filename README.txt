@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.24B (October 30 2015)
+V1.25 (November 16 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -156,3 +156,5 @@ V1.23 (October 29 2015) - Main menu fix from todays update
 
 V1.24 (October 30 2015) - Sync'd with latest changes from e.v.e HUD (includes Player destruction HUD, moved item label text in spectate/killcam)
 B update - synced again for the eve hud update that just came out
+
+V1.25 (November 16 2015) - Main menu fix, eve hud sync (adds  mannpower supernova meter)

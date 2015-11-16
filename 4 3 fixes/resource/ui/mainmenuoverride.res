@@ -184,16 +184,16 @@
 		"scaleImage"	"1"
 		
 		if_halloween_0
-		{								//to use default replace these back
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2011"  
+		{
+			"image"		"../console/title_team_halloween2011"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2012"
+			"image"		"../console/title_team_halloween2012"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2013"
+			"image"		"../console/title_team_halloween2013"
 		}
 		if_halloween_3
 		{
@@ -213,12 +213,12 @@
 		}
 		if_eotl_launch
 		{
-			"image"		"../console/title_eotl01"  
+			"image"		"../console/title_eotl01"
 		}
-		if_operation
-		{
-			"image"		"../console/title_team_halloween2015"	 //"image"		"../console/title_summer_operation_2015"
-		}
+	//	if_operation
+	//	{
+	//		"image"		"../console/title_team_halloween2015"
+	//	}
 		if_community_update
 		{
 			"image"		"../console/title_invasion"
@@ -405,6 +405,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutblue"
+
 		"scaleImage"	"1"	
 	}
 	
@@ -3000,6 +3001,7 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
+
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -4302,7 +4304,7 @@
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 
 			
