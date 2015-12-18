@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.25 (November 16 2015)
+V1.26 (December 17 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -158,3 +158,5 @@ V1.24 (October 30 2015) - Sync'd with latest changes from e.v.e HUD (includes Pl
 B update - synced again for the eve hud update that just came out
 
 V1.25 (November 16 2015) - Main menu fix, eve hud sync (adds  mannpower supernova meter)
+
+V1.26 (December 17 2015) - Updated for tough break, scoreboard now uses team images

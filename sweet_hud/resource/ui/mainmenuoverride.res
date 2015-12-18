@@ -184,16 +184,16 @@
 		"scaleImage"	"1"
 		
 		if_halloween_0
-		{
-			"image"		"../console/title_team_halloween2011"
+		{								//to use default replace these back  //personal edit
+			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2011"  
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012"
+			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2012"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_team_halloween2013"
+			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2013"
 		}
 		if_halloween_3
 		{
@@ -213,12 +213,12 @@
 		}
 		if_eotl_launch
 		{
-			"image"		"../console/title_eotl01"
+			"image"		"../console/title_eotl01"  
 		}
-	//	if_operation
-	//	{
-	//		"image"		"../console/title_team_halloween2015"
-	//	}
+		if_operation
+		{
+			"image"		"../console/title_team_tough_break"
+		}
 		if_community_update
 		{
 			"image"		"../console/title_invasion"
@@ -405,7 +405,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutblue"
-
 		"scaleImage"	"1"	
 	}
 	
@@ -511,6 +510,11 @@
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
+
+		if_operation
+		{
+			"image"		"../logo/tough_break_logo"
+		}
 	}	
 	
 	"TFCharacterImage"
@@ -1235,6 +1239,7 @@
 			}
 		}
 	}
+
 "MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -3001,7 +3006,6 @@
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
-
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -4302,7 +4306,7 @@
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
-		"visible"		"0"
+		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
 			
@@ -4328,10 +4332,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"cs-0.5"
-			"ypos"			"315"
+			"ypos"			"300"
 			"zpos"			"0"
 			"wide"			"p0.8"
-			"tall"			"90"
+			"tall"			"120"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -4345,10 +4349,10 @@
 				"fieldName"		"OperationTitleLabel"
 				"font"			"HudFontSmallBold"
 				"labelText"		"#MMenu_Update"
-				"textAlignment"	"west"
-				"xpos"			"0"
+				"textAlignment"	"center"
+				"xpos"			"p0.05"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"p0.9"
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -4356,18 +4360,19 @@
 				"enabled"		"1"
 				"textinsetx"	"20"
 				"fgcolor_override"	"235 227 203 255"
+				"proportionaltoparent"	"1"
 			}
 
 			"ViewDetailsButton"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.02"
+				"xpos"			"p0.25"
 				"ypos"			"27"
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"0"
+				"visible"		"1"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -4467,10 +4472,10 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"25"
+				"ypos"					"p0.47"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"60"
+				"tall"					"p0.5"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4482,23 +4487,40 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2015 Key"
+						"item"		 	"Unused Operation Tough Break Pass"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2015 case"
+						"item"		"Tough Break Case 01 Pyroland"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Zoomin' Broom"
-						"show_market"	"0"
+						"item"		"Tough Break Case 02 Warbirds"
+						"show_market"	"1"
 					}
 					"3"
 					{
-						"item"		"Taunt: Soldier's Requiem"
+						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
+					"4"
+					{
+						"item"		"Tough Break Cosmetic Case"
+						"show_market"	"1"
+					}
+					"5"
+					{
+						"item"		"Tough Break Cosmetic Key"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: Aerobic Taunt"
+						"show_market"	"0"
+					}
+					
 				}
 			}
 
