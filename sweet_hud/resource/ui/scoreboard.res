@@ -2113,7 +2113,7 @@
 		"labelText"		"Ping"
 		"textAlignment"		"east"
 		"xpos"			"286"
-		"xpos_minmode"			"371"
+		"xpos_minmode"			"c-13" //371
 		"ypos"			"69"
 		"ypos_minmode"			"87"
 		"zpos"			"3"
