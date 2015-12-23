@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.27B (December 18 2015)
+V1.28 (December 22 2015)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -163,3 +163,5 @@ V1.26 (December 17 2015) - Updated for tough break, scoreboard now uses team ima
 
 V1.27 (December 18 2015) - Fixed Ping label for 4:3
 BV- add animations to fix contracts
+
+V1.28 (December 22 2015) - Removed handmade ping label now that valve added it back

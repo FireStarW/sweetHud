@@ -2086,44 +2086,6 @@
 		}
 	}
 
-	"BluePingLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BluePingLabel"
-		"font"			"SpectatorVerySmall"
-		"labelText"		"Ping"
-		"textAlignment"		"east"
-		"xpos"			"-15"
-		"xpos_minmode"			"c-312"
-		"ypos"			"69"
-		"ypos_minmode"			"87"
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
-	}
-	"RedPingLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedPingLabel"
-		"font"			"SpectatorVerySmall"
-		"labelText"		"Ping"
-		"textAlignment"		"east"
-		"xpos"			"286"
-		"xpos_minmode"			"c-13" //371
-		"ypos"			"69"
-		"ypos_minmode"			"87"
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
-	}
 	"MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
