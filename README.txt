@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.29 (January 9 2016)
+V1.30 (January 24 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -167,3 +167,5 @@ BV- add animations to fix contracts
 V1.28 (December 22 2015) - Removed handmade ping label now that valve added it back
 
 V1.29 (January 9 2016) - Synced with changes from eve hud 
+
+V1.30 (January 24 2016) - Synced with changes from eve hud (very minor)
