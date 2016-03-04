@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.31 (March 3 2016)
+V1.31B (March 3 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -74,7 +74,7 @@ Until then, to play competitve beta games without an issue, delete these files f
 sweethud/resource/ui/hudtournament.res
 sweethud/resource/ui/lobbypanel.res
 sweethud/resource/ui/lobbycontainerframe.res
-sweethud/resource/ui/scoreboard.res (not required but if you want to see medals at the end you'll need to delete it)
+sweethud/resource/ui/scoreboard.res (not required but if you want to see medals at the end you'll need to delete it) (may not be true anymore)
 
 
 -------------Changlelog------------
@@ -180,3 +180,4 @@ V1.29 (January 9 2016) - Synced with changes from eve hud
 V1.30 (January 24 2016) - Synced with changes from eve hud (very minor)
 
 V1.31 (March 3 2016) - Add animations for matchmaking
+B update: more matchmaking related updates
