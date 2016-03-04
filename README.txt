@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.30 (January 24 2016)
+V1.31 (March 3 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -67,6 +67,15 @@ To disable it or change its appearance, edit the "HudDamageAccount.res" file in 
 Change the "visible" property to "0" if you wish to remove it.
 Color can be changed by editing the "fgcolor" property (RGBA).
 If the hit marker is not centered, you can fix it by editing "xpos", "ypos", "wide" and "tall" properties.
+
+------------Temporary Matchmaking fix--------------
+Until Matchmaking is more finalized I see no point in making matchmaking menus
+Until then, to play competitve beta games without an issue, delete these files from sweethud after you've installed it
+sweethud/resource/ui/hudtournament.res
+sweethud/resource/ui/lobbypanel.res
+sweethud/resource/ui/lobbycontainerframe.res
+sweethud/resource/ui/scoreboard.res (not required but if you want to see medals at the end you'll need to delete it)
+
 
 -------------Changlelog------------
 V0 (Nov 25 2014)- initial release
@@ -169,3 +178,5 @@ V1.28 (December 22 2015) - Removed handmade ping label now that valve added it b
 V1.29 (January 9 2016) - Synced with changes from eve hud 
 
 V1.30 (January 24 2016) - Synced with changes from eve hud (very minor)
+
+V1.31 (March 3 2016) - Add animations for matchmaking
