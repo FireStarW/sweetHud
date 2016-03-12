@@ -9,6 +9,7 @@
 		"ypos"					"0"
 		"wide"					"250"
 		"tall"					"480"
+		//"proportionaltoparent"	"1"
 
 		"team1_player_base_offset_x"		"-75"
 		"team1_player_base_y"				"0"
@@ -19,6 +20,11 @@
 		"team2_player_delta_x"				"47"
 		"team2_player_delta_y"				"0"
 		
+		//"avatar_width"	"63"
+		//"spacer"		"5"
+		//"name_width"	"57"
+		//"horiz_inset"	"2"
+		
 		if_mvm
 		{
 			"xpos"					"0"
@@ -28,6 +34,40 @@
 
 			"team1_player_base_y"			"68"
 			"team2_player_delta_x"			"57"
+		}
+		if_competitive
+		{
+
+		
+		}
+		if_readymode
+		{
+
+		
+		}
+		
+		
+		"ModeImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ModeImage"
+			"xpos"			"c0"
+			"ypos"			"35"
+			"zpos"			"0"
+			"wide"			"60"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"competitive/competitive_logo_laurel"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+
+			if_competitive
+			{
+				//"visible"		"1"
+			}
 		}
 		
 		"playerpanels_kv"
@@ -523,6 +563,48 @@
 		}
 	}
 	
+	"TournamentReadyHintIcon"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TournamentReadyHintIcon"
+		"font"			"GameUIButtonsSteamControllerSmallest"
+		"xpos"			"0"
+		"ypos"			"54"
+		"zpos"			"3"
+		"wide"			"40"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"Y"
+		"textAlignment"	"left"
+
+		if_mvm
+		{
+			"xpos"			"166"
+			"ypos"			"101"
+			"wide"			"190"
+			"tall"			"22"
+		}
+
+		if_competitive
+		{
+			"xpos"			"236"
+			"ypos"			"106"
+			"wide"			"190"
+			"tall"			"22"
+		}
+
+		if_readymode
+		{
+			"xpos"			"236"
+			"ypos"			"106"
+			"wide"			"190"
+			"tall"			"22"
+		}
+	}
+	
 	"CountdownBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -582,5 +664,239 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
+	}
+
+	"FrontParticlePanel"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"FrontParticlePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"ParticleEffects"
+		{
+			"0"
+			{
+				"particle_xpos" "c0"
+				"particle_ypos" "c0"
+				"particle_scale"	"2"
+				"particleName"	"versus_door_slam"
+				"start_activated" "0"
+				"loop"	"0"
+			}
+		}
+
+		"paintbackground"	"0"	
+	}
+
+	"MatchStartingBG"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MatchStartingBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"		
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fov"			"70"
+		"proportionaltoparent"	"1"
+		
+		"model"
+		{
+			"modelname"	"models/vgui/versus_doors.mdl"
+			"skin"		"0"
+			"angles_x"	"0"
+			"angles_y"	"0"
+			"angles_z"	"0"
+			"origin_x"	"120"
+			"origin_y"	"0"
+			"origin_z"	"-77"
+
+			"animation"
+			{
+				"name"			"ref"
+				"sequence"		"ref"
+				"default"		"1"
+			}
+
+			"animation"
+			{
+				"name"			"open"
+				"sequence"		"open"
+			}
+			
+			"animation"
+			{
+				"name"			"close"
+				"sequence"		"close"
+			}
+
+			"animation"
+			{
+				"name"			"idle_closed"
+				"sequence"		"idle_closed"
+			}
+		}
+	}	
+
+	"BlueTeamPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BlueTeamPanel"
+		"xpos"			"-155"
+		"ypos"			"125"
+		"zpos"			"50"
+		"wide"			"150"
+		"tall"			"260"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"BlueTeamBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BlueTeamBG"
+			"xpos"			"0"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"147"
+			"tall"			"36"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"TFFatLineBorderBlueBGOpaque"
+		}
+		"BlueTeamImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BlueTeamImage"
+			"xpos"			"9"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"56"
+			"tall"			"56"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/team_blue"
+			"scaleImage"		"1"
+		}
+		"BluePlayerList"
+		{
+			"ControlName"	"SectionedListPanel"
+			"fieldName"		"BluePlayerList"
+			"xpos"			"6"
+			"ypos"			"38"
+			"zpos"			"1"
+			"wide"			"136"
+			"tall"			"205"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"autoresize"	"3"
+			"linespacing"	"26"
+			"linegap"		"4"
+			//"show_columns"	"1"
+		}
+		"BluePlayerListBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BluePlayerListBG"
+			"xpos"			"4"
+			"ypos"			"30"
+			"zpos"			"0"
+			"wide"			"139"
+			"tall"			"215"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"TFFatLineBorderClearBG"
+		}
+	}
+
+	"RedTeamPanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"RedTeamPanel"
+		"xpos"			"r-5"
+		"ypos"			"125"
+		"zpos"			"50"
+		"wide"			"150"
+		"tall"			"260"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"RedTeamBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"RedTeamBG"
+			"xpos"			"0"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"147"
+			"tall"			"36"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"TFFatLineBorderRedBGOpaque"
+		}
+		"RedTeamImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"RedTeamImage"
+			"xpos"			"84"
+			"ypos"			"-9"
+			"zpos"			"5"
+			"wide"			"70"
+			"tall"			"70"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/team_Red"
+			"scaleImage"		"1"
+		}
+		"RedPlayerList"
+		{
+			"ControlName"	"SectionedListPanel"
+			"fieldName"		"RedPlayerList"
+			"xpos"			"6"
+			"ypos"			"38"
+			"zpos"			"1"
+			"wide"			"136"
+			"tall"			"205"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"autoresize"	"3"
+			"linespacing"	"26"
+			"linegap"		"4"
+			//"show_columns"	"1"
+		}
+		"RedPlayerListBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"RedPlayerListBG"
+			"xpos"			"4"
+			"ypos"			"30"
+			"zpos"			"0"
+			"wide"			"139"
+			"tall"			"215"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"TFFatLineBorderClearBG"
+		}
 	}
 }

@@ -2470,7 +2470,17 @@ Scheme
 		"antialias" "1"
 		}
 		}
-
+				"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"OverpassLight"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ControlPointTimer"
 		{
 			"1"
