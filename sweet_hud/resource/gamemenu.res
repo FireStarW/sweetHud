@@ -151,6 +151,14 @@
 		"subimage"		"icon_coach" //headphones
 		"tooltip" "#MMenu_MutePlayers"
 	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
+	}
 	"ReportAbuseButton"
 	{
 		"command"		"engine abuse_report_submit"
