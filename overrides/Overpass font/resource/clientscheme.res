@@ -1405,7 +1405,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"TF2 Secondary" // use TF2's font
+				"name"		"OverpassLight" // use TF2's font
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -1517,7 +1517,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -1529,7 +1529,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"44"	//"52"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -1541,7 +1541,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"24"	//"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1553,7 +1553,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -1566,7 +1566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -1602,7 +1602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1638,7 +1638,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1649,7 +1649,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1660,7 +1660,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1672,7 +1672,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1696,7 +1696,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1709,7 +1709,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1721,7 +1721,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1732,7 +1732,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1743,7 +1743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1755,7 +1755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1766,7 +1766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1778,7 +1778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1789,7 +1789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1800,7 +1800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1811,7 +1811,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1822,7 +1822,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1833,7 +1833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1844,7 +1844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1855,7 +1855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1868,7 +1868,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1911,7 +1911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2203,7 +2203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -2309,7 +2309,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2334,7 +2334,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2346,7 +2346,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -2360,7 +2360,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2372,7 +2372,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2384,7 +2384,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -2445,36 +2445,37 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"MatchSummaryTeamScores"
-			{
-			"1"
-			{
-			"name" "TF2"
-			"tall" "36"
-			"weight" "500"
-			"range" "0x0000 0x007F" // Basic Latin
-			"antialias" "1"
-			"additive" "0"
-			}
-			}
-			
-			"MatchSummaryStatsAndMedals"
-			{
-			"1"
-			{
-			"name" "TF2 Secondary"
-			"tall" "14"
-			"weight" "400"
-			"additive" "0"
-			"antialias" "1"
-			}
-			}
 		
+		"MatchSummaryTeamScores"
+		{
+		"1"
+		{
+		"name" "TF2"
+		"tall" "36"
+		"weight" "500"
+		"range" "0x0000 0x007F" // Basic Latin
+		"antialias" "1"
+		"additive" "0"
+		}
+		}
+
+		"MatchSummaryStatsAndMedals"
+		{
+		"1"
+		{
+		"name" "TF2 Secondary"
+		"tall" "14"
+		"weight" "400"
+		"additive" "0"
+		"antialias" "1"
+		}
+		}
+
 		"ControlPointTimer"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2485,7 +2486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2497,7 +2498,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2732,7 +2733,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2742,7 +2743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2752,7 +2753,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2780,7 +2781,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2789,7 +2790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2828,7 +2829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2839,7 +2840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2850,7 +2851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2936,7 +2937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2947,7 +2948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2958,7 +2959,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2969,7 +2970,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2980,7 +2981,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -3001,7 +3002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -3012,7 +3013,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3023,7 +3024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3034,7 +3035,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -3045,7 +3046,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -3200,7 +3201,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -3209,7 +3210,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3218,7 +3219,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -3231,7 +3232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -3241,7 +3242,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3251,7 +3252,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -3265,7 +3266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -3274,7 +3275,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -3283,7 +3284,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -3296,7 +3297,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -3308,7 +3309,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -3319,7 +3320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -3426,7 +3427,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3490,7 +3491,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3501,7 +3502,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3525,7 +3526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3536,7 +3537,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -3553,7 +3554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3564,7 +3565,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3576,7 +3577,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -4054,28 +4055,30 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+	
 		TFFatLineBorderBlueBGOpaque
-			{
-			"bordertype" "scalable_image"
-			"backgroundtype" "2"
-			
-			"image" "../hud/color_panel_blu_opaque"
-			"src_corner_height" "23" // pixels inside the image
-			"src_corner_width" "23"
-			"draw_corner_width" "5" // screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "5"
-			}
-			TFFatLineBorderClearBG
-			{
-			"bordertype" "scalable_image"
-			"backgroundtype" "2"
-			
-			"image" "../hud/color_panel_clear"
-			"src_corner_height" "23" // pixels inside the image
-			"src_corner_width" "23"
-			"draw_corner_width" "5" // screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "5"
-			}
+		{
+		"bordertype" "scalable_image"
+		"backgroundtype" "2"
+
+		"image" "../hud/color_panel_blu_opaque"
+		"src_corner_height" "23" // pixels inside the image
+		"src_corner_width" "23"
+		"draw_corner_width" "5" // screen size of the corners ( and sides ), proportional
+		"draw_corner_height" "5"
+		}
+		TFFatLineBorderClearBG
+		{
+		"bordertype" "scalable_image"
+		"backgroundtype" "2"
+
+		"image" "../hud/color_panel_clear"
+		"src_corner_height" "23" // pixels inside the image
+		"src_corner_width" "23"
+		"draw_corner_width" "5" // screen size of the corners ( and sides ), proportional
+		"draw_corner_height" "5"
+		}
+
 		ToolTipBorder
 		{
 			"inset" "0 0 1 1"
@@ -5074,6 +5077,7 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 		BackpackItemGreyedOutSelectedBorder_RarityDefault
+
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -6213,6 +6217,15 @@ Scheme
 			"name" "broeselhud Crosshairs"
 		}			
 		"8" "resource/ocra.ttf"
+		"9"
+		{ 
+			"font" "resource/Overpass-Regular.ttf"
+			"name" "Overpass"
+		}
+		"9=10"
+		{ 
+			"font" "resource/Overpass-Light.ttf"
+			"name" "OverpassLight"
+		}
 	}
 }
-

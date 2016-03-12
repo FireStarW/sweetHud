@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.31B (March 3 2016)
+V1.32 (March 11 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -181,3 +181,5 @@ V1.30 (January 24 2016) - Synced with changes from eve hud (very minor)
 
 V1.31 (March 3 2016) - Add animations for matchmaking
 B update: more matchmaking related updates
+
+V1.32 (March 11 2016) - Fixed font, added new overpass font option
