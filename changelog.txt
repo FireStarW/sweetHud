@@ -109,3 +109,5 @@ V1.32 (March 11 2016) - Fixed font, added new overpass font option
 V1.33 (March 12 2016) - Synced with eve hud and updated matchmaking components, tweaked menu for competitive button
 
 V1.34 (March 18 2016) - Updated for matchmaking
+
+V1.35 (March 19 2016) - Synced with eve hud (fixes tournament ready up mode)
