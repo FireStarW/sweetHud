@@ -1431,22 +1431,22 @@
 				"labelText"		"?"
 			}
 
-		"PartyHasLeaverGroupBox"
+		"PartyHasLowPriorityGroupBox"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"PartyHasLeaverGroupBox"
+			"fieldName"		"PartyHasLowPriorityGroupBox"
 			"xpos"		"30"
 			"ypos"		"250"
 			"zpos"			"2"
 			"wide"		"340"
-			"tall"		"60"
+			"tall"		"100"
 			"visible"	"0"
 			"enabled"	"1"
 
-			"PartyHasLeaverImage"
+			"PartyLowPriorityImage"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"PartyHasLeaverImage"
+				"fieldName"		"PartyLowPriorityImage"
 				"xpos"			"0"
 				"ypos"			"5"
 				"zpos"			"0"
@@ -1458,11 +1458,10 @@
 				"image"			"pve/mvm_timeout_active_large"
 				"scaleImage"	"1"
 			}
-
-			"PartyHasLeaverLabel"
+			"PartyHasLowPriorityLabel"
 			{
 				"ControlName"		"CExLabel"
-				"fieldName"		"PartyHasLeaverLabel"
+				"fieldName"		"PartyHasLowPriorityLabel"
 				"font"			"HudFontSmall"
 				"labelText"		"#TF_Matchmaking_PartyPenalty"
 				"xpos"		"60"
@@ -1476,7 +1475,22 @@
 				"wrap"		"1"
 				"fgcolor_override"	"250 114 45 255"
 			}
-
+			"PartyLowPriorityPenaltyTimer"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"		"PartyLowPriorityPenaltyTimer"
+				"font"			"HudFontSmall"
+				"labelText"		"%penaltytimer%"
+				"xpos"		"60"
+				"ypos"		"50"
+				"zpos"			"3"
+				"wide"		"175"
+				"tall"		"30"
+				"textAlignment"	"west"
+				"visible"	"1"
+				"enabled"	"1"
+				"wrap"		"1"
+			}
 		}
 	}
 
@@ -1701,8 +1715,6 @@
 			"selectionTextColor_override" "235 226 202 255"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
-
-
 		
 		"LadderInfoPanel"
 		{
@@ -1713,19 +1725,10 @@
 			"zpos"			"-1"
 			"wide"			"313"
 			"tall"			"285"
-
-
-
-
-
-
-
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"25 25 25 200"
 			"border"			"QuickplayBorder"
-
-
 
 			"StatsLabel"
 			{
@@ -1734,8 +1737,6 @@
 				"xpos"			"135"
 				"ypos"			"10"
 				"zpos"			"-1"
-
-
 				"wide"			"150"
 				"tall"			"20"
 				"visible"		"0"
@@ -1761,10 +1762,7 @@
 				"mouseinputenabled" "0"
 				"image"			"competitive/comp_badge_ui_spotlight"
 				"scaleImage"	"1"
-
 			}
-
-
 
 			"RankLabel"
 			{
@@ -1781,10 +1779,7 @@
 				//"fgcolor_override"	"89 81 71 255"
 				"textAlignment"	"west"
 				"labelText"		"#TF_Competitive_RankUpper"
-
 			}
-
-
 
 			"RankIcon"
 			{
@@ -1797,17 +1792,10 @@
 				"tall"			"75"
 				"visible"		"1"
 				"enabled"		"1"
-
-
-
-
-
 				"mouseinputenabled" "0"
 				"image"			"pve/mvm_loot_image"
 				"scaleImage"	"1"
 			}
-
-
 
 			"RankNumber"
 			{
@@ -1824,38 +1812,24 @@
 				//"fgcolor_override"	"250 114 45 255"
 				"textAlignment"	"west"
 				"labelText"		"%ranknumber%"
-
 			}
-
-
 
 			"RankTitle"
 			{
 				"ControlName"	"CExLabel"
-
-
 				"fieldName"		"RankTitle"
 				"xpos"			"115"
 				"ypos"			"30"
 				"zpos"			"0"
 				"wide"			"150"
 				"tall"			"20"
-
-
 				"visible"		"1"
 				"enabled"		"1"
-
-
-
-
 				"font"			"HudFontSmallBold"
 				//"fgcolor_override"	"250 114 45 255"
 				"textAlignment"	"west"
 				"labelText"		"%ranktitle%"
 			}
-
-
-
 
 			// Progress meter
 			"RankLevelLabel"
@@ -1869,17 +1843,11 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
-
-
-
-
 				"font"			"HudFontSmallestBold"
 				//"fgcolor_override"	"89 81 71 255"
 				"textAlignment"	"west"
 				"labelText"		"#TF_Competitive_Next"
 			}
-
-
 
 			"RankLevel"
 			{
@@ -1892,17 +1860,11 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
-
-
-
-
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"250 114 45 255"
 				"textAlignment"	"west"
 				"labelText"		"%ranklevel%"
 			}
-
-
 
 			"NextRankLevel"
 			{
@@ -1915,17 +1877,11 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
-
-
-
-
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"250 114 45 255"
 				"textAlignment"	"west"
 				"labelText"		"%nextranklevel%"
 			}
-
-
 
 			"RankProgressMeter"
 			{	
@@ -1941,18 +1897,11 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-
-
-
-
-
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"fgcolor_override"	"132 229 37 255"
 			}
-
-
 
 			"RankProgressMeterBG"
 			{
@@ -1972,11 +1921,6 @@
 			"StatsButton"
 			{
 				"ControlName"	"CExButton"
-
-
-
-
-
 				"fieldName"		"StatsButton"
 				"xpos"			"50"
 				"ypos"			"110"
@@ -2128,7 +2072,6 @@
 			}
 		}
 
-
 		"LeaderboardPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -2138,43 +2081,77 @@
 			"zpos"			"-1"
 			"wide"			"313"
 			"tall"			"285"
-
-
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"25 25 25 200"
 			"border"			"QuickplayBorder"
+			"mouseinputenabled" "1"
 
-			"Leaderboard6v6"
+			"Leaderboard"
 			{
 				"ControlName"	"CLadderLobbyLeaderboard"
-				"fieldName"		"Leaderboard6v6"
-				"xpos"			"-10"
+				"fieldName"		"Leaderboard"
+				"xpos"			"0"
 				"ypos"			"5"
 				"zpos"			"0"
-				"wide"			"320"
+				"wide"			"313"
 				"tall"			"275"
 				"visible"		"1"
 				"enabled"		"1"
-				"mouseinputenabled" "0"
+				"mouseinputenabled" "1"
 				"scaleImage"	"1"
 				"entry_step"	"23"
 			}
 
-			"Leaderboard9v9"
+			"FriendsLeaderboardButton"
 			{
-				"ControlName"	"CLadderLobbyLeaderboard"
-				"fieldName"		"Leaderboard9v9"
-				"xpos"			"-10"
-				"ypos"			"5"
-				"zpos"			"0"
-				"wide"			"320"
-				"tall"			"275"
+				"ControlName"	"CExButton"
+				"fieldName"		"FriendsLeaderboardButton"
+				"xpos"			"50"
+				"ypos"			"8"
+				"zpos"			"100"
+				"wide"			"105"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"mouseinputenabled" "0"
-				"scaleImage"	"1"
-				"entry_step"	"23"
+				"tabPosition"	"0"
+				"labelText"		"#TF_Competitive_Friends"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"Command"		"friends_leaderboard"
+				"button_activation_type"	"1"	// only on press
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+			}
+
+			"GlobalLeaderboardButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"GlobalLeaderboardButton"
+				"xpos"			"160"
+				"ypos"			"8"
+				"zpos"			"100"
+				"wide"			"105"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labelText"		"#TF_Competitive_Global"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"bgcolor_override"	"89 81 71 255"
+				"Command"		"global_leaderboard"
+				"button_activation_type"	"1"	// only on press
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
 	}

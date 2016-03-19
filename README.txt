@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.34 (March 18 2016)
+V1.35 (March 19 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -70,10 +70,10 @@ If the hit marker is not centered, you can fix it by editing "xpos", "ypos", "wi
 
 ------------Temporary Matchmaking fix--------------
 Until Matchmaking is more finalized I see no point in making matchmaking menus
-Until then, to play competitve beta games without an issue, delete these files from sweethud after you've installed it
+Until then, to play competitve beta games without an issue, delete these files from sweethud after you've installed it if you run into any issues/crashes
 sweethud/resource/ui/hudtournament.res
 sweethud/resource/ui/lobbypanel.res
 sweethud/resource/ui/lobbycontainerframe.res
-sweethud/resource/ui/scoreboard.res (not required but if you want to see medals at the end you'll need to delete it) (may not be true anymore)
+if there are still issues after doing this then you will need to wait until I update the hud
 
 

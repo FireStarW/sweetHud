@@ -5,7 +5,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"-1"
-		"ypos"				"1"
+		"ypos"				"7"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -19,6 +19,11 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
+		if_comp
+		{
+			"ypos"				"1"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -26,7 +31,7 @@
 			"font"				"HudFontMediumSmallBold"
 			"fgcolor"			"White"
 			"xpos"				"32"
-			"ypos"				"10"
+			"ypos"				"4"
 			"zpos"				"3"
 			"wide"				"45"
 			"tall"				"32"
@@ -34,6 +39,11 @@
 			"enabled"			"1"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
+			
+			if_comp
+			{
+				"ypos"				"4"
+			}
 		}
 	}
 	"RedTimer"
@@ -41,7 +51,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"91"
-		"ypos"				"1"
+		"ypos"				"7"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -55,6 +65,11 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
+		if_comp
+		{
+			"ypos"				"1"
+		}
+		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -62,7 +77,7 @@
 			"font"				"HudFontMediumSmallBold"
 			"fgcolor"			"White"
 			"xpos"				"32"
-			"ypos"				"10"
+			"ypos"				"4"
 			"zpos"				"3"
 			"wide"				"45"
 			"tall"				"32"
@@ -70,6 +85,11 @@
 			"enabled"			"1"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
+			
+			if_comp
+			{
+				"ypos"				"4"
+			}
 		}
 	}
 	
@@ -86,5 +106,10 @@
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_active_bg"
 		"scaleImage"			"1"
+		
+		if_comp
+		{
+			"tall"				"0"
+		}
 	}
 }

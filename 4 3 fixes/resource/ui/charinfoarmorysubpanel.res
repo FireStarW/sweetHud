@@ -24,7 +24,7 @@
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
 		
-		"thumbnails_x"			"c-290"
+		"thumbnails_x"			"c50"
 		"thumbnails_y"			"60"
 		"thumbnails_delta_x"	"8"
 		"thumbnails_delta_y"	"8"
