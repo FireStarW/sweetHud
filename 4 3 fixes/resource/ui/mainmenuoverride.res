@@ -2349,7 +2349,39 @@
 			"fgcolor"		"137 134 127 255"
 		}
 	}
+	"CompetitiveBetaImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldname"		"CompetitiveBetaImage"
+		// Competitive button, plus offset.
+		"xpos"			"c40+218"
+		"ypos"			"180"
+		"zpos"			"112"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"beta"
+		"scaleImage"	"1"
+		if_competitive
+		{
+				"visible"		"1"
+				"enabled"		"1"
+		}
+		if_competitive_stress_event
+		{
+			// Move up/left 10px, bump up to 20x20
+			"ypos"	"180"
 
+			"xpos"	"c40+205"
+			"wide"	"56"
+
+
+			"tall"	"56"
+			"image"	"beta_stress"
+
+		}
+	}
 	"PlayCompetitiveButton"
 	{
 		"ControlName"	"EditablePanel"
