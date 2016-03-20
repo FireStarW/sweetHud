@@ -2348,6 +2348,40 @@
 		}
 	}
 
+	"CompetitiveBetaImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldname"		"CompetitiveBetaImage"
+		// Competitive button, plus offset.
+		"xpos"			"c40"
+		"ypos"			"180"
+		"zpos"			"112"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"beta"
+		"scaleImage"	"1"
+		if_competitive
+		{
+				"visible"		"1"
+				"enabled"		"1"
+		}
+		if_competitive_stress_event
+		{
+			// Move up/left 10px, bump up to 20x20
+			"ypos"	"180" //368
+
+			"xpos"	"c245" //-285+205
+			"wide"	"56"
+
+
+			"tall"	"56"
+			"image"	"beta_stress"
+
+		}
+	}
+
 	"PlayCompetitiveButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2357,8 +2391,8 @@
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"PaintBackgroundType"	"0"
 
 		"navUp"			"PlayPVEButton"
@@ -2415,19 +2449,6 @@
 			}
 		}
 
-		"CompetitiveBetaImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldname"		"CompetitiveBetaImage"
-			"xpos"			"223"
-			"ypos"			"3"
-			"zpos"			"12"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"1"
-			"image"			"beta"
-			"scaleImage"	"1"
-		}
 	}
 	"ServerBrowserButton"
 	{
@@ -3721,6 +3742,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
+
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 			

@@ -113,3 +113,4 @@ V1.34 (March 18 2016) - Updated for matchmaking
 V1.35 (March 19 2016) - Synced with eve hud (fixes tournament ready up mode)
 B- attempted to add stress test image
 C- revert to fix crashing
+D - readded image (it adds time to loading for some reason)
