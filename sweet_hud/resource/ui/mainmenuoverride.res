@@ -1194,7 +1194,7 @@
 		"fieldName"		"StreamListPanel"
 		"xpos"			"c5"
 		"ypos"			"65"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
@@ -2445,7 +2445,7 @@
 		// Competitive button, plus offset.
 		"xpos"			"c40"
 		"ypos"			"180"
-		"zpos"			"112"
+		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"0"
