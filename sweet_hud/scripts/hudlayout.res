@@ -1534,7 +1534,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"f0"
-		"tall"					"f0"
+		"tall"					"150"
 	}
 
 }

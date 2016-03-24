@@ -114,3 +114,5 @@ V1.35 (March 19 2016) - Synced with eve hud (fixes tournament ready up mode)
 B- attempted to add stress test image
 C- revert to fix crashing
 D - readded image (it adds time to loading for some reason)
+
+V1.36 (March 24 2016) - Added stream list button
