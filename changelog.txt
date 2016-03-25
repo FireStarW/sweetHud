@@ -117,3 +117,5 @@ D - readded image (it adds time to loading for some reason)
 
 V1.36 (March 24 2016) - Added stream list button
 B - fixed zpos of beta image
+
+V1.37 (March 25 2016) - Slightly tweaked stream list

@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.36B (March 24 2016)
+V1.37 (March 25 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
