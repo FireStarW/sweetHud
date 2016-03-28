@@ -68,7 +68,7 @@
 		"fieldName"		"MainBG"
 		"xpos"			"c25"
 		"ypos"			"70"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"160"
 		"tall"			"210"
 		"visible"		"1"
@@ -81,8 +81,8 @@
 		"src_corner_height"		"20"
 		"src_corner_width"		"20"
 		
-		"draw_corner_width"		"4"
-		"draw_corner_height" 	"4"	
+		"draw_corner_width"		"3"
+		"draw_corner_height" 	"3"	
 	}
 	"RandomBG"
 	{
@@ -1304,23 +1304,25 @@
 		"sound_armed"				"UI/buttonclickrelease.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
 	}
-	"CancelButton"
+	"CancelButton" 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c45"
-		"ypos"			"267"
+		"xpos"			"c-92"
+		"ypos"			"r80"
 		"zpos"			"6"
-		"wide"			"120"
-		"tall"			"20"
+		"wide"			"200"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
-		"Command"		"vguicancel"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
 		
 		"defaultFgColor_override" 		"235 235 235 255"
@@ -1329,10 +1331,6 @@
 		"armedFgColor_override" 		"255 255 255 255"
 		"depressedbgcolor_override"		"50 50 50 255"
 		"depressedfgColor_override" 	"255 255 255 255"	
-		
-		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_depressed"			"UI/buttonclickrelease.wav"
-
 	}
 	"ResetButton"
 	{

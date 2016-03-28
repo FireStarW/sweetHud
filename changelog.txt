@@ -119,3 +119,5 @@ V1.36 (March 24 2016) - Added stream list button
 B - fixed zpos of beta image
 
 V1.37 (March 25 2016) - Slightly tweaked stream list
+
+V1.38 (March 28 2016) - Now using hud animations manifest, moved cancel button in class select to be consistent with team select, lets the hud stay up to date easier, retired the old outdated alternate scoreboard for now
