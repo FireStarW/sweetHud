@@ -265,7 +265,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-126"
-		"ypos"					"300"
+		"ypos"					"265" //250 for above bar 
 		"wide"					"252"
 		"tall"					"30"
 		"priority"				"40"
@@ -299,14 +299,14 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-126"
-		"ypos"					"360"
+		"ypos"					"310"
 		"wide"					"252"
 		"tall"					"30"
 		"priority"				"35"
 		"zpos"					"1"
 
-		"ypos_minmode"					"380"
-		
+		"ypos_minmode"					"315" //under bar 315
+									// 275 above bar 
 		if_vr
 		{
 			"ypos"		"385"

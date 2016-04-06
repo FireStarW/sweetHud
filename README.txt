@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.38 (March 28 2016)
+V1.39 (April 06 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -25,9 +25,6 @@ Aspect Ratio:
 	The default aspect ratio of this HUD is 16:9/16:10 !!
 	If you are using a different aspect ratio, open the relevant apsect ratio fix folder and copy and paste the insides of it inside the "sweet_hud" folder in custom you are using.
 	If you do not know your aspect ratio, launch tf2, go to settings, click on the video tab, and look in the aspect ratio box for your ratio (16:9, 16:10 or 4:3) 
-
-Set the following cvar as follows for optimal medic experience (copy and paste the line below into the console)
-tf_hud_target_id_offset -35 
 
 To use sweetHud, turn on the minimal hud (cl_hud_minmode 1), to use enhanced e.v.e Hud, turn off the minimal hud (cl_hud_minmode 0)
 

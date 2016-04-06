@@ -121,3 +121,5 @@ B - fixed zpos of beta image
 V1.37 (March 25 2016) - Slightly tweaked stream list
 
 V1.38 (March 28 2016) - Now using hud animations manifest, moved cancel button in class select to be consistent with team select, lets the hud stay up to date easier, retired the old outdated alternate scoreboard for now
+
+V1.39 (April 6 2016) - Fixed target IDs needing a console command to look right, new option for the older style target ID placement added
