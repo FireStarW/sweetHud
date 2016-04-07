@@ -26,14 +26,16 @@
 	{
 		"label" "#MMenu_PlayComp" 
 		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
+		"subimage" "glyph_server"
 		"OnlyAtMenu" "1"
 		"OnlyWhenCompetitiveEnabled" "1"
-	}
+		"tooltip" "#MMenu_PlayComp"
+	}	
 	    "PVHUDButton"
     {
         "command" "engine toggleconsole"
         "label" "                 "
+	"tooltip" "Toggle Console"
     }
 	"QuickPlayMiniButton"
 	{
@@ -85,7 +87,7 @@
 		//breaks without a command so it just echoes a blank string to console
         "command"   "engine echo "
 		//only shown at main menu so that it can be replaced by scoreboard buttons ingame
-		"OnlyAtMenu"    "1"
+		"OnlyAtMenu"    "0"
     }
 	"ReplayBrowserButton"
 	{
@@ -94,44 +96,15 @@
 		"subimage" "glyph_tv"
 		//"subimage" "../hud/ico_camera"
 		//only shown at main menu so that it can be replaced by scoreboard buttons in game
-		"OnlyAtMenu"    "1"
+		"OnlyAtMenu"    "0"
 	}
 	"DemoMiniButton"
 	{
 		"command" "engine demoui"
 		"tooltip" "Play Demos"
 		//only shown at main menu so that it can be replaced by scoreboard buttons in game
-		"OnlyAtMenu"    "1"
+		"OnlyAtMenu"    "0"
 	}
-	//faked this label as a button so that it can have special settings applied to it
-	"FakeScoreboardLabelButton"
-    {
-        "label" "Viewmodels"
-		//breaks without a command so it just echoes a blank string to console
-        "command"   "engine echo "
-		//only shown ingame so it can be replaced by recordings on the main menu
-		"OnlyInGame"    "1"
-    }
-	"MaxmodeScoreboardButton"
-    {
-        "label" "Normal View"
-		
-        "command"   "engine cl_first_person_uses_world_model 0"
-		//only shown ingame so it can be replaced by recordings on the main menu
-		"OnlyInGame"    "1"
-    }
-    "MinmodeScoreboardButton"
-    {
-        "label" "Occulus View"
-		
-        "command"   "engine cl_first_person_uses_world_model 1"
-		//only shown ingame so it can be replaced by recordings on the main menu
-		"OnlyInGame"    "1"
-    }
-
-	
-	
-	
 
 
 	// These buttons are only shown while in-game
