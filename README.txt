@@ -42,6 +42,10 @@ Control Point Progress - two options:
 	Under Crosshair (Default) : places a small cp progressbar above health and ammo
 	Right of Crosshair : places a larger cp progressbar to the right of your crosshair
 
+Target ID position:
+	>Default: Medic healing target ID is right under charge bar/health
+	>Old Position ("both target IDs above health"): Medic healing target ID is above health/charge bar, but the normal target ID is moved up closer to the crosshair to compensate
+
 Overpass Font: A different font for the HUD I use sometimes, included for people wanting to use what I use
 
 -------------Shortcut Keys------------
