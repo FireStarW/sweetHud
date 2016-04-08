@@ -1,0 +1,4 @@
+- [Screenshots](http://imgur.com/a/aZqCd)
+- [Steam Group](http://steamcommunity.com/groups/sweethud)
+- [TFTV Thread](http://www.teamfortress.tv/32671/sweethud)
+- [Gamebanna](http://tf2.gamebanana.com/guis/30656)
