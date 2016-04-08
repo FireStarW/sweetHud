@@ -4,7 +4,7 @@
 - [TFTV Thread](http://www.teamfortress.tv/32671/sweethud)
 - [Gamebanna](http://tf2.gamebanana.com/guis/30656)
 
-Sweet Hud + Enhanced e.v.e Hud by FireStarW
+`Sweet Hud + Enhanced e.v.e Hud by FireStarW
 V1.39 (April 07 2016)
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -64,4 +64,4 @@ Until then, to play competitve beta games without an issue, delete these files f
 sweethud/resource/ui/hudtournament.res
 sweethud/resource/ui/lobbypanel.res
 sweethud/resource/ui/lobbycontainerframe.res
-if there are still issues after doing this then you will need to wait until I update the hud
+if there are still issues after doing this then you will need to wait until I update the hud`
