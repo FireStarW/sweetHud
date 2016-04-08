@@ -1,6 +1,6 @@
 # sweetHud
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.39 (April 06 2016)
+V1.39 (April 07 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -28,6 +28,8 @@ Aspect Ratio:
 
 To use sweetHud, turn on the minimal hud (cl_hud_minmode 1), to use enhanced e.v.e Hud, turn off the minimal hud (cl_hud_minmode 0)
 
+Note: Currently cl_hud_minmode is slightly bugged, the scoreboard will not use the proper minmode one unless the  "hud_reloadscheme" console command is inputted. Simply putting this command at the end of your autoexec.cfg will fix this issue. (Search up "tf2 scripts" if you don't know what this is)
+
 Overrides: Various options for the HUD, most are self explanatory
 TO use, copy the stuff inside each override folder to the inside of the ".../custom/sweet_hud" folder
 
@@ -39,6 +41,8 @@ Two sticky number styles available:
 Control Point Progress - two options:
 	Under Crosshair (Default) : places a small cp progressbar above health and ammo
 	Right of Crosshair : places a larger cp progressbar to the right of your crosshair
+
+Overpass Font: A different font for the HUD I use sometimes, included for people wanting to use what I use
 
 -------------Shortcut Keys------------
 In the backpanel ui, as well as some additional panels, the "q" key is a shortcut to the back button and the "e" key is a shortcut to the close button
@@ -67,7 +71,7 @@ If the hit marker is not centered, you can fix it by editing "xpos", "ypos", "wi
 
 ------------Temporary Matchmaking fix--------------
 Until Matchmaking is more finalized I see no point in making matchmaking menus
-Until then, to play competitve beta games without an issue, delete these files from sweethud after you've installed it if you run into any issues/crashes
+Until then, to play competitve beta games without an issue, delete these files from sweethud after you've installed it IF you run into any issues/crashes
 sweethud/resource/ui/hudtournament.res
 sweethud/resource/ui/lobbypanel.res
 sweethud/resource/ui/lobbycontainerframe.res
