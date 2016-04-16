@@ -511,10 +511,7 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 
-		if_operation
-		{
-			"image"		"../logo/tough_break_logo"
-		}
+
 	}	
 	
 	"TFCharacterImage"
@@ -3733,6 +3730,7 @@
 		
 		"PracticeHighlightButton"
 		{
+
 			"ControlName"	"EditablePanel"
 			"fieldname"		"PracticeHighlightButton"
 			"xpos"			"10"
