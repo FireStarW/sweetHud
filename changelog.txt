@@ -125,3 +125,5 @@ V1.38 (March 28 2016) - Now using hud animations manifest, moved cancel button i
 V1.39 (April 7 2016) - Fixed target IDs needing a console command to look right, new option for the older style target ID placement added, Revived 6v6 scoreboard, added names to matchmaking team display, main menu touched up, fixed an alignment issue with overpass font
 
 V1.40 (April 16 2016) - Tough break has been over for a while, so removed tough break logo
+
+V1.41 (April 25 2016) - Updated for mm changes

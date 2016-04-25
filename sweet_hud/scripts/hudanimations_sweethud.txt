@@ -323,3 +323,13 @@ event HudReadyPulseEnd
 }
 
 //===========================================
+
+event WinPanel_CompPos
+{
+	
+}
+
+event WinPanel_NormalPos
+{
+	
+}

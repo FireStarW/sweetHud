@@ -19,7 +19,7 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"10"
 			"ypos"			"18"
@@ -89,7 +89,7 @@
 	
 		"RedScoreBG"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"			"150"
 			"ypos"			"18"
