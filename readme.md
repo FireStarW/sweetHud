@@ -6,7 +6,7 @@
 
 ```
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.42 (May 5 2016)
+V1.42 (June 3 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -44,6 +44,10 @@ Target ID position:
 >Default: Medic healing target ID is right under charge bar/health
 >Old Position ("both target IDs above health"): Medic healing target ID is above health/charge bar, but the normal target ID is moved up closer to the crosshair to compensate
 Overpass Font: A different font for the HUD I use sometimes, included for people wanting to use what I use
+
+Additonal Note:
+If you have a medic pocketing you while using the cow mangler you may not like the medic healing target id position. 
+Mess with the console command "tf_hud_target_id_offset " to remedy this
 
 -------------Shortcut Keys------------
 In the backpanel ui, as well as some additional panels, the "q" key is a shortcut to the back button and the "e" key is a shortcut to the close button

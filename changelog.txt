@@ -129,3 +129,5 @@ V1.40 (April 16 2016) - Tough break has been over for a while, so removed tough 
 V1.41 (April 25 2016) - Updated for mm changes
 
 V1.42 (May 5 2016) - Synced with eve hud (fixes timers looking off)
+
+V1.43 (June 3 2016) - Move secondary target id down a bit so bison/pomson meters dont clip

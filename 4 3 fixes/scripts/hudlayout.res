@@ -305,7 +305,7 @@
 		"priority"				"35"
 		"zpos"					"1"
 
-		"ypos_minmode"					"315" //under bar 315
+		"ypos_minmode"					"331" //under bar 315
 									// 275 above bar 
 		if_vr
 		{
