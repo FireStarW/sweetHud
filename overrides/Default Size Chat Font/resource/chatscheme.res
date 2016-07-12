@@ -357,7 +357,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"16"	[$WIN32]
+				"tall"		"12"	[$WIN32]
 				"tall"		"15"	[$X360]
 				"weight"	"700"
 				"yres"		"480 599"
@@ -366,7 +366,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"18"	[$WIN32]
+				"tall"		"14"	[$WIN32]
 				"tall"		"17"	[$X360]
 				"weight"	"700"
 				"yres"		"600 767"
@@ -375,7 +375,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"20"	[$WIN32]
+				"tall"		"15"	[$WIN32]
 				"tall"		"18"	[$X360]
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -384,7 +384,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"22"	[$WIN32]
+				"tall"		"17"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -393,7 +393,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"26"	[$WIN32]
+				"tall"		"22"	[$WIN32]
 				"tall"		"25"	[$X360]
 				"weight"	"700"
 				"yres"		"1200 10000"

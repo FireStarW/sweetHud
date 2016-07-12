@@ -65,8 +65,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ModeImage"
-			"xpos"			"c-27"
-			"ypos"			"47"
+			"xpos"			"c-30"
+			"ypos"			"58"
 			"zpos"			"0"
 			"wide"			"60"
 			"tall"			"60"
@@ -835,8 +835,8 @@
 		{
 			"xpos"			"c-125"
 			"ypos"			"26"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tall"			"19"
 		}
 
@@ -871,7 +871,7 @@
 			"xpos"			"c-100"
 			"ypos"			"105"
 			"wide"			"200"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
 		}
 
@@ -881,7 +881,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"110"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"zpos"			"3"
 		}
 
@@ -920,7 +920,7 @@
 			"xpos"			"c-99"
 			"ypos"			"106"
 			"wide"			"200"
-			"tall"			"12"
+			"tall"			"20"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
@@ -931,7 +931,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
@@ -942,7 +942,7 @@
 			"xpos"			"226"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"20"
 			"visible"		"1"
 			"fgcolor"		"Black"
 		}
@@ -1009,7 +1009,12 @@
 		"src_corner_width"	"23"
 		
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_height" 	"5"
+		
+		if_competitive
+		{
+			"ypos"			"r-100"
+		}
 	}
 	
 	"CountdownLabel"

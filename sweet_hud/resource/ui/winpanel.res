@@ -601,6 +601,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"centerwrap" "1"
 		
 		"font_minmode"			"HudFontSmall"
 		"xpos_minmode"			"c-138"
@@ -715,10 +716,10 @@
 		"fillcolor"		"235 235 235 255"
 		"PaintBackgroundType"	"0"
 	}
-	"Player1Medal"
+	"Player1Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player1Medal"
+		"ControlName"		"CTFBadgePanel"
+		"fieldName"		"Player1Badge"
 		"xpos"			"11"
 		"ypos"			"136"
 		"zpos"			"3"
@@ -726,8 +727,8 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
+		"autoResize" "0"
+	    "pinCorner" "0"
 
 		"xpos_minmode"			"c-300"
 		"ypos_minmode"			"444"
@@ -817,10 +818,10 @@
 		"xpos_minmode"			"c-272"
 		"ypos_minmode"			"442"
 	}
-	"Player2Medal"
+	"Player2Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player2Medal"
+		"ControlName"		"CTFBadgePanel"
+		"fieldName"		"Player2Badge"
 		"xpos"			"11"
 		"ypos"			"158"
 		"zpos"			"3"
@@ -828,8 +829,8 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
+		"autoResize" "0"
+		"pinCorner" "0"
 
 		"xpos_minmode"			"c-126"
 		"ypos_minmode"			"444"
@@ -919,10 +920,10 @@
 		"xpos_minmode"			"c-98"
 		"ypos_minmode"			"442"
 	}
-	"Player3Medal"
+	"Player3Badge"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Player3Medal"
+		"ControlName"		"CTFBadgePanel"
+		"fieldName"		"Player3Badge"
 		"xpos"			"11"
 		"ypos"			"180"
 		"zpos"			"3"
@@ -930,8 +931,8 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"	
+		"autoResize" "0"
+		"pinCorner" "0"
 		
 		"xpos_minmode"			"c48"
 		"ypos_minmode"			"444"
@@ -1086,6 +1087,25 @@
 		"PaintBackgroundType"	"0"
 		
 		"visible_minmode"		"0"
+	}
+	"KillStreakPlayer1Badge"
+	{
+		"ControlName"		"CTFBadgePanel"
+		"fieldName"		"KillStreakPlayer1Badge"
+		"xpos"			"17"
+		"ypos"			"213"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+
+		"xpos_minmode"			"c222"
+		"ypos_minmode"			"444"
+		"wide_minmode"			"15"
+		"tall_minmode"			"15"
 	}
 	"KillStreakPlayer1Avatar"
 	{

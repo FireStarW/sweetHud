@@ -19,7 +19,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
-		if_comp
+		if_match
 		{
 			"ypos"				"1"
 		}
@@ -40,7 +40,7 @@
 			"textAlignment"		"center"
 			"labelText"			"0:00"
 			
-			if_comp
+			if_match
 			{
 				"ypos"				"4"
 			}
@@ -65,7 +65,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 		
-		if_comp
+		if_match
 		{
 			"ypos"				"1"
 		}
@@ -86,7 +86,7 @@
 			"textAlignment"		"center"
 			"labelText"			"0:00"
 			
-			if_comp
+			if_match
 			{
 				"ypos"				"4"
 			}
@@ -107,7 +107,7 @@
 		"image"				"../hud/objectives_timepanel_active_bg"
 		"scaleImage"			"1"
 		
-		if_comp
+		if_match
 		{
 			"tall"				"0"
 		}

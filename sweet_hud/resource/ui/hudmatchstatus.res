@@ -1,8 +1,8 @@
-"Resource/UI/Competitive.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"RoundSignModel"
+		"fieldName"		"HudMatchStatus"
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -27,7 +27,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/round_banner.mdl"
+			"modelname"	"models/props_ui/banner.mdl"
 			"skin"		"0"
 			"angles_x"	"30"
 			"angles_y"	"180"
@@ -201,7 +201,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
 		"zpos"			"1"		
-		"wide"			"300"
+		"wide"			"0"		//"300"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
@@ -213,13 +213,19 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
 		"xpos"				"cs-0.5"
-		"ypos"				"-5"
+		"ypos"				"40"
 		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
+		"wide"				"288"
+		"tall"				"25"
+		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -228,7 +234,7 @@
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
 		"ypos"				"0"
-		"ypos_minmode"		"-4"
+	//	"ypos_minmode"		"-4"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
@@ -242,9 +248,12 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 
-		if_comp
+		if_match
 		{
-			"ypos_minmode"			"0"
+			"xpos"					"c-55"
+			"wide"					"130"
+			"ypos"				"-2"
+	//		"ypos_minmode"			"-4"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -274,7 +283,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
 				//"proportionaltoparent"	"1"
 
@@ -292,7 +301,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"42"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
@@ -306,11 +315,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_base_x"	"c-10"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_base_x"	"c11"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -560,8 +569,14 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
+
+		if_large
+		{
+			"ypos"			"65"
+			"tall"			"385"
+		}
 
 		"BlueTeamBG"
 		{
@@ -655,6 +670,11 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
+
+			if_large
+			{
+				"tall"			"315"
+			}
 		}
 		"BluePlayerListBG"
 		{
@@ -670,6 +690,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+
+			if_large
+			{
+				"tall"			"325"
+			}
 		}
 	}
 
@@ -682,8 +707,14 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
+
+		if_large
+		{
+			"ypos"			"65"
+			"tall"			"385"
+		}
 
 		"RedTeamBG"
 		{
@@ -777,6 +808,11 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
+
+			if_large
+			{
+				"tall"			"315"
+			}
 		}
 		"RedPlayerListBG"
 		{
@@ -792,6 +828,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+
+			if_large
+			{
+				"tall"			"325"
+			}
 		}
 	}
 }

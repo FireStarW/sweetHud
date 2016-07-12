@@ -652,8 +652,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
-		"xpos"			"c-150"
-		"ypos"			"100"
+		"xpos"			"c-68"
+		"ypos"			"65"
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
@@ -665,8 +665,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
-		"fgcolor"		"HudOffWhite"
+		"font"			"HudFontMediumSmallBold"
+		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
 	
@@ -674,8 +674,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
-		"xpos"			"c-149"
-		"ypos"			"101"
+		"xpos"			"c-66"
+		"ypos"			"66"
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
@@ -687,7 +687,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
+		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"black"
 		"centerwrap"	"1"
 	}
@@ -696,8 +696,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabel"
-		"xpos"			"c-150"
-		"ypos"			"135"
+		"xpos"			"c-124"
+		"ypos"			"145"
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
@@ -709,8 +709,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
-		"fgcolor"		"HudOffWhite"
+		"font"			"HudFontSmallBold"
+		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
 	
@@ -718,8 +718,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
-		"xpos"			"c-149"
-		"ypos"			"136"
+		"xpos"			"c-123"
+		"ypos"			"146"
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
@@ -731,7 +731,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CapPlayerFont"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"black"
 		"centerwrap"	"1"
 	}
@@ -744,9 +744,9 @@
 		"ypos"			"165"
 		"zpos"			"6"
 		"wide"			"40"
-		"tall"			"40"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../HUD/arrow_big_down"
 		"scaleImage"	"1"	
 	}

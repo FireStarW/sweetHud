@@ -1195,9 +1195,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-152"
+		"xpos"					"c0"
 		"ypos"					"-3"
-		"wide"					"125"
+		"wide"					"145"
 		"tall"					"55"
 		"zpos"					"10"
 		
@@ -1210,7 +1210,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"35"
+		"ypos"					"r110"
 		"zpos"					"1"
 		"wide"					"640"
 		"tall"					"100"
@@ -1475,18 +1475,6 @@
 		"tall"	"f0"
 	}
 
-	"QuestLogContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
-	}
-
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -1528,7 +1516,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"3"
+		"zpos"					"10"
 		"wide"					"f0"
 		"tall"					"f0"
 	}

@@ -346,10 +346,10 @@
 			"fieldName"		"RespecCountLabel"
 			"font"			"HudFontSmallbold"
 			"labelText"		"%respeccount%"
-			"textAlignment" "center"
-			"xpos"			"155"
+			"textAlignment" "west"
+			"xpos"			"170"
 			"ypos"			"3"
-			"wide"			"30"
+			"wide"			"50"
 			"tall"			"20"
 			"fgcolor"		"CreditsGreen"
 		}

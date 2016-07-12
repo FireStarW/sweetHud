@@ -17,6 +17,11 @@
 		"src_corner_width"			"40"
 		"draw_corner_width"			"0"
 		"draw_corner_height" 			"0"
+		
+		if_match
+		{
+			//"xpos"					"40"
+		}
 	}	
 	"TimePanelBG2"
 	{
@@ -77,7 +82,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
 		"xpos"				"5"
-		"ypos"				"26"
+		"ypos"				"27"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"
@@ -89,6 +94,16 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallest"
+		
+		if_match
+		{
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"130"
+			//"font"					"HudFontSmallestBold"
+		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -121,6 +136,16 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallestBold"
+		
+		if_match
+		{
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"130"
+			//"font"					"HudFontSmallestBold"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -153,6 +178,16 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallest"
+		
+		if_match
+		{
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"130"
+			//"font"					"HudFontSmallestBold"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -173,7 +208,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
 		"xpos"				"5"
-		"ypos"				"25"
+		"ypos"				"27"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"
@@ -185,6 +220,16 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"HudFontSmallestBold"
+		
+		if_match
+		{
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"130"
+			//"font"					"HudFontSmallestBold"
+		}
 	}	
 	"SetupBG"
 	{
@@ -217,6 +262,16 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontSmallestBold"
+		
+		if_match
+		{
+			//"proportionaltoparent"	"1"
+			//"xpos"					"0"
+			//"ypos"					"21"
+			//"ypos_minmode"			"21"
+			//"wide"					"130"
+			//"font"					"HudFontSmallestBold"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{

@@ -6,7 +6,7 @@
 
 ```
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.43 (June 3 2016)
+V1.44 (July 11 2016)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -30,7 +30,7 @@ The default aspect ratio of this HUD is 16:9/16:10 !!
 If you are using a different aspect ratio, open the relevant apsect ratio fix folder and copy and paste the insides of it inside the "sweet_hud" folder in custom you are using.
 If you do not know your aspect ratio, launch tf2, go to settings, click on the video tab, and look in the aspect ratio box for your ratio (16:9, 16:10 or 4:3)
 To use sweetHud, turn on the minimal hud (cl_hud_minmode 1), to use enhanced e.v.e Hud, turn off the minimal hud (cl_hud_minmode 0)
-Note: Currently cl_hud_minmode is slightly bugged, the scoreboard will not use the proper minmode one unless the "hud_reloadscheme" console command is inputted. Simply putting this command at the end of your autoexec.cfg will fix this issue. (Search up "tf2 scripts" if you don't know what this is)
+
 Overrides: Various options for the HUD, most are self explanatory
 TO use, copy the stuff inside each override folder to the inside of the ".../custom/sweet_hud" folder
 6v6 Scoreboard : a smaller scoreboard that places the team lists on the sides, actually usable outside of 6's with the scrollbar
@@ -69,11 +69,4 @@ Change the "visible" property to "0" if you wish to remove it.
 Color can be changed by editing the "fgcolor" property (RGBA).
 If the hit marker is not centered, you can fix it by editing "xpos", "ypos", "wide" and "tall" properties.
 
-------------Temporary Matchmaking fix--------------
-Until Matchmaking is more finalized I see no point in making matchmaking menus
-Until then, to play competitve beta games without an issue, delete these files from sweethud after you've installed it IF you run into any issues/crashes
-sweethud/resource/ui/hudtournament.res
-sweethud/resource/ui/lobbypanel.res
-sweethud/resource/ui/lobbycontainerframe.res
-if there are still issues after doing this then you will need to wait until I update the hud
-```
+
