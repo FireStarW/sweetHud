@@ -6,55 +6,43 @@
 
 "GameMenu" [$WIN32]
 {
-	"ServerBrowserButton"
+	"ServerBrowserMiniButton"
 	{
 		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_multiplayer"
+		"subimage" "glyph_server_browser"
+		"tooltip" "Server Browser"
 		//"subimage" "glyph_server"
 		//"subimage" "glyph_server_browser"
 		//"subimage" "glyph_workshop_view" //bigger magnifying glass lense
 		"OnlyAtMenu" "0"
 	} 
-	"CoopMiniButton"
+	"FindAGameButton"
 	{
-		"command" "playpve"
-		"OnlyAtMenu" "0"
-		"tooltip" "CO-OP"//"Mann vs Machine"
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
 	}
-	"PlayCompetitiveButton"
-	{
-		"label" "#MMenu_PlayComp" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_server"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
-		"tooltip" "#MMenu_PlayComp"
-	}	
+//	"FindAGameButtonHalfWidth"
+//	{
+//		"label" "#MMenu_FindAGame" 
+//		"command" "toggle_play_menu"
+//		"subimage" "glyph_multiplayer"
+//		"OnlyInGame"	"1"
+//	}
+
 	    "PVHUDButton"
     {
         "command" "engine toggleconsole"
         "label" "                 "
 	"tooltip" "Toggle Console"
     }
-	"QuickPlayMiniButton"
-	{
-		"command" "quickplay"
-		"OnlyAtMenu" "0"
-		"tooltip" "Quickplay"
-	}
 	"CreateServerButton"
 	{
 		"label" "#GameUI_GameMenu_CreateServer" 
 		"command" "OpenCreateMultiplayerGameDialog"
 		"subimage" "glyph_create"
 		"OnlyAtMenu" "0"
-	}
-	"TrainingMiniButton"
-	{
-		"command" "offlinepractice"
-		"OnlyAtMenu" "0"
-		"tooltip" "#TF_Training"
 	}
 	"CharacterSetupButton"
 	{

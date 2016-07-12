@@ -1095,6 +1095,63 @@
 		"border"		"LoadoutItemPopupBorder"
 	}
 
+	"RotLeftButton"
+	{
+		"ControlName"	"CPreviewRotButton"
+		"fieldName"		"RotLeftButton"
+		"xpos"			"c-224"
+		"ypos"			"190"
+		"zpos"			"20"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"<"
+		"font"			"HudFontBiggerBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"-1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"defaultFgColor_override"	"118 107 94 255"
+		"armedFgColor_override"		"128 117 104 255"
+		"depressedFgColor_override"	"236 227 203 255"
+		"button_activation_type"	"0"
+	}		
+	
+	"RotRightButton"
+	{
+		"ControlName"	"CPreviewRotButton"
+		"fieldName"		"RotRightButton"
+		"xpos"			"c-35"
+		"ypos"			"190"
+		"zpos"			"20"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		">"
+		"font"			"HudFontBiggerBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"defaultFgColor_override"	"118 107 94 255"
+		"armedFgColor_override"		"128 117 104 255"
+		"depressedFgColor_override"	"236 227 203 255"
+		"button_activation_type"	"0"
+	}	
 				
 	"NextWeaponButton"
 	{
@@ -1116,9 +1173,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}					
-//rotate buttons deleted
 
-//these buttons may need removed
 	"GoFullscreenButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1208,6 +1263,7 @@
 			"scaleImage"	"1"
 		}				
 	}
+
 	"OptionsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1252,6 +1308,7 @@
 			"scaleImage"	"1"
 		}				
 	}
+	
 	"TeamNavPanel"
 	{
 		"ControlName"		"CNavigationPanel"
@@ -1351,31 +1408,6 @@
 			}
 		}
 	}
-	
-	"PaintButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"PaintButton"
-		"xpos"			"c-158"
-		"ypos"			"c-140"
-		"zpos"			"20"
-		"wide"			"76"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_Paint"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"paint_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
 
 	"CycleTextLabel"
 	{
@@ -1394,28 +1426,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
-
-	"NextStyleButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NextStyleButton"
-		"zpos"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_NextStyle"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"next_style"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 
 	//---
 	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
@@ -1503,7 +1514,7 @@
 			"image"			"close_button"
 			"scaleImage"	"1"
 		}				
-	}		
+	}	
 		"CloseButtonShortcut"
 	{
 		"ControlName"	"CExButton"
@@ -1517,7 +1528,8 @@
 		"enabled"		"1"
 		"labelText"		"&E"
 		"Command"		"close"
-	}
+	}	
+	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -1594,5 +1606,34 @@
 		"defaultBgColor_override"	"76 107 34 255"
 		"ArmedBgColor_override"	"86 117 44 255"
 		"depressedBgColor_override" "66 97 24 255"
-	}	
+	}
+	
+	"mouseoveritempanel"
+	{
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"1001"
+		"wide"			"200"
+		"tall"			"150"
+		"visible"		"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+
+		"text_center_x"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"15"
+
+		"model_ypos"	"15"
+		"model_wide"	"150"
+		"model_tall"	"100"
+
+		"hide_collection_panel" "1"
+		"model_center_x"	"1"
+
+		"name_only"			"1"
+	}
 }
+

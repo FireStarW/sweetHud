@@ -177,24 +177,36 @@
 		"ypos"			"0"
 		"zpos"			"-200"
 		"wide"			"o1.6"
-		"tall"			"480"
+		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
+
+		if_wider
+		{
+			"wide"			"f0"
+			"tall"			"o0.628"
+		}
+
+		if_taller
+		{
+			"wide"			"o1.6"
+			"tall"			"f0"
+		}
 		
 		if_halloween_0
-		{								//to use default replace these back  //personal edit
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2011"  
+		{
+			"image"		"../console/title_team_halloween2011"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2012"
+			"image"		"../console/title_team_halloween2012"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2013"
+			"image"		"../console/title_team_halloween2013"
 		}
 		if_halloween_3
 		{
@@ -212,24 +224,28 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-	//	if_eotl_launch
-	//	{
-	//		"image"		"../console/title_eotl01"  
-	//	}
-	//	if_operation
-	//	{
-	//		"image"		"../console/title_team_tough_break"
-	//	}
-	//	if_community_update
-	//	{
-	//		"image"		"../console/title_invasion"
-	//	}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+		if_spy_vs_engy_war
+		{
+			"image"		"../console/background_sve_01"
+		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_tough_break"
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
+
 		if_meet_your_match_0
 		{
 			"xpos"		"rs1"
 			"image"		"../console/title_team_heavy01_blu_widescreen"
 		}
-
 		if_meet_your_match_1
 		{
 			"xpos"		"rs1"
@@ -4195,7 +4211,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListContainer"
-		"xpos"			"c46"
+		"xpos"			"900"
 		"ypos"			"110"
 		"zpos"			"-52"
 		"wide"			"260"
