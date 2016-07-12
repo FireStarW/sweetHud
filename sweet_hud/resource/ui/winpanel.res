@@ -592,7 +592,7 @@
 		"ypos"			"90"
 		"zpos"			"3"
 		"wide"			"292"
-		"tall"			"20"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -605,7 +605,7 @@
 		
 		"font_minmode"			"HudFontSmall"
 		"xpos_minmode"			"c-138"
-		"ypos_minmode"			"80"
+		"ypos_minmode"			"82"
 	}
 	"DetailsLabel"
 	{	
@@ -628,7 +628,7 @@
 		
 		"font_minmode"			"HudFontSmallest"
 		"xpos_minmode"			"c-138"
-		"ypos_minmode"			"90"
+		"ypos_minmode"			"92"
 	}
 
 	"TopPlayersLabel"
