@@ -265,7 +265,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-126"
-		"ypos"					"250" //250 for above bar 
+		"ypos"					"265" //250 for above bar 
 		"wide"					"252"
 		"tall"					"30"
 		"priority"				"40"
@@ -1109,7 +1109,7 @@
 		"fieldName"				"HudTeamGoalTournament"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"c-180"
 		"ypos"					"15"
 		"wide"					"320"
 		"tall"					"245"
@@ -1187,9 +1187,9 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-155"
+		"xpos"					"c0"
 		"ypos"					"-3"
-		"wide"					"125"
+		"wide"					"145"
 		"tall"					"55"
 		"zpos"					"10"
 		
@@ -1202,7 +1202,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"35"
+		"ypos"					"r100"
 		"zpos"					"1"
 		"wide"					"640"
 		"tall"					"100"
@@ -1467,18 +1467,6 @@
 		"tall"	"f0"
 	}
 
-	"QuestLogContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
-	}
-
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -1532,7 +1520,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"2"
+		"zpos"					"10"
 		"wide"					"f0"
 		"tall"					"150"
 	}

@@ -119,7 +119,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-305"
+		"xpos"			"c-310"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"180"
@@ -194,7 +194,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NextButton"
-		"xpos"			"c+120"
+		"xpos"			"c+130"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"180"

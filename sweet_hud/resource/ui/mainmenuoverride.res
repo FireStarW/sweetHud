@@ -2387,7 +2387,7 @@
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"-5-"
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"10"
 		"visible"		"1"
@@ -2442,9 +2442,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopStripButton"
-		"xpos"			"c-64"
+		"xpos"			"c-89"
 		"ypos"			"437"//"410"
-		"zpos"			"3"
+		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"25"
 		"visible"		"1"
@@ -2500,6 +2500,53 @@
 		}		
 	}
 	
+	"AchievementsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"AchievementsButton"
+		"xpos"			"c-64"
+		"ypos"			"437"
+		"zpos"			"3"
+		"wide"			"30"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenAchievementsDialog"
+
+		"navUp"			"VRModeButton"
+		"navLeft"		"NewUserForumsButton"
+		"navRight"		"CommentaryButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"MainMenuSubButtonBorder"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"5"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_achievements"
+			"scaleImage"	"1"
+		}				
+	}
+
 	"CommentaryButton"
 	{
 		"ControlName"	"CExImageButton"

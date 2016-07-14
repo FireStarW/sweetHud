@@ -512,7 +512,7 @@
 		"fgcolor"		"white"
 		
 		"xpos_minmode"			"c-140" 
-		"ypos_minmode"			"60"
+		"ypos_minmode"			"62"
 	}
 	"WinningTeamLabelDropshadow"
 	{	
@@ -535,7 +535,7 @@
 		"brighttext"	"0"
 		
 		"xpos_minmode"			"c-138"
-		"ypos_minmode"			"62"
+		"ypos_minmode"			"64"
 	}
 	"AdvancingTeamLabel"
 	{	
@@ -558,7 +558,7 @@
 		"fgcolor"		"white"
 		
 		"xpos_minmode"			"c-140"
-		"ypos_minmode"			"60"
+		"ypos_minmode"			"62"
 	}
 	"AdvancingTeamLabelDropshadow"
 	{	
@@ -581,7 +581,7 @@
 		"brighttext"	"0"
 		
 		"xpos_minmode"			"c-138"
-		"ypos_minmode"			"62"
+		"ypos_minmode"			"64"
 	}
 	"WinReasonLabel"
 	{	
@@ -592,7 +592,7 @@
 		"ypos"			"90"
 		"zpos"			"3"
 		"wide"			"292"
-		"tall"			"22"
+		"tall"			"27"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -625,10 +625,12 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"centerwrap"    "0"
 		
 		"font_minmode"			"HudFontSmallest"
-		"xpos_minmode"			"c-138"
-		"ypos_minmode"			"92"
+		"xpos_minmode"			"c-128"
+		"ypos_minmode"			"98"
+		"centerwrap_minmode" 			"1"
 	}
 
 	"TopPlayersLabel"
