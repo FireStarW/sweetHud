@@ -136,4 +136,5 @@ V1.44 (July 11 2016) - Updated for Meet your Match, fixed Highlander in team sel
 
 V1.45 (July 12 2016) - Fix main menu for 16:9, updated mann co store
 
-V1.46 (July 13 2016) - Fixed winpanel, added chiev button to main menu since 2010 menu stuff is gone, fix targetid override lobbypanel fix from eve
+V1.46 (July 14 2016) - Fixed winpanel, added chiev button to main menu since 2010 menu stuff is gone, fix targetid override lobbypanel fix from eve
+B-add create to main menu scrolllist
