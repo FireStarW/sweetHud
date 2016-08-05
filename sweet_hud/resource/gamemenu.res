@@ -6,17 +6,6 @@
 
 "GameMenu" [$WIN32]
 {
-	"ServerBrowserMiniButton"
-	{
-		"label" "#MMenu_BrowseServers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"tooltip" "Server Browser"
-		//"subimage" "glyph_server"
-		//"subimage" "glyph_server_browser"
-		//"subimage" "glyph_workshop_view" //bigger magnifying glass lense
-		"OnlyAtMenu" "0"
-	} 
 	"FindAGameButton"
 	{
 		"label" "#MMenu_FindAGame" 
@@ -37,12 +26,11 @@
         "label" "                 "
 	"tooltip" "Toggle Console"
     }
-	"CreateServerButton"
+	"QuickPlayButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer" 
-		"command" "OpenCreateMultiplayerGameDialog"
-		"subimage" "glyph_create"
-		"OnlyAtMenu" "0"
+		"label" "Quickplay Community Servers" 
+		"command" "engine OpenQuickplayDialog"
+		"subimage" "glyph_server_browser"
 	}
 	"CharacterSetupButton"
 	{

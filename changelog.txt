@@ -140,3 +140,5 @@ V1.46 (July 14 2016) - Fixed winpanel, added chiev button to main menu since 201
 B-add create to main menu scrolllist
 
 V1.47 (July 17 2016) - Fixed overpass font
+
+V1.48 (August 5 2016) - Removed extra server browser and create server buttons, added Quickplay button to use with community servers (be sure to switch options to "any" in quickplay)
