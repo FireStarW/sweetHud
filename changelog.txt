@@ -144,3 +144,5 @@ V1.47 (July 17 2016) - Fixed overpass font
 V1.48 (August 5 2016) - Removed extra server browser and create server buttons, added Quickplay button to use with community servers (be sure to switch options to "any" in quickplay)
 
 V1.49 (August 8 2016) - Hide "Official Servers" button from quickplay options
+
+V1.50 (September 27 2016) - Updated for Latest TF2 Update
