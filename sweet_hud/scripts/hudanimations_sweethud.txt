@@ -289,11 +289,11 @@ event TeamsFullArrowAnimate
 
 event DamagedPlayer
 {
-	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.15
-	Animate	DamageAccountValueShadow	Alpha	"255"	Linear 0.0 0.15
+//	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.15
+//	Animate	DamageAccountValueShadow	Alpha	"255"	Linear 0.0 0.15
 	
-	Animate	DamageAccountValue			Alpha	"0"		Linear 1.85 0.1	
-	Animate	DamageAccountValueShadow	Alpha	"0"		Linear 1.85 0.1
+//	Animate	DamageAccountValue			Alpha	"0"		Linear 1.85 0.1	
+//	Animate	DamageAccountValueShadow	Alpha	"0"		Linear 1.85 0.1
 	
 	Animate	HitMarker		Alpha	"255"	Linear 0.0 0.05	
 	Animate	HitMarker		Alpha	"0"		Linear 0.3 0.1	
