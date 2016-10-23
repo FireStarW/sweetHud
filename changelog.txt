@@ -150,3 +150,5 @@ V1.50 (September 27 2016) - Updated for Latest TF2 Update
 V1.51 (October 13 2016) - Quick fix for FPS drops as recommened by sigsegv's psa (https://www.reddit.com/r/tf2/comments/57760o/cause_and_fix_for_serious_fpsdrop_issue_involving/)
 
 V1.52 (October 21 2016) - Halloween main menu 
+
+V1.53 (October 23 2016) - Fix typo 

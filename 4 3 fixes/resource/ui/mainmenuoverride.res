@@ -186,15 +186,15 @@
 		
 		if_halloween_0
 		{								//to use default replace these back  //personal edit
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2011"  
+			"image"		"../console/title_team_halloween2010"   //"../console/title_team_halloween2011"  
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2012"
+			"image"		"../console/title_team_halloween2012"   //"../console/title_team_halloween2012"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_fullmoon"   //"../console/title_team_halloween2013"
+			"image"		"../console/title_team_halloween2013"   //"../console/title_team_halloween2013"
 		}
 		if_halloween_3
 		{

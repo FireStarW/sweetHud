@@ -198,7 +198,7 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/title_team_halloween20101_widescreen"
+			"image"		"../console/title_team_halloween2010_widescreen"
 		}
 		if_halloween_1
 		{
