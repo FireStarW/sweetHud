@@ -152,3 +152,5 @@ V1.51 (October 13 2016) - Quick fix for FPS drops as recommened by sigsegv's psa
 V1.52 (October 21 2016) - Halloween main menu 
 
 V1.53 (October 23 2016) - Fix typo 
+
+V1.54 (October 27 2016) - Added class loadout buttons to side of loadout menus 

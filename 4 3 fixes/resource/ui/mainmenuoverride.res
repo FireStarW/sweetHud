@@ -186,7 +186,7 @@
 		
 		if_halloween_0
 		{								//to use default replace these back  //personal edit
-			"image"		"../console/title_team_halloween2010"   //"../console/title_team_halloween2011"  
+			"image"		"../console/title_team_halloween2011"   //"../console/title_team_halloween2011"  
 		}
 		if_halloween_1
 		{
