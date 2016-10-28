@@ -21,6 +21,7 @@ IV HUD
 ZimHud
 CBHUD - bowswer5 edit
 Punchy's Loadout Background Mod
+Wiethud
 Additional credit to Sinders for parts of the readme, Doodles for Doodles Hud editing guide, as well as anyone on teamfortress.tv that answered any of my HUD editing questions
 
 -------------Installation------------
