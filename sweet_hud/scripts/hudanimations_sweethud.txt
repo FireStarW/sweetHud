@@ -130,10 +130,6 @@ event HudLowAmmoPulseStop
 }
 
 //===========================================
-event FlagOutlineHide
-{
-	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.1
-}
 
 // Local player flag pickup/drop
 event FlagOutline
@@ -289,15 +285,21 @@ event TeamsFullArrowAnimate
 
 event DamagedPlayer
 {
-//	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.15
-//	Animate	DamageAccountValueShadow	Alpha	"255"	Linear 0.0 0.15
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+}
+event HitMarker
+{
+	Animate	DamageAccountValue			Alpha	"255"	Linear 0.0 0.15
+	Animate	DamageAccountValueShadow	Alpha	"255"	Linear 0.0 0.15
 	
-//	Animate	DamageAccountValue			Alpha	"0"		Linear 1.85 0.1	
-//	Animate	DamageAccountValueShadow	Alpha	"0"		Linear 1.85 0.1
+	Animate	DamageAccountValue			Alpha	"0"		Linear 1.85 0.1	
+	Animate	DamageAccountValueShadow	Alpha	"0"		Linear 1.85 0.1
 	
 	Animate	HitMarker		Alpha	"255"	Linear 0.0 0.05	
 	Animate	HitMarker		Alpha	"0"		Linear 0.3 0.1	
 }
+
 
 //===========================================
 
@@ -309,10 +311,6 @@ event HudReadyPulse
 	RunEvent HudReadyPulseLoop	0.5
 }
 
-event HudReadyPulseLoop
-{
-	RunEvent HudReadyPulse			0.0
-}
 
 event HudReadyPulseEnd
 {
@@ -332,6 +330,96 @@ event WinPanel_CompPos
 event WinPanel_NormalPos
 {
 	
+}
+//===========================================
+event HudTournament_MoveTimerDown
+{
+	Animate CountdownLabel ypos 66 Linear 0 0
+	Animate CountdownLabelShadow ypos 68 Linear 0 0
+
+	SetVisible CountdownBG 0 5
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+
+	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
+	Animate CountdownLabelShadow ypos c0 Gain 0.75 0 0.4
+
+	SetVisible	TournamentConditionLabel 0 2
+
+	SetVisible CountdownLabel 0 3
+	SetVisible CountdownLabelShadow 0 3
+}
+
+event HudMatchStatus_ShowMatchStartDoors
+{
+	SetVisible	MatchDoors	1	0
+	SetVisible	BlueTeamPanel	1	0
+	SetVisible	RedTeamPanel	1	0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+
+	Animate CountdownLabel ypos 66 Linear 0 0
+	Animate CountdownLabelShadow ypos 68 Linear 0 0
+
+	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
+	Animate CountdownLabelShadow ypos c-0 Gain 0.75 0 0.4
+
+	SetVisible	HudTournamentBG 0	2
+
+	RunEventChild MatchDoors PlayDoorCloseAnim 0
+	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
+	RunEventChild MatchDoors PlayDoorOpenAnim 7
+
+	RunEvent HudTournament_AnimateTeams_In 0.25
+	RunEvent HudTournament_AnimateTeams_Out 7.70
+
+	SetVisible MatchDoors	0 9
+	SetVisible CountdownLabel 0 9.9
+	SetVisible CountdownLabelShadow 0 9.9
+
+	RunEvent HudTournament_DoorsCleanup 10
+	
+	SetVisible CountdownBG 1 11
+}
+
+event HudMatchStatus_ShowCountdown
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+	Animate CountdownLabel ypos 66 Linear 0 0
+	Animate CountdownLabelShadow ypos 68 Linear 0 0
+	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
+	Animate CountdownLabelShadow ypos c-0 Gain 0.75 0 0.4
+	SetVisible CountdownLabel 0 9.9
+	SetVisible CountdownLabelShadow 0 9.9
+}
+
+event HudTournament_ShowTimerCompetitive
+{
+	Animate CountdownLabel ypos 66 Linear 0 0
+	Animate CountdownLabelShadow ypos 68 Linear 0 0
+
+	SetVisible CountdownBG  1 0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+}
+
+event HudMatchStatus_ShowMatchWinDoors_NoOpen
+{
+
+	SetVisible	MatchDoors	1	0
+	SetVisible	FrontParticlePanel	1	0
+
+	RunEventChild MatchDoors PlayDoorCloseAnim 0
+	RunEventChild FrontParticlePanel PlayDoorSlamParticles 0.45
+}
+
+
+event HudMatchSummary_SlideInPanels
+{
+
+	Animate BlueTeamPanel xpos 0 Accel 0.25 0.25
+	Animate RedTeamPanel xpos 0 Accel 0.25 0.25
 }
 //===========================================
 event MMenu_PlayList_Expand

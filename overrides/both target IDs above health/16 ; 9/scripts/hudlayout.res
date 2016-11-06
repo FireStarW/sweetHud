@@ -150,7 +150,7 @@
 		"ypos"			"42"
 		"zpos"			"0"			// draw in front of ammo
 		"wide"			"200"
-		"tall"			"50"
+		"tall"			"60"
 		"MeterFG"		"Red"
 		"MeterBG"		"Gray"
 	}

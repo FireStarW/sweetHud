@@ -3621,7 +3621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"OverpassLight"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3633,7 +3633,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -3645,7 +3645,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Overpass"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -3654,7 +3654,6 @@ Scheme
 				"custom"	"1"
 			}
 		}
-
 
 	}
 
@@ -6162,6 +6161,7 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
+
 		OuterShadowBorder
 		{
 			"bordertype"			"scalable_image"
@@ -6422,7 +6422,7 @@ Scheme
 			}
 			"finnish"
 			{
-				"range" "0x0000 0x017E"
+				"range" "0x0000 0x017E"	
 			}
 			"czech"
 			{
@@ -6441,7 +6441,7 @@ Scheme
 		{
 			"font" "resource/crosshairs.ttf"
 			"name" "broeselhud Crosshairs"
-		}
+		}	
 		"8"
 		{
 			"font" "resource/Overpass-Light.ttf"
@@ -6449,9 +6449,9 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/Overpass-Regular.ttf"
+			"font" "resource/Overpass-Bold.ttf"
 			"name" "Overpass"
-		}			
+		}		
 		"10" "resource/ocra.ttf"
 	}
 }
