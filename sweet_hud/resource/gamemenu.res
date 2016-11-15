@@ -19,18 +19,29 @@
 //		"subimage" "glyph_multiplayer"
 //		"OnlyInGame"	"1"
 //	}
-
+	"ServerBrowserMiniButton"
+	{
+		"label" "#MMenu_BrowseServers" 
+		"command" "OpenServerBrowser"
+		"subimage" "glyph_server_browser"
+		"tooltip" "Server Browser"
+		//"subimage" "glyph_server"
+		//"subimage" "glyph_server_browser"
+		//"subimage" "glyph_workshop_view" //bigger magnifying glass lense
+		"OnlyAtMenu" "0"
+	}
 	    "PVHUDButton"
     {
         "command" "engine toggleconsole"
         "label" "                 "
 	"tooltip" "Toggle Console"
     }
-	"QuickPlayButton"
+	"CreateServerButton"
 	{
-		"label" "Quickplay Community Servers" 
-		"command" "engine OpenQuickplayDialog"
-		"subimage" "glyph_server_browser"
+		"label" "#GameUI_GameMenu_CreateServer" 
+		"command" "OpenCreateMultiplayerGameDialog"
+		"subimage" "glyph_create"
+		"OnlyAtMenu" "0"
 	}
 	"CharacterSetupButton"
 	{

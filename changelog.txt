@@ -156,3 +156,5 @@ V1.53 (October 23 2016) - Fix typo
 V1.54 (October 27 2016) - Added class loadout buttons to side of loadout menus 
 
 V1.55 (November 6 2016) - Synced with eve hud, fixes halloween boss health bar being blocked, adds pip boy panels for eureka effect, tweaks damagedplayer animation, overpass font override and "both target ids above health" override options should be fixed 
+
+V1.56 (November 14 2016) - Switched quickplay button back to create server and server browser buttons due to quickplay's removal
