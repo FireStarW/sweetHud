@@ -1844,7 +1844,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"scoutLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8"
 		"ypos"			"50"
 		"zpos"			"503"
 		"wide"			"22"
@@ -1878,7 +1878,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"soldierLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8"
 		"ypos"			"80"
 		"zpos"			"503"
 		"wide"			"22"
@@ -1912,7 +1912,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"pyroLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8"
 		"ypos"			"110"
 		"zpos"			"503"
 		"wide"			"22"
@@ -1946,7 +1946,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"demoLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8"
 		"ypos"			"140"
 		"zpos"			"503"
 		"wide"			"22"
@@ -1979,7 +1979,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"heavyLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8"
 		"ypos"			"170"
 		"zpos"			"503"
 		"wide"			"22"
@@ -2013,7 +2013,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"engieLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8"
 		"ypos"			"200"
 		"zpos"			"503"
 		"wide"			"22"
@@ -2046,7 +2046,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"medicLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8"
 		"ypos"			"230"
 		"zpos"			"503"
 		"wide"			"22"
@@ -2080,7 +2080,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"sniperLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8"
 		"ypos"			"260"
 		"zpos"			"503"
 		"wide"			"22"
@@ -2114,7 +2114,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"spyLoadout"
-		"xpos"			"c-375"
+		"xpos"			"8" //c-375
 		"ypos"			"290"
 		"zpos"			"503"
 		"wide"			"22"
@@ -2148,13 +2148,14 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SideTab"
-			"xpos"			"13"
+			"xpos"			"10"
+			"xpos_lodef"	"r300"
+			"xpos_hidef"	"r700"
 			"ypos"			"9"
 			"zpos"			"502"
-			"wide"			"80"
+			"wide"			"50"
 			"tall"			"280"
 			"autoResize"	"1"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFThinLineBorder"

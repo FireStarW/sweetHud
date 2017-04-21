@@ -160,3 +160,5 @@ V1.55 (November 6 2016) - Synced with eve hud, fixes halloween boss health bar b
 V1.56 (November 14 2016) - Switched quickplay button back to create server and server browser buttons due to quickplay's removal
 
 V1.57 (December 21 2016) - Updated for smissmass update
+
+V1.58 (April 21 2017) - fixed class loadout icons in 16:9
