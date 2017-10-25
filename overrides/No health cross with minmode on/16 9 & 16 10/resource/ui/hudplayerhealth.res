@@ -47,10 +47,9 @@
 		"wide"			"50"
 		"tall"			"50"
 		
-		"visible_minmode"		"0"
 		"xpos_minmode"			"98"
 		"ypos_minmode"			"61"
-		"wide_minmode"			"20"
+		"wide_minmode"			"0"
 		"tall_minmode"			"20"
 
 	}		
@@ -74,7 +73,31 @@
 		"wide_minmode"			"0"
 		"tall_minmode"			"22"
 	}
-	
+
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos"			"76"
+		"ypos"			"20"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"	
+		"font"			"DefaultSmall"
+		"fgcolor"		"TanDark"
+
+		"xpos_minmode"			"103"
+		"ypos_minmode"			"76"
+		"font_minmode"			"ItemFontAttribSmall"
+		"fgcolor_minmode"		"255 255 255 255"
+	//	"wide_minmode"			"22"
+//		"tall_minmode"			"22"
+	}
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -337,6 +360,30 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 		
+		"pin_to_sibling_minmode" "BleedIconAnchor"
+		"pin_corner_to_sibling_minmode" "1"
+		"pin_to_sibling_corner_minmode" "1"
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"0"
+		"wide_minmode"	"15"
+		"tall_minmode"	"15"
+	}
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"117"
+		"xpos_minmode"	"102"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
+		"fgcolor"		"TanDark"
+
 		"pin_to_sibling_minmode" "BleedIconAnchor"
 		"pin_corner_to_sibling_minmode" "1"
 		"pin_to_sibling_corner_minmode" "1"
@@ -620,6 +667,22 @@
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 	}
+	"PlayerStatus_SpyMarked"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SpyMarked"
+		"xpos"			"115"
+	//	"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
+		"fgcolor"		"TanDark"
+	}
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -759,10 +822,10 @@
 		"wide_minmode"	"28"
 		"tall_minmode"	"28"
 	}
-	"PlayerStatus_RuneWarlock"
+	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneWarlock"
+		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -771,7 +834,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../Effects/powerup_warlock_hud"
+		"image"			"../Effects/powerup_reflect_hud"
 		"fgcolor"		"TanDark"
 		
 		"pin_to_sibling_minmode" "MannIconAnchor"
@@ -851,4 +914,97 @@
 		"wide_minmode"	"28"
 		"tall_minmode"	"28"
 	}
+	"PlayerStatus_RuneKing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKing"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_king_hud"
+		"fgcolor"		"TanDark"
+
+		"pin_to_sibling_minmode" "MannIconAnchor"
+		"pin_corner_to_sibling_minmode" "1"
+		"pin_to_sibling_corner_minmode" "1"
+		"xpos_minmode"	"0"		
+		"ypos_minmode"	"0"
+		"wide_minmode"	"28"
+		"tall_minmode"	"28"
+	}
+	"PlayerStatus_RunePlague"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePlague"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_plague_hud"
+		"fgcolor"		"TanDark"
+
+		"pin_to_sibling_minmode" "MannIconAnchor"
+		"pin_corner_to_sibling_minmode" "1"
+		"pin_to_sibling_corner_minmode" "1"
+		"xpos_minmode"	"0"		
+		"ypos_minmode"	"0"
+		"wide_minmode"	"28"
+		"tall_minmode"	"28"
+	}
+	"PlayerStatus_RuneSupernova"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneSupernova"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
+
+		"pin_to_sibling_minmode" "MannIconAnchor"
+		"pin_corner_to_sibling_minmode" "1"
+		"pin_to_sibling_corner_minmode" "1"
+		"xpos_minmode"	"0"		
+		"ypos_minmode"	"0"
+		"wide_minmode"	"28"
+		"tall_minmode"	"28"
+	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+
+		"pin_to_sibling_minmode" "BannerIconAnchor"
+		"pin_corner_to_sibling_minmode" "1"
+		"pin_to_sibling_corner_minmode" "1"
+		"xpos_minmode"	"0"		
+		"ypos_minmode"	"0"
+		"wide_minmode"	"20"
+		"tall_minmode"	"20"
+	}
+
 }
