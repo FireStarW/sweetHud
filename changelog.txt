@@ -164,3 +164,5 @@ V1.57 (December 21 2016) - Updated for smissmass update
 V1.58 (April 21 2017) - fixed class loadout icons in 16:9
 
 V1.59 (October 25 2017) - hotfix for jungle inferno, organs counter added, max health value added to hud. Main menu reverted to default temportarily. New weapon hud elements and main menu still need to be done.
+
+V1.60 (October 29 2017) - tweaked jetpack meter. Main Menu and eve hud sync still on the to-do list
