@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudPlayerHealth"
-		"xpos"				"c-370"
+		"xpos"				"c-345"
 		"xpos_minmode"		"c-225"
 		"ypos"				"r107"
 		"ypos_minmode"		"r245"
@@ -44,7 +44,7 @@
 
 		"xpos"			"61"
 		"ypos"			"36"		
-		"wide"			"50"
+		"wide"			"0"
 		"tall"			"50"
 		
 		"xpos_minmode"			"98"
@@ -65,7 +65,7 @@
 		
 		"xpos"			"58"
 		"ypos"			"33"
-		"wide"			"56"
+		"wide"			"0"
 		"tall"			"56"	
 		
 		"xpos_minmode"			"97"
@@ -78,8 +78,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"ypos"			"20"
+		"xpos"			"145"
+		"ypos"			"75"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
@@ -87,8 +87,8 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"font"			"HudFontSmallBold"
+		"fgcolor"		"25 25 55 255"
 
 		"xpos_minmode"			"103"
 		"ypos_minmode"			"76"
@@ -372,8 +372,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusGasImage"
-		"xpos"			"117"
-		"xpos_minmode"	"102"
+		"xpos"			"104"
+	//	"xpos_minmode"	"102"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"

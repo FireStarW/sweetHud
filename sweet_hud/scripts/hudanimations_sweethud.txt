@@ -421,34 +421,4 @@ event HudMatchSummary_SlideInPanels
 	Animate BlueTeamPanel xpos 0 Accel 0.25 0.25
 	Animate RedTeamPanel xpos 0 Accel 0.25 0.25
 }
-//===========================================
-event MMenu_PlayList_Expand
-{
-	Animate EventPromo				xpos 900 Spline 0 0.4
-	Animate SafeMode				xpos 900 Spline 0 0.4
-    
-    Animate PlayListContainer xpos c46	 Spline	0.0 0.4
-    Animate PlayListContainer Tall 260	 Spline	0.0 0
-	
 
-	FireCommand 0 "soundentry Panel.SlideDown"
-}
-
-event MMenu_PlayList_Collapse
-{
-	Animate EventPromo				xpos c46 Spline 0 0.4
-	Animate SafeMode				xpos c46 Spline 0 0.4
-
-	Animate PlayListContainer xpos 900	 Spline	0.0 0.4
-	Animate PlayListContainer Tall 260 Spline 0 0
-
-	FireCommand 0 "soundentry Panel.SlideUp"
-}
-
-event MMenu_PlayList_Collapse_Immediate
-{
-	Animate EventPromo				xpos c46 Spline 0 0
-
-    Animate PlayListContainer xpos 900	 Spline	0 0
-	Animate PlayListContainer Tall 260 Spline 0 0
-}

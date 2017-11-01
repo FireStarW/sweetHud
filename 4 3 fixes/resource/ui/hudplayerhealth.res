@@ -78,8 +78,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"ypos"			"20"
+		"xpos"			"145"
+		"ypos"			"75"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
@@ -87,8 +87,8 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"font"			"HudFontSmallBold"
+		"fgcolor"		"25 25 55 255"
 
 		"xpos_minmode"			"83"
 		"ypos_minmode"			"76"
@@ -372,8 +372,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusGasImage"
-		"xpos"			"117"
-		"xpos_minmode"	"102"
+		"xpos"			"104"
+	//	"xpos_minmode"	"102"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"

@@ -166,3 +166,5 @@ V1.58 (April 21 2017) - fixed class loadout icons in 16:9
 V1.59 (October 25 2017) - hotfix for jungle inferno, organs counter added, max health value added to hud. Main menu reverted to default temportarily. New weapon hud elements and main menu still need to be done.
 
 V1.60 (October 29 2017) - tweaked jetpack meter. Main Menu and eve hud sync still on the to-do list
+
+V1.61 (November 1 2017) - redid main menu, now has friends panel, console button, and a hud version number, and synced with eve hud (just tweaks replay menu and maxhealth value with minmode off)
