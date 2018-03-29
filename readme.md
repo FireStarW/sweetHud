@@ -6,7 +6,7 @@
 
 ```
 Sweet Hud + Enhanced e.v.e Hud by FireStarW
-V1.62 (November 2 2017)
+V1.63 (March 28 2018)
 
 -------------Credits------------
 Incorporates parts of, or inspired by:
@@ -30,7 +30,15 @@ Aspect Ratio:
 The default aspect ratio of this HUD is 16:9/16:10 !!
 If you are using a different aspect ratio, open the relevant apsect ratio fix folder and copy and paste the insides of it inside the "sweet_hud" folder in custom you are using.
 If you do not know your aspect ratio, launch tf2, go to settings, click on the video tab, and look in the aspect ratio box for your ratio (16:9, 16:10 or 4:3)
-To use sweetHud, turn on the minimal hud (cl_hud_minmode 1), to use enhanced e.v.e Hud, turn off the minimal hud (cl_hud_minmode 0)
+
+!!!!	To use sweetHud, turn on the minimal hud (cl_hud_minmode 1), to use enhanced e.v.e Hud, turn off the minimal hud (cl_hud_minmode 0)		!!!!
+
+As of the Blue Moon update, over-head damage numbers are controllable in game
+To set the damage numbers by the health color the same as the one set in game, modify the "HudDamageAccount.res" file in the resource/ui folder path
+To set the overhead damage numbers to match the default yellow, use these console commands:
+hud_combattext_green 255
+hud_combattext_red 255
+hud_combattext_blue 0
 
 Overrides: Various options for the HUD, most are self explanatory
 TO use, copy the stuff inside each override folder to the inside of the ".../custom/sweet_hud" folder

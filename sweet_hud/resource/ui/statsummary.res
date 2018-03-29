@@ -593,12 +593,10 @@
 				"xpos"			"c-280"
 				"xpos_hidef"			"c-193"
 				"xpos_lodef"			"c-193"
-				"ypos"			"180" [!$OSX]
-				"ypos"			"180" [$OSX]
+				"ypos"			"180" 
 				"ypos_hidef"			"32"
 				"ypos_lodef"			"32"
-				"wide"			"340" [!$OSX]
-				"wide"			"400" [$OSX]
+				"wide"			"400" //try 400
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"

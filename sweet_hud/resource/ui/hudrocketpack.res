@@ -40,8 +40,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"2"
+		"ypos"			"-2"
 		"zpos"			"2"
 		"wide"			"32"
 		"tall"			"32"
@@ -51,8 +51,8 @@
 		"scaleImage"	"1"	
 
 	
-		"xpos_minmode"	"10" //0
-		"ypos_minmode"	"0"	//0
+		"xpos_minmode"	"11" //0
+		"ypos_minmode"	"1"	//0
 		"zpos_minmode"			"0"
 		"wide_minmode"			"18"
 		"tall_minmode"			"18"

@@ -169,4 +169,6 @@ V1.60 (October 29 2017) - tweaked jetpack meter. Main Menu and eve hud sync stil
 
 V1.61 (November 1 2017) - redid main menu, now has friends panel, console button, and a hud version number, and synced with eve hud (just tweaks replay menu and maxhealth value with minmode off)
 
-V1.62 (November 2 2017) - fixed gas meter position, made replay menu shortcut consistenct
+V1.62 (November 2 2017) - fixed gas meter position, made replay menu shortcut consistent
+
+V1.63 (March 28 2018) - updated for blue moon update, fixed loading screen bug

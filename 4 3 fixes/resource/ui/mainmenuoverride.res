@@ -273,9 +273,9 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SweetHudLabel"
 			"font"			"ScoreboardSmall"
-			"labelText"		"sweetHud v1.62 (17-11-02)"
+			"labelText"		"sweetHud v1.63 (2018-28-03)"
 			//"textAlignment"	"east"
-			"xpos"			"r90"
+			"xpos"			"r108"
 			"ypos"			"r30"
 			"zpos"			"2"
 			"wide"			"250"
@@ -289,14 +289,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-260"	//c-260
-		"ypos"			"13"
-		"zpos"			"-53"
-		"wide"			"o2"
-		"tall"			"105"
+		"xpos"			"c-290"//"c-330"
+		"ypos"			"32"
+		"zpos"			"-99"
+		"wide"			"256"
+		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../logo/jungle_inferno_logo"
+		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 		 
@@ -323,47 +323,6 @@
 		if_halloween_5
 		{	
 			"image"		"../logo/scream_fortress2017_logo"
-		}
-	}	
-
-	"JungleInfernoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JungleInfernoImage"
-		"xpos"			"c-290+64"  //c-290+64
-		"ypos"			"67" //64
-		"zpos"			"1"
-		"wide"			"o4"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"		"../logo/inferno_logo_anim"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-
-		if_halloween_0
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_1
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_2
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_3
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_4
-		{	
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_5
-		{	
-			"image"		"../logo/inferno_logo_green_anim"
 		}
 	}	
 	
@@ -475,7 +434,7 @@
 		"zpos"			"-51"
 		"wide"			"1000"
 		"tall"			"1000"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -505,6 +464,126 @@
 	//	"PaintBackgroundType"	"2"
 	//	"border"		"MainMenuBGBorder"
 	}
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"c-287"
+		"ypos"			"cs-0.5-98"
+		"zpos"			"1"
+		"wide"			"13"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"labelText"		""
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+				
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"f2"
+			"tall"			"f2"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+		}		
+	}
+		"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"c-286"
+		"ypos"			"105"
+		"zpos"			"-1"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
+		"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"c-290" //c-290
+		"ypos"			"102"
+		"zpos"			"-100"
+		"wide"			"260"
+		"tall"			"50"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		"proportionaltoparent"	"1"
+	}
+		"NoGCMessage"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"NoGCMessage"
+		"xpos"			"c-325"
+		"ypos"			"101"
+		"zpos"			"-99"
+		"wide"			"260"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		"wrap"			"1"
+		"textinsetx"	"40"
+		"textinsety"	"10"
+
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"textAlignment"	"north-west"
+		"use_proportional_insets"	"1"
+	}
+
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"c-322"
+		"ypos"			"112"
+		"zpos"			"-99"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}	
 
 	"TooltipPanel"
 	{
@@ -1953,7 +2032,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerMiniButton"
-		"xpos"			"c-60"//"c100"//"c60"
+		"xpos"			"c-60"//"c100"//"c-60"
 		"ypos"			"193"
 		"zpos"			"30"
 		"wide"			"20"
@@ -4078,74 +4157,25 @@
 				{
 					"0"
 					{
-						"item"		"Unused Campaign 3 Pass"
+						"item"		"Blue Moon Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Abominable Cosmetic Key"
-						"show_market"	"0"
+						"item"		"Blue Moon Cosmetic Case"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Abominable Cosmetic Case"
-						"show_market"	"1"
+						"item"		"Competitive Matchmaking Official"
+						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Unleash the Beast Cosmetic Key"
+						"item"		"Jungle Inferno Contracts Pass"
 						"show_market"	"0"
 					}
-					"4"
-					{
-						"item"		"Unleash the Beast Cosmetic Case"
-						"show_market"	"1"
-					}
-					"5"
-					{
-						"item"		"Jungle Jackpot War Paint Key"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Jungle Jackpot War Paint Case"
-						"show_market"	"1"
-					}
-					"7"
-					{
-						"item"		"Infernal Reward War Paint Key"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Infernal Reward War Paint Case"
-						"show_market"	"1"
-					}
-					"9"
-					{
-						"item"		"Taunt: The Dueling Banjo"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Taunt: The Russian Arms Race"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Taunt: The Soviet Strongarm"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Taunt: The Jumping Jack"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Taunt: The Headcase"
-						"show_market"	"0"
-					}
+
 				}
 			}
 
