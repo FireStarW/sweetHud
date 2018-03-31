@@ -172,3 +172,5 @@ V1.61 (November 1 2017) - redid main menu, now has friends panel, console button
 V1.62 (November 2 2017) - fixed gas meter position, made replay menu shortcut consistent
 
 V1.63 (March 28 2018) - updated for blue moon update, fixed loading screen bug
+
+V1.64 (March 31 2018) - Fixed casual menu level clipping

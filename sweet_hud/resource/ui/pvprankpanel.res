@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -176,10 +186,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"rs1"
-		"ypos"			"30"
+		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"f50"
+		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
@@ -306,7 +316,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"cs-0.5"
-				"ypos"			"rs1-3"
+				"ypos"			"rs1-7"
 				"wide"			"p1"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
@@ -446,7 +456,7 @@
 					"zpos"			"0"
 					"wide"			"104"
 					"tall"			"20"
-					"visible"		"1"
+					"visible"		"0"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
