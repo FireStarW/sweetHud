@@ -273,7 +273,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SweetHudLabel"
 			"font"			"ScoreboardSmall"
-			"labelText"		"sweetHud v1.64 (2018-31-03)"
+			"labelText"		"sweetHud v1.65 (2018-4-04)"
 			//"textAlignment"	"east"
 			"xpos"			"r108"
 			"ypos"			"r30"

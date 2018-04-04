@@ -227,6 +227,7 @@
 			"visible"		"1"
 		}
 	}
+
 	"RankUpLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -272,13 +273,14 @@
 		"proportionaltoparent"	"1"
 		"fgcolor"		"Black"
 	}
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
 		"ypos"				"0"
-	//	"ypos_minmode"		"-4"
+		"ypos_minmode"		"-4"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
@@ -297,7 +299,7 @@
 			"xpos"					"c-55"
 			"wide"					"130"
 			"ypos"				"-2"
-	//		"ypos_minmode"			"-4"
+			"ypos_minmode"			"-4"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"

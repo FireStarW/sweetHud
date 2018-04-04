@@ -174,3 +174,5 @@ V1.62 (November 2 2017) - fixed gas meter position, made replay menu shortcut co
 V1.63 (March 28 2018) - updated for blue moon update, fixed loading screen bug
 
 V1.64 (March 31 2018) - Fixed casual menu level clipping
+
+V1.65 (April 4 2018) - Eve hud sync (fixes passtime, in game team status, tweaks jetpack bar)
