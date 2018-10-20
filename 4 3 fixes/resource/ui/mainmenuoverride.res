@@ -4157,24 +4157,35 @@
 				{
 					"0"
 					{
-						"item"		"Blue Moon Cosmetic Key"
+						"item"		"Halloween 2018 Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Blue Moon Cosmetic Case"
+						"item"		"Halloween 2018 Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Competitive Matchmaking Official"
+						"item"		"Scream Fortress 2018 War Paint Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Jungle Inferno Contracts Pass"
+						"item"		"Scream Fortress 2018 War Paint Case"
+						"show_market"	"1"
+					}
+					"4"
+					{
+						"item"		"Taunt: Panzer Pants"
 						"show_market"	"0"
 					}
+					"5"
+					{
+						"item"		"Taunt: The Scooty Scoot"
+						"show_market"	"0"
+					}	
+
 
 				}
 			}
