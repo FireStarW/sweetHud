@@ -273,7 +273,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SweetHudLabel"
 			"font"			"ScoreboardSmall"
-			"labelText"		"sweetHud v1.65 (2018-4-04)"
+			"labelText"		"sweetHud v1.666b (2018-10-28)"
 			//"textAlignment"	"east"
 			"xpos"			"r108"
 			"ypos"			"r30"
@@ -299,31 +299,6 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
-		 
-		if_halloween_0
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_1
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_2
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_3
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_4
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_5
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
 	}	
 	
 	"TFCharacterImage"

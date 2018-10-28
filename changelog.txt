@@ -178,3 +178,5 @@ V1.64 (March 31 2018) - Fixed casual menu level clipping
 V1.65 (April 4 2018) - Eve hud sync (fixes passtime, in game team status, tweaks jetpack bar)
 
 V1.666 (October 19 2018) - Scream Fortress (Which is really just a main menu store items update)
+
+V1.666b (October 28 2018) - Fix main menu
