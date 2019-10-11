@@ -4133,36 +4133,34 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2018 Key" 
+						"item"		"Halloween 2019 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2018 Case"
+						"item"		"Halloween 2019 Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Scream Fortress 2018 War Paint Key"
+						"item"		"Map Token Laughter"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Scream Fortress 2018 War Paint Case"
-						"show_market"	"1"
+						"item"		"Map Token Precipice"
+						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Panzer Pants"
+						"item"		"Strange Filter: Laughter (Community)"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: The Scooty Scoot"
+						"item"		"Strange Filter: Precipice (Community)"
 						"show_market"	"0"
-					}	
-
-
+					}
 				}
 			}
 
